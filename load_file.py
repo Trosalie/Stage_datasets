@@ -20,7 +20,7 @@ def find_year_in_filename(filename):
 # Analyze information from an Excel file
 def excel_EL(file_path):
     # Read Excel file
-    df = pd.read_excel(file_path, header=None, nrows=1000)
+    df = pd.read_excel(file_path, header=None, nrows=500, engine='openpyxl')
     # Count rows with data
     row_counts = df.count(axis=1)
     # Check if the DataFrame is empty
@@ -36,20 +36,21 @@ def excel_EL(file_path):
     df = pd.read_excel(file_path, header=first_row)
     return df
 
-
+def excel_EL_sheet(file_path, sheet_index):
+    return
 
 # Analyze information from a CSV file
 def csv_EL(file_path):
     # Read CSV with various encodings and delimiters
     try:
-        df = pd.read_csv(file_path, low_memory=False, on_bad_lines='skip')
+        df = pd.read_csv(file_path, low_memory=False, on_bad_lines='skip', nrows=500)
     except:
-        df = pd.read_csv(file_path, encoding='latin1', low_memory=False, on_bad_lines='skip')
+        df = pd.read_csv(file_path, encoding='latin1', low_memory=False, on_bad_lines='skip', nrows=500)
     if df.shape[1] == 1:
         try:
-            df = pd.read_csv(file_path, sep=';', low_memory=False, on_bad_lines='skip')
+            df = pd.read_csv(file_path, sep=';', low_memory=False, on_bad_lines='skip', nrows=500)
         except:
-            df = pd.read_csv(file_path, encoding='latin1', sep=';', low_memory=False, on_bad_lines='skip')
+            df = pd.read_csv(file_path, encoding='latin1', sep=';', low_memory=False, on_bad_lines='skip', nrows=500)
     return df
 
 # Analyze information from a GeoJSON file
