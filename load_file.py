@@ -43,14 +43,15 @@ def excel_EL_sheet(file_path, sheet_index):
 def csv_EL(file_path):
     # Read CSV with various encodings and delimiters
     try:
-        df = pd.read_csv(file_path, low_memory=False, on_bad_lines='skip', nrows=500)
+        df = pd.read_csv(file_path, sep=';', low_memory=False, on_bad_lines='skip', nrows=500, encoding='utf-8')
     except:
-        df = pd.read_csv(file_path, encoding='latin1', low_memory=False, on_bad_lines='skip', nrows=500)
+        df = pd.read_csv(file_path, encoding='latin1', sep=';', low_memory=False, on_bad_lines='skip', nrows=500)
     if df.shape[1] == 1:
         try:
-            df = pd.read_csv(file_path, sep=';', low_memory=False, on_bad_lines='skip', nrows=500)
+            df = pd.read_csv(file_path, low_memory=False, on_bad_lines='skip', nrows=500, encoding='utf-8')
         except:
-            df = pd.read_csv(file_path, encoding='latin1', sep=';', low_memory=False, on_bad_lines='skip', nrows=500)
+            df = pd.read_csv(file_path, encoding='latin1', low_memory=False, on_bad_lines='skip', nrows=500)
+
     return df
 
 # Analyze information from a GeoJSON file
