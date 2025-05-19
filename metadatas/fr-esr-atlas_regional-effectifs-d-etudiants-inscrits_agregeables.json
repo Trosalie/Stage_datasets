@@ -1,0 +1,95 @@
+{
+    "title": "fr-esr-atlas_regional-effectifs-d-etudiants-inscrits_agregeables",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "communes",
+    "spatialScope": {
+        "spatialScopeLevel": "regions",
+        "spatialScope": [
+            "Lyon",
+            "Amiens",
+            "Montpellier",
+            "Orléans-Tours",
+            "Normandie",
+            "Grenoble",
+            "Toulouse",
+            "Clermont-Ferrand",
+            "Nice",
+            "Reims",
+            "Paris",
+            "Créteil",
+            "Nantes",
+            "Strasbourg",
+            "Aix-Marseille",
+            "Limoges",
+            "Besançon",
+            "Nancy-Metz",
+            "Bordeaux",
+            "Rennes",
+            "Lille",
+            "Versailles",
+            "Dijon",
+            "Poitiers",
+            "Guadeloupe",
+            "Martinique",
+            "La Réunion",
+            "Polynésie Française",
+            "Guyane",
+            "Corse",
+            "Nouvelle-Calédonie",
+            "Mayotte"
+        ]
+    },
+    "temporalGranularity": "annee",
+    "temporalScope": {
+        "temporalScopeLevel": "annee",
+        "temporalScopeStart": 2013,
+        "temporalScopeEnd": 2013
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "Commune",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Région",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Académie",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Département",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Unité urbaine ou commune rurale",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Rentrée",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "Année civile concernée",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        }
+    ]
+}

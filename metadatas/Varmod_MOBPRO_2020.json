@@ -1,0 +1,26 @@
+{
+    "title": "Varmod_MOBPRO_2020",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "pays",
+    "spatialScope": {
+        "spatialScopeLevel": null,
+        "spatialScope": null
+    },
+    "temporalGranularity": "annee",
+    "temporalScope": {
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": []
+}

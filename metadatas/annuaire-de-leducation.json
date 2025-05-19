@@ -1,0 +1,64 @@
+{
+    "title": "annuaire-de-leducation",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "geopoints",
+    "spatialScope": {
+        "spatialScopeLevel": "regions",
+        "spatialScope": [
+            "Nouvelle-Aquitaine"
+        ]
+    },
+    "temporalGranularity": "date",
+    "temporalScope": {
+        "temporalScopeLevel": "date",
+        "temporalScopeStart": "2025-05-06",
+        "temporalScopeEnd": "2025-05-06"
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "Nom_commune",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "position",
+            "dataDescription": "geopoints",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Libelle_departement",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Libelle_academie",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Libelle_region",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "date_ouverture",
+            "dataDescription": "date",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "date_maj_ligne",
+            "dataDescription": "date",
+            "dataType": "Temporal"
+        }
+    ]
+}

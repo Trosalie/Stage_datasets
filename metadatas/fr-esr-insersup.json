@@ -1,0 +1,46 @@
+{
+    "title": "fr-esr-insersup",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "communes",
+    "spatialScope": {
+        "spatialScopeLevel": "regions",
+        "spatialScope": [
+            "Pays de la Loire",
+            "Occitanie",
+            "Collectivités d'outre-mer"
+        ]
+    },
+    "temporalGranularity": "trimestre",
+    "temporalScope": {
+        "temporalScopeLevel": "trimestre",
+        "temporalScopeStart": "2024_S2",
+        "temporalScopeEnd": "2024_S2"
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "Région",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Académie",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Diffusion des données",
+            "dataDescription": "trimestre",
+            "dataType": "Temporal"
+        }
+    ]
+}

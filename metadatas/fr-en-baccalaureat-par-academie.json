@@ -1,0 +1,47 @@
+{
+    "title": "fr-en-baccalaureat-par-academie",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "communes",
+    "spatialScope": {
+        "spatialScopeLevel": "communes",
+        "spatialScope": [
+            "AIX-MARSEILLE",
+            "AMIENS",
+            "BESANCON",
+            "BORDEAUX",
+            "CLERMONT-FERRAND",
+            "CORSE",
+            "CRETEIL",
+            "DIJON",
+            "GRENOBLE"
+        ]
+    },
+    "temporalGranularity": "annee",
+    "temporalScope": {
+        "temporalScopeLevel": "annee",
+        "temporalScopeStart": 2021,
+        "temporalScopeEnd": 2021
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "Académie",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Session",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        }
+    ]
+}

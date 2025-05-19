@@ -1,0 +1,44 @@
+{
+    "title": "accessibilite-des-etablissements-recevant-du-public-erp-pour-les-personnes-en-si@82-opendata-occitanie",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "geopoints",
+    "spatialScope": {
+        "spatialScopeLevel": "departements",
+        "spatialScope": [
+            "Tarn-et-Garonne"
+        ]
+    },
+    "temporalGranularity": "annee",
+    "temporalScope": {
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "commune",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "point_geo",
+            "dataDescription": "geopoints",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "departement",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        }
+    ]
+}
