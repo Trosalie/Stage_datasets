@@ -18,7 +18,7 @@ def find_year_in_filename(filename):
         return None  # Return None if no year is found
 
 # Analyze information from an Excel file
-def excel_EL(file_path):
+def excel_EL(file_path, sheet_index=0):
     # Read Excel file
     df = pd.read_excel(file_path, header=None, nrows=500, engine='openpyxl')
     # Count rows with data
@@ -31,7 +31,7 @@ def excel_EL(file_path):
     if max_row_count == 0:
         raise ValueError("All rows are empty.")
     # Set this row as the header and retrieve the table below it
-    first_row = row_counts.idxmax() + 1
+    first_row = row_counts.idxmax()
     # Read data from the title line
     df = pd.read_excel(file_path, header=first_row)
     return df
@@ -43,14 +43,14 @@ def excel_EL_sheet(file_path, sheet_index):
 def csv_EL(file_path):
     # Read CSV with various encodings and delimiters
     try:
-        df = pd.read_csv(file_path, sep=';', low_memory=False, on_bad_lines='skip', nrows=500, encoding='utf-8')
+        df = pd.read_csv(file_path, sep=';', low_memory=False, on_bad_lines='skip', encoding='utf-8')
     except:
-        df = pd.read_csv(file_path, encoding='latin1', sep=';', low_memory=False, on_bad_lines='skip', nrows=500)
+        df = pd.read_csv(file_path, encoding='latin1', sep=';', low_memory=False, on_bad_lines='skip')
     if df.shape[1] == 1:
         try:
-            df = pd.read_csv(file_path, low_memory=False, on_bad_lines='skip', nrows=500, encoding='utf-8')
+            df = pd.read_csv(file_path, low_memory=False, on_bad_lines='skip', encoding='utf-8')
         except:
-            df = pd.read_csv(file_path, encoding='latin1', low_memory=False, on_bad_lines='skip', nrows=500)
+            df = pd.read_csv(file_path, encoding='latin1', low_memory=False, on_bad_lines='skip')
 
     return df
 
@@ -115,11 +115,11 @@ def xml_EL(file_path):
     return df
 
 # Determine file type and process accordingly
-def find_type(path):
+def find_type(path, sheetIndex=0):
     file_extension = os.path.splitext(path)[1].lower()
     match file_extension:
         case '.xlsx':
-            return excel_EL(path), "structured"
+            return excel_EL(path, sheetIndex), "structured"
         case '.csv':
             return csv_EL(path), "structured"
         case '.geojson':

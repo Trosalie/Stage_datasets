@@ -11,9 +11,25 @@
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
-            "Pays de la Loire",
+            "Auvergne-Rhône-Alpes",
+            "Bourgogne-Franche-Comté",
+            "Bretagne",
+            "Centre-Val de Loire",
+            "Collectivités d'outre-mer",
+            "Corse",
+            "Grand Est",
+            "Guadeloupe",
+            "Guyane",
+            "Hauts-de-France",
+            "La Réunion",
+            "Mayotte",
+            "National",
+            "Normandie",
+            "Nouvelle-Aquitaine",
             "Occitanie",
-            "Collectivités d'outre-mer"
+            "Pays de la Loire",
+            "Provence-Alpes-Côte d'Azur",
+            "Île-de-France"
         ]
     },
     "temporalGranularity": "trimestre",
