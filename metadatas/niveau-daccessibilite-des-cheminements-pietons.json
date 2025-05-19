@@ -15,13 +15,12 @@
             "SAINT-JEAN",
             "SAINT-JORY",
             "BEAUPUY",
-            "BRUGUIERES",
             "DREMIL-LAFAGE",
             "FLOURENS",
             "GRATENTOUR"
         ]
     },
-    "temporalGranularity": "annee",
+    "temporalGranularity": null,
     "temporalScope": {
         "temporalScopeLevel": null,
         "temporalScopeStart": null,

@@ -7,7 +7,7 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "pays",
+    "spatialGranularity": null,
     "spatialScope": {
         "spatialScopeLevel": null,
         "spatialScope": null

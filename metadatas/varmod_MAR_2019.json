@@ -7,7 +7,7 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "pays",
+    "spatialGranularity": null,
     "spatialScope": {
         "spatialScopeLevel": null,
         "spatialScope": null
@@ -16,7 +16,7 @@
     "temporalScope": {
         "temporalScopeLevel": "annee",
         "temporalScopeStart": "2019",
-        "temporalScopeEnd": "COM sans précision"
+        "temporalScopeEnd": "2004"
     },
     "theme": {
         "themeCode": null,

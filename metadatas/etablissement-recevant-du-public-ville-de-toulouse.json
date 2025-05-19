@@ -12,21 +12,16 @@
         "spatialScopeLevel": "communes",
         "spatialScope": [
             "TOULOUSE",
-            "TOURNEFEU",
             "PLAISANCE",
             "COLOMIERS",
             "SEILH",
-            "CORNEBARR",
             "LAUNAGUET",
             "PIBRAC",
-            "SAINT JEA",
-            "VILLENEUV",
             "BLAGNAC",
-            "CUGNAUX",
-            "SAINT ORE"
+            "CUGNAUX"
         ]
     },
-    "temporalGranularity": "annee",
+    "temporalGranularity": null,
     "temporalScope": {
         "temporalScopeLevel": null,
         "temporalScopeStart": null,

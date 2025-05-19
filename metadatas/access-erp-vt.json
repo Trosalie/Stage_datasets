@@ -184,7 +184,6 @@
             "43.5962, 1.434254",
             "43.595444, 1.427043",
             "43.603172, 1.453119",
-            NaN,
             "43.620395, 1.434697",
             "43.633144, 1.43236",
             "43.646288, 1.433115",
@@ -262,8 +261,8 @@
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": "SO",
-        "temporalScopeEnd": "P3"
+        "temporalScopeStart": "2018",
+        "temporalScopeEnd": "2020"
     },
     "theme": {
         "themeCode": null,

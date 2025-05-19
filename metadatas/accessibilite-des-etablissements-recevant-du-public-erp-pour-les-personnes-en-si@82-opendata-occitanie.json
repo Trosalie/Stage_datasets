@@ -14,7 +14,7 @@
             "Tarn-et-Garonne"
         ]
     },
-    "temporalGranularity": "annee",
+    "temporalGranularity": null,
     "temporalScope": {
         "temporalScopeLevel": null,
         "temporalScopeStart": null,

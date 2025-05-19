@@ -11,7 +11,6 @@
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
-            "AUVERGNE-RHONE-ALPES",
             "HAUTS-DE-FRANCE",
             "NOUVELLE-AQUITAINE",
             "GRAND EST",
@@ -22,9 +21,7 @@
             "BOURGOGNE-FRANCHE-COMTE",
             "CORSE",
             "NORMANDIE",
-            "LA REUNION",
             "MARTINIQUE",
-            "PROVENCE ALPES COTE D'AZUR",
             "PAYS DE LA LOIRE",
             "GUADELOUPE",
             "GUYANE"

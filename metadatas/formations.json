@@ -7,12 +7,12 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "pays",
+    "spatialGranularity": null,
     "spatialScope": {
         "spatialScopeLevel": null,
         "spatialScope": null
     },
-    "temporalGranularity": "annee",
+    "temporalGranularity": null,
     "temporalScope": {
         "temporalScopeLevel": null,
         "temporalScopeStart": null,
