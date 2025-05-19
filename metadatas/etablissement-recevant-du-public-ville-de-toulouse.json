@@ -1,0 +1,51 @@
+{
+    "title": "etablissement-recevant-du-public-ville-de-toulouse",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "geopoints",
+    "spatialScope": {
+        "spatialScopeLevel": "communes",
+        "spatialScope": [
+            "TOULOUSE",
+            "TOURNEFEU",
+            "PLAISANCE",
+            "COLOMIERS",
+            "SEILH",
+            "CORNEBARR",
+            "LAUNAGUET",
+            "PIBRAC",
+            "SAINT JEA",
+            "VILLENEUV",
+            "BLAGNAC",
+            "CUGNAUX",
+            "SAINT ORE"
+        ]
+    },
+    "temporalGranularity": "annee",
+    "temporalScope": {
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "Geo Point",
+            "dataDescription": "geopoints",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "commune",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        }
+    ]
+}

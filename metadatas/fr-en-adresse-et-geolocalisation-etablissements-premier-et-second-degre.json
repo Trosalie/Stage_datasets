@@ -1,0 +1,57 @@
+{
+    "title": "fr-en-adresse-et-geolocalisation-etablissements-premier-et-second-degre",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "geopoints",
+    "spatialScope": {
+        "spatialScopeLevel": "regions",
+        "spatialScope": [
+            "Normandie",
+            "Créteil",
+            "Bordeaux",
+            "Toulouse"
+        ]
+    },
+    "temporalGranularity": "date",
+    "temporalScope": {
+        "temporalScopeLevel": "date",
+        "temporalScopeStart": "1966-12-19",
+        "temporalScopeEnd": "1969-02-17"
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "libelle_departement",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "libelle_region",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "libelle_academie",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "position",
+            "dataDescription": "geopoints",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "date_ouverture",
+            "dataDescription": "date",
+            "dataType": "Temporal"
+        }
+    ]
+}
