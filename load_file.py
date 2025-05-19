@@ -30,7 +30,7 @@ def excel_EL(file_path, sheet_index):
     if max_row_count == 0:
         raise ValueError("All rows are empty.")
     # Set this row as the header and retrieve the table below it
-    first_row = row_counts.idxmax() + 1
+    first_row = row_counts.idxmax()
     # Read data from the title line
     df = pd.read_excel(file_path, sheet_name=sheet_index, engine='openpyxl', header=first_row)
     return df
