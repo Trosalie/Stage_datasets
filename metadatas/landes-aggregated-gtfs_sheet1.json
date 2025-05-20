@@ -7,20 +7,65 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": null,
+    "spatialGranularity": "departements",
     "spatialScope": {
-        "spatialScopeLevel": null,
-        "spatialScope": null
+        "spatialScopeLevel": "departements",
+        "spatialScope": [
+            "LANDES:Timetable:46181",
+            "LANDES:Timetable:46449",
+            "LANDES:Timetable:46448",
+            "LANDES:Timetable:46407",
+            "LANDES:Timetable:46429",
+            "LANDES:Timetable:45977",
+            "LANDES:Timetable:44860",
+            "LANDES:Timetable:46466",
+            "LANDES:Timetable:46422",
+            "LANDES:Timetable:44883",
+            "LANDES:Timetable:46447",
+            "LANDES:Timetable:46465",
+            "LANDES:Timetable:44906",
+            "LANDES:Timetable:46409",
+            "LANDES:Timetable:46459",
+            "LANDES:Timetable:44832",
+            "LANDES:Timetable:46415",
+            "LANDES:Timetable:46417",
+            "LANDES:Timetable:44878",
+            "LANDES:Timetable:44893",
+            "LANDES:Timetable:44894",
+            "LANDES:Timetable:46433",
+            "LANDES:Timetable:45022",
+            "LANDES:Timetable:45021",
+            "LANDES:Timetable:46454",
+            "LANDES:Timetable:45023",
+            "LANDES:Timetable:46470",
+            "LANDES:Timetable:45020"
+        ]
     },
-    "temporalGranularity": null,
+    "temporalGranularity": "date",
     "temporalScope": {
-        "temporalScopeLevel": null,
-        "temporalScopeStart": null,
-        "temporalScopeEnd": null
+        "temporalScopeLevel": "date",
+        "temporalScopeStart": 20251231,
+        "temporalScopeEnd": 20251231
     },
     "theme": {
         "themeCode": null,
         "themeDescription": null
     },
-    "data_content": []
+    "data_content": [
+        {
+            "dataName": "service_id",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "start_date",
+            "dataDescription": "date",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "end_date",
+            "dataDescription": "date",
+            "dataType": "Temporal"
+        }
+    ]
 }

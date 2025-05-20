@@ -26,7 +26,22 @@
     },
     "data_content": [
         {
+            "dataName": "Adresse_1",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Adresse_3",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
             "dataName": "Nom_commune",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Mail",
             "dataDescription": "communes",
             "dataType": "Spatial"
         },
@@ -48,6 +63,11 @@
         {
             "dataName": "Libelle_region",
             "dataDescription": "regions",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "nom_circonscription",
+            "dataDescription": "communes",
             "dataType": "Spatial"
         },
         {

@@ -11,25 +11,25 @@
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
-            "Auvergne-Rhône-Alpes",
-            "Bourgogne-Franche-Comté",
-            "Bretagne",
-            "Centre-Val de Loire",
+            "Pays de la Loire",
+            "Occitanie",
             "Collectivités d'outre-mer",
-            "Corse",
+            "Centre-Val de Loire",
+            "Île-de-France",
+            "Auvergne-Rhône-Alpes",
             "Grand Est",
-            "Guadeloupe",
-            "Guyane",
-            "Hauts-de-France",
-            "La Réunion",
-            "Mayotte",
-            "National",
             "Normandie",
             "Nouvelle-Aquitaine",
-            "Occitanie",
-            "Pays de la Loire",
+            "Bretagne",
+            "Bourgogne-Franche-Comté",
+            "Hauts-de-France",
             "Provence-Alpes-Côte d'Azur",
-            "Île-de-France"
+            "Mayotte",
+            "Corse",
+            "Guyane",
+            "Guadeloupe",
+            "La Réunion",
+            "National"
         ]
     },
     "temporalGranularity": "trimestre",
@@ -50,6 +50,11 @@
         },
         {
             "dataName": "Académie",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Établissement",
             "dataDescription": "communes",
             "dataType": "Spatial"
         },

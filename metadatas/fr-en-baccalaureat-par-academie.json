@@ -46,4 +46,23 @@
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 
+        "temporalScopeStart": 2021,
+        "temporalScopeEnd": 2024
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "Académie",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Session",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        }
+    ]
+}

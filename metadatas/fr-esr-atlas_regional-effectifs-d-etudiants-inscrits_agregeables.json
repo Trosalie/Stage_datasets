@@ -11,44 +11,88 @@
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
-            "Aix-Marseille",
-            "Amiens",
-            "Besançon",
-            "Bordeaux",
-            "Clermont-Ferrand",
-            "Corse",
-            "Créteil",
-            "Dijon",
-            "Grenoble",
-            "Guadeloupe",
-            "Guyane",
-            "La Réunion",
-            "Lille",
-            "Limoges",
             "Lyon",
-            "Martinique",
-            "Mayotte",
+            "Amiens",
             "Montpellier",
-            "Nancy-Metz",
-            "Nantes",
-            "Nice",
-            "Normandie",
-            "Nouvelle-Calédonie",
             "Orléans-Tours",
-            "Paris",
-            "Poitiers",
-            "Polynésie Française",
-            "Reims",
-            "Rennes",
-            "Saint-Martin",
-            "Strasbourg",
+            "Normandie",
+            "Grenoble",
             "Toulouse",
+            "Clermont-Ferrand",
+            "Nice",
+            "Reims",
+            "Paris",
+            "Créteil",
+            "Nantes",
+            "Strasbourg",
+            "Aix-Marseille",
+            "Limoges",
+            "Besançon",
+            "Nancy-Metz",
+            "Bordeaux",
+            "Rennes",
+            "Lille",
             "Versailles",
-            "Wallis et Futuna",
-            "Étranger"
+            "Dijon",
+            "Poitiers",
+            "Guadeloupe",
+            "Martinique",
+            "La Réunion",
+            "Polynésie Française",
+            "Guyane",
+            "Corse",
+            "Nouvelle-Calédonie",
+            "Mayotte",
+            "Étranger",
+            "Saint-Martin",
+            "Wallis et Futuna"
         ]
     },
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 
+        "temporalScopeStart": 2002,
+        "temporalScopeEnd": 2024
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "Commune",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Région",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Académie",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Département",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Unité urbaine ou commune rurale",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "Rentrée",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "Année civile concernée",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        }
+    ]
+}

@@ -7,7 +7,7 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "quartiers",
+    "spatialGranularity": "communes",
     "spatialScope": {
         "spatialScopeLevel": "quartiers",
         "spatialScope": [
@@ -1372,6 +1372,11 @@
         {
             "dataName": "CODGEO",
             "dataDescription": "quartiers",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "LIBGEO",
+            "dataDescription": "communes",
             "dataType": "Spatial"
         }
     ]

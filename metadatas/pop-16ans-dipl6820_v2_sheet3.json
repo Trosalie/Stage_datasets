@@ -1,18 +1,16 @@
 {
-    "title": "varmod_DEC_2019",
+    "title": "pop-16ans-dipl6820_v2_sheet3",
     "description": null,
     "dataFormat": null,
-    "fileType": "csv",
+    "fileType": "xlsx",
     "updateFrequency": null,
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "communes",
+    "spatialGranularity": "departements",
     "spatialScope": {
-        "spatialScopeLevel": "communes",
+        "spatialScopeLevel": "departements",
         "spatialScope": [
-            "Mars",
-            "Avril",
             "Ain",
             "Aisne",
             "Allier",
@@ -112,17 +110,14 @@
             "Guadeloupe",
             "Martinique",
             "Guyane",
-            "La Réunion",
-            "Saint-Pierre-et-Miquelon",
-            "Saint-Barthélemy",
-            "Saint-Martin"
+            "Réunion"
         ]
     },
-    "temporalGranularity": "mois",
+    "temporalGranularity": null,
     "temporalScope": {
-        "temporalScopeLevel": "mois",
-        "temporalScopeStart": "Janvier",
-        "temporalScopeEnd": "2019"
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
     },
     "theme": {
         "themeCode": null,
@@ -130,14 +125,9 @@
     },
     "data_content": [
         {
-            "dataName": "LIB_MOD",
-            "dataDescription": "communes",
+            "dataName": "LIBELLE22",
+            "dataDescription": "departements",
             "dataType": "Spatial"
-        },
-        {
-            "dataName": "LIB_MOD",
-            "dataDescription": "mois",
-            "dataType": "Temporal"
         }
     ]
 }

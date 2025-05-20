@@ -7,10 +7,12 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": null,
+    "spatialGranularity": "communes",
     "spatialScope": {
-        "spatialScopeLevel": null,
-        "spatialScope": null
+        "spatialScopeLevel": "departements",
+        "spatialScope": [
+            "LANDES:Operator:8"
+        ]
     },
     "temporalGranularity": null,
     "temporalScope": {
@@ -22,5 +24,21 @@
         "themeCode": null,
         "themeDescription": null
     },
-    "data_content": []
+    "data_content": [
+        {
+            "dataName": "route_id",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "agency_id",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "route_long_name",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        }
+    ]
 }

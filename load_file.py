@@ -20,7 +20,7 @@ def find_year_in_filename(filename):
 # Analyze information from an Excel file
 def excel_EL(file_path, sheet_index=0):
     # Read Excel file
-    df = pd.read_excel(file_path, header=None, nrows=500, engine='openpyxl')
+    df = pd.read_excel(file_path, header=None, nrows=500, engine='openpyxl', sheet_name=sheet_index)
     # Count rows with data
     row_counts = df.count(axis=1)
     # Check if the DataFrame is empty
@@ -33,7 +33,7 @@ def excel_EL(file_path, sheet_index=0):
     # Set this row as the header and retrieve the table below it
     first_row = row_counts.idxmax()
     # Read data from the title line
-    df = pd.read_excel(file_path, header=first_row)
+    df = pd.read_excel(file_path, header=first_row, engine='openpyxl', sheet_name=sheet_index)
     return df
 
 def excel_EL_sheet(file_path, sheet_index):
