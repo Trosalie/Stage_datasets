@@ -1,0 +1,89 @@
+{
+    "title": "rpls2021_geolocalise_OD_REG11_DEP77",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "communes",
+    "spatialScope": {
+        "spatialScopeLevel": "pays",
+        "spatialScope": [
+            "Ãle-de-France"
+        ]
+    },
+    "temporalGranularity": "annee",
+    "temporalScope": {
+        "temporalScopeLevel": "annee",
+        "temporalScopeStart": 2017,
+        "temporalScopeEnd": 2021
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "LIBREG",
+            "dataDescription": "pays",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "LIBDEP",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "LIBEPCI",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "LIBCOM",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "TYPVOIE",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "IMMEU",
+            "dataDescription": "quartiers",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "PLG_VOIE",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "PLG_QP",
+            "dataDescription": "quartiers",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "CONSTRUCT",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "LOCAT",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "PATRIMOINE",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "MILLESIME",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        }
+    ]
+}

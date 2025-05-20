@@ -1,0 +1,148 @@
+{
+    "title": "rpls2021_geolocalise_OD_REG28",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "communes",
+    "spatialScope": {
+        "spatialScopeLevel": "regions",
+        "spatialScope": [
+            "CC des Quatre RiviÃ¨res",
+            "CC InterrÃ©gionale Aumale - Blangy-sur-Bresle",
+            "MÃ©tropole Rouen Normandie",
+            "CA de la RÃ©gion Dieppoise",
+            "CC du Vexin Normand",
+            "CC CommunautÃ© Bray-Eawy",
+            "CA Seine-Eure",
+            "CU Le Havre Seine MÃ©tropole",
+            "CC Lyons Andelle",
+            "CC Intercom Bernay Terres de Normandie",
+            "CA Seine Normandie AgglomÃ©ration",
+            "CA du Pays de Dreux",
+            "CA Evreux Portes de Normandie",
+            "CC de Pont-Audemer / Val de Risle",
+            "CC du Pays de Honfleur-Beuzeville",
+            "CC Interco Normandie Sud Eure",
+            "CC Lieuvin Pays d'Auge",
+            "CC Roumois Seine",
+            "CC du Pays de Conches",
+            "CC du Pays du Neubourg",
+            "CC Yvetot Normandie",
+            "CC Terroir de Caux",
+            "CC Campagne-de-Caux",
+            "CC de la CÃ´te d'AlbÃ¢tre",
+            "CC Caux - Austreberthe",
+            "CC Inter-Caux-Vexin",
+            "CA Caux Seine Agglo",
+            "CC Plateau de Caux-Doudeville-Yerville",
+            "CC des Villes SÅurs",
+            "CA FÃ©camp Caux Littoral AgglomÃ©ration",
+            "CC Falaises du Talou",
+            "CC de LondiniÃ¨res",
+            "CC Normandie-Cabourg-Pays d'Auge",
+            "CA Lisieux Normandie",
+            "CU Caen la Mer",
+            "CC des Pays de L'Aigle",
+            "CC Isigny-Omaha Intercom",
+            "CA du Cotentin",
+            "CC CÅur CÃ´te Fleurie",
+            "CU d'AlenÃ§on",
+            "CC de Bayeux Intercom",
+            "CC Seulles Terre et Mer",
+            "CC du Pays de Falaise",
+            "CC Terre d'Auge",
+            "CC Intercom de la Vire au Noireau",
+            "CC Val Ã¨s Dunes",
+            "CC Cingal-Suisse Normande",
+            "CC PrÃ©-Bocage Intercom",
+            "CC CÅur de Nacre",
+            "CC VallÃ©es de l'Orne et de l'Odon",
+            "CA Mont-Saint-Michel-Normandie",
+            "CC de la Baie du Cotentin",
+            "CC de Granville, Terre et Mer",
+            "CA Saint-LÃ´ Agglo",
+            "CC Coutances Mer et Bocage",
+            "CC CÃ´te Ouest Centre Manche",
+            "CC de Villedieu Intercom",
+            "CC Domfront Tinchebray Interco",
+            "CC des Sources de l'Orne",
+            "CC de la VallÃ©e de la Haute-Sarthe",
+            "CC du Pays Fertois et du Bocage Carrougien",
+            "CC Argentan Intercom",
+            "CA Flers Agglo",
+            "CC du Val d'Orne",
+            "CC des VallÃ©es d'Auge et du Merlerault",
+            "CC Andaine - Passais",
+            "CC CÅur du Perche",
+            "CC du Pays de Mortagne-au-Perche",
+            "CC des Hauts du Perche",
+            "CC des Collines du Perche Normand"
+        ]
+    },
+    "temporalGranularity": "annee",
+    "temporalScope": {
+        "temporalScopeLevel": "annee",
+        "temporalScopeStart": 2017,
+        "temporalScopeEnd": 2021
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "LIBREG",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "LIBDEP",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "LIBEPCI",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "LIBCOM",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "TYPVOIE",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "PLG_VOIE",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "CONSTRUCT",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "LOCAT",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "PATRIMOINE",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "MILLESIME",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "title": "logements-vacants-du-parc-prive-par-epci-au-01012021-lovac_sheet1",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "xlsx",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "communes",
+    "spatialScope": {
+        "spatialScopeLevel": "communes",
+        "spatialScope": [
+            "Code EPCI",
+            "Nom de l'EPCI",
+            "Nombre de logements du parc privé",
+            "Nombre de logements vacants du parc privé",
+            "Nombre de logements du parc privé vacants depuis moins de deux ans au 01/01/2019",
+            "Nombre de logements du parc privé vacants depuis deux ans ou plus  au 01/01/2019",
+            "Taux de logements vacants du parc privé au 01/01/2019",
+            "Taux de logements du parc privé vacants depuis moins de deux ans au 01/01/2019",
+            "Taux de logements du parc privé vacants depuis deux ans ou plus au 01/01/2019",
+            "Nombre de logements du parc privé en 2021",
+            "Nombre de logements vacants du parc privé au 01/01/2020",
+            "Nombre de logements du parc privé vacants depuis moins de deux ans au 01/01/2020",
+            "Nombre de logements du parc privé vacants depuis deux ans ou plus  au 01/01/2020",
+            "Taux de logements vacants du parc privé au 01/01/2020",
+            "Taux de logements du parc privé vacants depuis moins de deux ans au 01/01/2020",
+            "Taux de logements du parc privé vacants depuis deux ans ou plus au 01/01/2020",
+            "Nombre de logements du parc privé en 2022",
+            "Nombre de logements vacants du parc privé au 01/01/2021",
+            "Nombre de logements du parc privé vacants depuis moins de deux ans au 01/01/2021",
+            "Nombre de logements du parc privé vacants depuis deux ans ou plus  au 01/01/2021",
+            "Taux de logements vacants du parc privé au 01/01/2021",
+            "Taux de logements du parc privé vacants depuis moins de deux ans au 01/01/2021",
+            "Taux de logements du parc privé vacants depuis deux ans ou plus au 01/01/2021",
+            "Code du département de la commune siège de l'EPCI",
+            "Nom du département de la commune siège de l'EPCI",
+            "Nom de la région de la commune siège de l'EPCI"
+        ]
+    },
+    "temporalGranularity": null,
+    "temporalScope": {
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "Indicateur",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "title": "varmod_DEC_2019",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": null,
+    "spatialScope": {
+        "spatialScopeLevel": null,
+        "spatialScope": null
+    },
+    "temporalGranularity": "mois",
+    "temporalScope": {
+        "temporalScopeLevel": "mois",
+        "temporalScopeStart": "10e jour du mois",
+        "temporalScopeEnd": "Ô-de-Selle"
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "LIB_MOD",
+            "dataDescription": "mois",
+            "dataType": "Temporal"
+        }
+    ]
+}

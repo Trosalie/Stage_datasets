@@ -1,0 +1,37 @@
+{
+    "title": "FD_NAIS_2019",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": null,
+    "spatialScope": {
+        "spatialScopeLevel": null,
+        "spatialScope": null
+    },
+    "temporalGranularity": "annee",
+    "temporalScope": {
+        "temporalScopeLevel": "annee",
+        "temporalScopeStart": 0,
+        "temporalScopeEnd": 2019
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "ANAIS",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "ARECM",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        }
+    ]
+}

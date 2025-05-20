@@ -1,0 +1,75 @@
+{
+    "title": "niveau-daccessibilite-des-cheminements-pietons",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "geopoints",
+    "spatialScope": {
+        "spatialScopeLevel": "communes",
+        "spatialScope": [
+            "TOULOUSE",
+            "SAINT-JEAN",
+            "SAINT-JORY",
+            "BEAUPUY",
+            "BRUGUIERES",
+            "DREMIL-LAFAGE",
+            "FLOURENS",
+            "GRATENTOUR",
+            "LESPINASSE",
+            "MONS",
+            "MONTRABE",
+            "VILLENEUVE-TOLOSANE",
+            "TOURNEFEUILLE",
+            "PIBRAC",
+            "BRAX",
+            "CORNEBARRIEU",
+            "MONDONVILLE",
+            "SEILH",
+            "AUSSONNE",
+            "GAGNAC-SUR-GARONNE",
+            "BEAUZELLE",
+            "BLAGNAC",
+            "FENOUILLET",
+            "AUCAMVILLE",
+            "FONBEAUZARD",
+            "SAINT-ALBAN",
+            "CASTELGINEST",
+            "LAUNAGUET",
+            "UNION",
+            "PIN-BALMA",
+            "QUINT",
+            "ST-ORENS-GAMEVILLE",
+            "CUGNAUX",
+            "COLOMIERS",
+            "BALMA",
+            "AIGREFEUILLE",
+            "MONDOUZIL"
+        ]
+    },
+    "temporalGranularity": null,
+    "temporalScope": {
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "geo_point",
+            "dataDescription": "geopoints",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "commune",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        }
+    ]
+}

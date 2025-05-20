@@ -1,0 +1,60 @@
+{
+    "title": "logements-vacants-du-parc-prive-par-epci-au-01012021-lovac_sheet0",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "xlsx",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "communes",
+    "spatialScope": {
+        "spatialScopeLevel": "regions",
+        "spatialScope": [
+            "Pays de la Loire",
+            "Grand-Est",
+            "Provence-Alpes-Côte d'Azur",
+            "Centre-Val de Loire",
+            "Bourgogne-Franche-Comté",
+            "Occitanie",
+            "Normandie",
+            "Auvergne-Rhône-Alpes",
+            "Corse",
+            "Île-de-France",
+            "Hauts-de-France",
+            "Guadeloupe",
+            "Nouvelle-Aquitaine",
+            "Bretagne",
+            "Guyane",
+            "Martinique",
+            "La Réunion"
+        ]
+    },
+    "temporalGranularity": null,
+    "temporalScope": {
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "NOM_EPCI",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "NOM_DEPT",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "NOM_REGION",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        }
+    ]
+}

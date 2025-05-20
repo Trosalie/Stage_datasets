@@ -7,7 +7,7 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "iris",
+    "spatialGranularity": "communes",
     "spatialScope": {
         "spatialScopeLevel": "communes",
         "spatialScope": [
@@ -43462,11 +43462,6 @@
         {
             "dataName": "LIBIRIS",
             "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "LAB_IRIS",
-            "dataDescription": "iris",
             "dataType": "Spatial"
         }
     ]

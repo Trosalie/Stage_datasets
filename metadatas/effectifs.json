@@ -1,0 +1,51 @@
+{
+    "title": "effectifs",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "communes",
+    "spatialScope": {
+        "spatialScopeLevel": "communes",
+        "spatialScope": [
+            "Pas de pathologies repérées, traitements, maternité, hospitalisations ni traitement antalgique ou anti-inflammatoire",
+            "Séjours en hospitalisation complète pour prise en charge de la Covid-19",
+            "Traitements du risque vasculaire (hors pathologies)",
+            "Maladies inflammatoires ou rares ou VIH ou SIDA",
+            "Maladies neurologiques ou dégénératives",
+            "Traitements psychotropes (hors pathologies)",
+            "Traitement antalgique ou anti-inflammatoire (hors pathologies, traitements, maternité ou hospitalisations)",
+            "Maladies psychiatriques",
+            "nan",
+            "Autres affections de longue durée (dont 31 et 32)",
+            "Cancers",
+            "Maladies cardio-neurovasculaires",
+            "Maladies du foie ou du pancréas (hors mucoviscidose)",
+            "Diabète",
+            "Hospitalisations ponctuelles (avec ou sans pathologies, traitements ou maternité)",
+            "Maladies respiratoires chroniques (hors mucoviscidose)",
+            "Maternité (avec ou sans pathologies)",
+            "Insuffisance rénale chronique terminale"
+        ]
+    },
+    "temporalGranularity": null,
+    "temporalScope": {
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "patho_niv1",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        }
+    ]
+}

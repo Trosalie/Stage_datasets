@@ -1,0 +1,39 @@
+{
+    "title": "logements-vacants-du-parc-prive-france-entiere-au-01012021_sheet1",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "xlsx",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "communes",
+    "spatialScope": {
+        "spatialScopeLevel": "communes",
+        "spatialScope": [
+            "Nombre de logements du parc privé en 2020",
+            "Taux de logements du parc privé vacants depuis deux ans ou plus au 01/01/2019",
+            "Nombre de logements du parc privé en 2021",
+            "Taux de logements du parc privé vacants depuis deux ans ou plus au 01/01/2020",
+            "Nombre de logements du parc privé en 2022",
+            "Taux de logements du parc privé vacants depuis deux ans ou plus au 01/01/2021"
+        ]
+    },
+    "temporalGranularity": null,
+    "temporalScope": {
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "Indicateur",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        }
+    ]
+}

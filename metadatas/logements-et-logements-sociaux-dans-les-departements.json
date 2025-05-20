@@ -1,0 +1,61 @@
+{
+    "title": "logements-et-logements-sociaux-dans-les-departements",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "csv",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "geopoints",
+    "spatialScope": {
+        "spatialScopeLevel": "regions",
+        "spatialScope": [
+            "AUVERGNE-RHONE-ALPES",
+            "HAUTS-DE-FRANCE",
+            "NOUVELLE-AQUITAINE",
+            "GRAND EST",
+            "BRETAGNE",
+            "OCCITANIE",
+            "CENTRE-VAL DE LOIRE",
+            "ILE-DE-FRANCE",
+            "BOURGOGNE-FRANCHE-COMTE",
+            "CORSE",
+            "NORMANDIE",
+            "LA REUNION",
+            "MARTINIQUE",
+            "PROVENCE ALPES COTE D'AZUR",
+            "PAYS DE LA LOIRE",
+            "GUADELOUPE",
+            "GUYANE",
+            "nan"
+        ]
+    },
+    "temporalGranularity": null,
+    "temporalScope": {
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "nom_departement",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "nom_region",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "geo_point_2d",
+            "dataDescription": "geopoints",
+            "dataType": "Spatial"
+        }
+    ]
+}
