@@ -17,8 +17,8 @@
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2021,
-        "temporalScopeEnd": 2021
+        "temporalScopeStart": "2021",
+        "temporalScopeEnd": "2021"
     },
     "theme": {
         "themeCode": null,
@@ -36,11 +36,6 @@
             "dataType": "Spatial"
         },
         {
-            "dataName": "LIBEPCI",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
             "dataName": "LIBCOM",
             "dataDescription": "communes",
             "dataType": "Spatial"
@@ -48,22 +43,22 @@
         {
             "dataName": "CONSTRUCT",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "LOCAT",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "PATRIMOINE",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "MILLESIME",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         }
     ]
 }

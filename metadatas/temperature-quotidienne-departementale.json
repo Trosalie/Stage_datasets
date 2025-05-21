@@ -128,7 +128,7 @@
         {
             "dataName": "date_obs",
             "dataDescription": "date",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         }
     ]
 }

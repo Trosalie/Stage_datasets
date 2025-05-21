@@ -31,8 +31,6 @@
             "Cher",
             "Corrèze",
             "Collectivité de Corse",
-            "Corse-du-Sud",
-            "Haute-Corse",
             "Côte-d'Or",
             "Côtes-d'Armor",
             "Creuse",
@@ -82,8 +80,6 @@
             "Bas-Rhin",
             "Haut-Rhin",
             "Département du Rhône",
-            "Nouveau Rhône",
-            "Métropole de Lyon",
             "Haute-Saône",
             "Saône-et-Loire",
             "Sarthe",
@@ -114,7 +110,6 @@
             "Martinique",
             "Guyane",
             "La Réunion",
-            "nan",
             "espace"
         ]
     },

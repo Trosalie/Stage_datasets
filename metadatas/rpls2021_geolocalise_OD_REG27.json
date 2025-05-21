@@ -9,32 +9,92 @@
     "sourceAddress": null,
     "spatialGranularity": "communes",
     "spatialScope": {
-        "spatialScopeLevel": "quartiers",
+        "spatialScopeLevel": "communes",
         "spatialScope": [
-            "Bourgogne-Franche-ComtÃ©"
+            "Rue",
+            "Impasse",
+            "Place",
+            "Boulevard",
+            "Allee",
+            "Route",
+            "Residence",
+            "nan",
+            "ROUTE",
+            "QUARTIER",
+            "PLACE",
+            "rue",
+            "RESIDENCE",
+            "impasse",
+            "CLOS",
+            "QUAI",
+            "PASSAGE",
+            "SQUARE",
+            "ALLEE",
+            "RUE",
+            "allée",
+            "AVENUE",
+            "IMPASSE",
+            "BOULEVARD",
+            "CHEMIN",
+            "RES",
+            "IMP",
+            "RTE",
+            "AV",
+            "VOIE",
+            "CHEM",
+            "COURS",
+            "LOT",
+            "PASS",
+            "COUR",
+            "MONTEE",
+            "REMP",
+            "BD",
+            "PL",
+            "ALL",
+            "avenue",
+            "place",
+            "pl",
+            "boulevard",
+            "route",
+            "chemin",
+            "PROMENADE",
+            "DOMAINE",
+            "LE CLOS",
+            "PAVILLON 1",
+            "PAVILLON 2",
+            "PAVILLON 3",
+            "CITE",
+            "HAMEAU",
+            "LIEU DIT",
+            "CARREFOUR",
+            "LIEU-DIT",
+            "ZAC",
+            "RU",
+            "FAUBOURG",
+            "Avenue",
+            "LOTISSEMENT",
+            "allee",
+            "voie",
+            "remparts",
+            "RUELLE",
+            "faubourg",
+            "quai",
+            "ALLEES",
+            "A",
+            "cours"
         ]
     },
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2017,
-        "temporalScopeEnd": 2021
+        "temporalScopeStart": "2017",
+        "temporalScopeEnd": "2021"
     },
     "theme": {
         "themeCode": null,
         "themeDescription": null
     },
     "data_content": [
-        {
-            "dataName": "LIBREG",
-            "dataDescription": "quartiers",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "LIBEPCI",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
         {
             "dataName": "LIBCOM",
             "dataDescription": "communes",
@@ -46,44 +106,24 @@
             "dataType": "Spatial"
         },
         {
-            "dataName": "NOMVOIE",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "COMPLGEO",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "LIBSEGPATRIM",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "PLG_VOIE",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
             "dataName": "CONSTRUCT",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "LOCAT",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "PATRIMOINE",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "MILLESIME",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         }
     ]
 }

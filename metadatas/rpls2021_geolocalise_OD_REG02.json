@@ -7,23 +7,18 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "communes",
+    "spatialGranularity": "regions",
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
-            "Segment Martinique 1",
-            "nan",
-            "Famille A",
-            "Famille D",
-            "Famille C",
-            "Famille B"
+            "Martinique"
         ]
     },
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2017,
-        "temporalScopeEnd": 2021
+        "temporalScopeStart": "2017",
+        "temporalScopeEnd": "2021"
     },
     "theme": {
         "themeCode": null,
@@ -41,44 +36,24 @@
             "dataType": "Spatial"
         },
         {
-            "dataName": "LIBEPCI",
-            "dataDescription": "regions",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "LIBCOM",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "COMPLIDENT",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "LIBSEGPATRIM",
-            "dataDescription": "regions",
-            "dataType": "Spatial"
-        },
-        {
             "dataName": "CONSTRUCT",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "LOCAT",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "PATRIMOINE",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "MILLESIME",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         }
     ]
 }

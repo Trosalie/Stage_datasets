@@ -11,12 +11,25 @@
     "spatialScope": {
         "spatialScopeLevel": "communes",
         "spatialScope": [
-            "04 - accessible",
-            "00 - n'a pas débuté",
-            "02 - en étude",
-            "01 - diag accessibilité",
-            "03 - en travaux",
-            "05 - annulé"
+            "TOULOUSE",
+            "TOURNEFEU",
+            "PLAISANCE",
+            "COLOMIERS",
+            "SEILH",
+            "CORNEBARR",
+            "LAUNAGUET",
+            "PIBRAC",
+            "SAINT JEA",
+            "VILLENEUV",
+            "BLAGNAC",
+            "CUGNAUX",
+            "SAINT ORE",
+            "AUCAMVILL",
+            "SAINT ALB",
+            "L'UNION",
+            "BALMA",
+            "AUSSONNE",
+            "CASTELGIN"
         ]
     },
     "temporalGranularity": null,
@@ -36,17 +49,7 @@
             "dataType": "Spatial"
         },
         {
-            "dataName": "nom_rue",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
             "dataName": "commune",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "accessible",
             "dataDescription": "communes",
             "dataType": "Spatial"
         }

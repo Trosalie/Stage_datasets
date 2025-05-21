@@ -15,8 +15,8 @@
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 1921,
-        "temporalScopeEnd": 2004
+        "temporalScopeStart": "1921",
+        "temporalScopeEnd": "2004"
     },
     "theme": {
         "themeCode": null,
@@ -26,17 +26,17 @@
         {
             "dataName": "AMAR",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "ANAIS1",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "ANAIS2",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         }
     ]
 }

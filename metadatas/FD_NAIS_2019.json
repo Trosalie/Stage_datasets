@@ -15,8 +15,8 @@
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 0,
-        "temporalScopeEnd": 2019
+        "temporalScopeStart": "2019",
+        "temporalScopeEnd": "2019"
     },
     "theme": {
         "themeCode": null,
@@ -26,12 +26,7 @@
         {
             "dataName": "ANAIS",
             "dataDescription": "annee",
-            "dataType": "Temporal"
-        },
-        {
-            "dataName": "ARECM",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         }
     ]
 }

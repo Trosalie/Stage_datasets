@@ -9,16 +9,16 @@
     "sourceAddress": null,
     "spatialGranularity": "communes",
     "spatialScope": {
-        "spatialScopeLevel": "pays",
+        "spatialScopeLevel": "departements",
         "spatialScope": [
-            "Ãle-de-France"
+            "Yvelines"
         ]
     },
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2017,
-        "temporalScopeEnd": 2021
+        "temporalScopeStart": "2017",
+        "temporalScopeEnd": "2021"
     },
     "theme": {
         "themeCode": null,
@@ -26,17 +26,7 @@
     },
     "data_content": [
         {
-            "dataName": "LIBREG",
-            "dataDescription": "pays",
-            "dataType": "Spatial"
-        },
-        {
             "dataName": "LIBDEP",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "LIBEPCI",
             "dataDescription": "departements",
             "dataType": "Spatial"
         },
@@ -51,44 +41,24 @@
             "dataType": "Spatial"
         },
         {
-            "dataName": "NOMVOIE",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "COMPLGEO",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "LIBSEGPATRIM",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "PLG_VOIE",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
             "dataName": "CONSTRUCT",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "LOCAT",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "PATRIMOINE",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "MILLESIME",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         }
     ]
 }

@@ -47,11 +47,6 @@
             "dataType": "Spatial"
         },
         {
-            "dataName": "NOM_EPCI",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
-        },
-        {
             "dataName": "NOM_DEPT",
             "dataDescription": "departements",
             "dataType": "Spatial"

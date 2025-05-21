@@ -31,11 +31,6 @@
             "dataType": "Spatial"
         },
         {
-            "dataName": "voie",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
             "dataName": "point_geo",
             "dataDescription": "geopoints",
             "dataType": "Spatial"

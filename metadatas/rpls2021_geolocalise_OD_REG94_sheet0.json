@@ -7,69 +7,20 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "communes",
+    "spatialGranularity": null,
     "spatialScope": {
-        "spatialScopeLevel": "regions",
-        "spatialScope": [
-            "Haute-Corse",
-            "Corse-du-Sud"
-        ]
+        "spatialScopeLevel": null,
+        "spatialScope": null
     },
-    "temporalGranularity": "date",
+    "temporalGranularity": null,
     "temporalScope": {
-        "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2017,
-        "temporalScopeEnd": 2021
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
     },
     "theme": {
         "themeCode": null,
         "themeDescription": null
     },
-    "data_content": [
-        {
-            "dataName": "LIBREG",
-            "dataDescription": "regions",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "LIBDEP",
-            "dataDescription": "regions",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "LIBCOM",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "CONSTRUCT",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
-        },
-        {
-            "dataName": "LOCAT",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
-        },
-        {
-            "dataName": "PATRIMOINE",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
-        },
-        {
-            "dataName": "DATCONV",
-            "dataDescription": "date",
-            "dataType": "Temporal"
-        },
-        {
-            "dataName": "DPEDATE",
-            "dataDescription": "date",
-            "dataType": "Temporal"
-        },
-        {
-            "dataName": "MILLESIME",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
-        }
-    ]
+    "data_content": []
 }

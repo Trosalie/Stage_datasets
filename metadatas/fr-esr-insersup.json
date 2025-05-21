@@ -54,14 +54,9 @@
             "dataType": "Spatial"
         },
         {
-            "dataName": "Établissement",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
             "dataName": "Diffusion des données",
             "dataDescription": "trimestre",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         }
     ]
 }

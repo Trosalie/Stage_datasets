@@ -31,8 +31,6 @@
             "Cher",
             "Correze",
             "Corse",
-            "Corse-du-Sud",
-            "Haute-Corse",
             "Cote-d'Or",
             "Côtes d'Armor",
             "Creuse",
@@ -114,8 +112,7 @@
             "Martinique",
             "Guyane",
             "Réunion",
-            "Mayotte",
-            "nan"
+            "Mayotte"
         ]
     },
     "temporalGranularity": null,

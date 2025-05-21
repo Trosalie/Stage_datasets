@@ -11,48 +11,33 @@
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
-            "Lyon",
-            "Amiens",
-            "Montpellier",
-            "Orléans-Tours",
+            "Auvergne-Rhône-Alpes",
+            "Hauts-de-France",
+            "Occitanie",
+            "Centre-Val de Loire",
             "Normandie",
-            "Grenoble",
-            "Toulouse",
-            "Clermont-Ferrand",
-            "Nice",
-            "Reims",
-            "Paris",
-            "Créteil",
-            "Nantes",
-            "Strasbourg",
-            "Aix-Marseille",
-            "Limoges",
-            "Besançon",
-            "Nancy-Metz",
-            "Bordeaux",
-            "Rennes",
-            "Lille",
-            "Versailles",
-            "Dijon",
-            "Poitiers",
+            "Provence-Alpes-Côte d'Azur",
+            "Grand Est",
+            "Île-de-France",
+            "Pays de la Loire",
+            "Nouvelle-Aquitaine",
+            "Bourgogne-Franche-Comté",
+            "Bretagne",
             "Guadeloupe",
             "Martinique",
             "La Réunion",
-            "Polynésie Française",
+            "Collectivités d'outre-mer",
             "Guyane",
             "Corse",
-            "Nouvelle-Calédonie",
             "Mayotte",
-            "Étranger",
-            "Saint-Martin",
-            "Wallis et Futuna"
+            "Étranger"
         ]
     },
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2002,
-        "temporalScopeEnd": 2024
+        "temporalScopeStart": "2002",
+        "temporalScopeEnd": "2024"
     },
     "theme": {
         "themeCode": null,
@@ -71,7 +56,7 @@
         },
         {
             "dataName": "Académie",
-            "dataDescription": "regions",
+            "dataDescription": "communes",
             "dataType": "Spatial"
         },
         {
@@ -87,12 +72,12 @@
         {
             "dataName": "Rentrée",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "Année civile concernée",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         }
     ]
 }

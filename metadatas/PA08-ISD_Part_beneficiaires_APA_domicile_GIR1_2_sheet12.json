@@ -106,21 +106,10 @@
             "Seine-Saint-Denis",
             "Val-de-Marne",
             "Val-d'Oise",
-            "Répondants métropole",
             "Guadeloupe",
             "Martinique",
             "Guyane",
-            "La Réunion",
-            "DOM",
-            "Répondants France entière",
-            "Q1",
-            "Médiane",
-            "Q3",
-            "Q3-Q1",
-            "Min",
-            "Max",
-            "étendue",
-            "nan"
+            "La Réunion"
         ]
     },
     "temporalGranularity": null,

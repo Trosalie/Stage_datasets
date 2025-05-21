@@ -114,15 +114,7 @@
             "Martinique",
             "Guyane",
             "La Réunion",
-            "France métropolitaine et DROM (hors Mayotte)",
-            "Q1",
-            "Médiane",
-            "Q3",
-            "D9/D1",
-            "Min",
-            "Max",
-            "étendue",
-            "nan"
+            "France métropolitaine et DROM (hors Mayotte)"
         ]
     },
     "temporalGranularity": null,

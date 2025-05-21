@@ -9,16 +9,23 @@
     "sourceAddress": null,
     "spatialGranularity": "communes",
     "spatialScope": {
-        "spatialScopeLevel": "pays",
+        "spatialScopeLevel": "departements",
         "spatialScope": [
-            "Ãle-de-France"
+            "Val-de-Marne",
+            "Essonne",
+            "Seine-et-Marne",
+            "Hauts-de-Seine",
+            "Seine-Saint-Denis",
+            "Paris",
+            "Val-d'Oise",
+            "Yvelines"
         ]
     },
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 1889,
-        "temporalScopeEnd": 6905
+        "temporalScopeStart": "1889",
+        "temporalScopeEnd": "6905"
     },
     "theme": {
         "themeCode": null,
@@ -26,17 +33,7 @@
     },
     "data_content": [
         {
-            "dataName": "LIBREG",
-            "dataDescription": "pays",
-            "dataType": "Spatial"
-        },
-        {
             "dataName": "LIBDEP",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "LIBEPCI",
             "dataDescription": "departements",
             "dataType": "Spatial"
         },
@@ -46,24 +43,19 @@
             "dataType": "Spatial"
         },
         {
-            "dataName": "LIBSEGPATRIM",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
             "dataName": "CONSTRUCT",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "LOCAT",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         },
         {
             "dataName": "PATRIMOINE",
             "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataType": "Temporel"
         }
     ]
 }

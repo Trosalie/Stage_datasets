@@ -106,11 +106,7 @@
             "Hauts-de-Seine",
             "Seine-Saint-Denis",
             "Val-de-Marne",
-            "Val-d'Oise",
-            "Guadeloupe",
-            "Martinique",
-            "Guyane",
-            "Réunion"
+            "Val-d'Oise"
         ]
     },
     "temporalGranularity": null,
