@@ -9,16 +9,16 @@
     "sourceAddress": null,
     "spatialGranularity": "communes",
     "spatialScope": {
-        "spatialScopeLevel": "regions",
+        "spatialScopeLevel": "departements",
         "spatialScope": [
-            "Île-de-France"
+            "Hauts-de-Seine"
         ]
     },
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2021,
-        "temporalScopeEnd": 2021
+        "temporalScopeStart": "2017",
+        "temporalScopeEnd": "2021"
     },
     "theme": {
         "themeCode": null,
@@ -26,13 +26,13 @@
     },
     "data_content": [
         {
-            "dataName": "LIBREG",
-            "dataDescription": "regions",
+            "dataName": "LIBDEP",
+            "dataDescription": "departements",
             "dataType": "Spatial"
         },
         {
-            "dataName": "LIBDEP",
-            "dataDescription": "departements",
+            "dataName": "EPCI",
+            "dataDescription": "epci",
             "dataType": "Spatial"
         },
         {

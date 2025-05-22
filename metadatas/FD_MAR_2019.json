@@ -15,8 +15,8 @@
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 1979,
-        "temporalScopeEnd": 1956
+        "temporalScopeStart": "1921",
+        "temporalScopeEnd": "2004"
     },
     "theme": {
         "themeCode": null,

@@ -17,8 +17,8 @@
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2021,
-        "temporalScopeEnd": 2021
+        "temporalScopeStart": "2017",
+        "temporalScopeEnd": "2021"
     },
     "theme": {
         "themeCode": null,
@@ -33,6 +33,11 @@
         {
             "dataName": "LIBDEP",
             "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "EPCI",
+            "dataDescription": "epci",
             "dataType": "Spatial"
         },
         {

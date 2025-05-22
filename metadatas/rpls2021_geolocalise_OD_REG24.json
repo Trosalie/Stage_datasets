@@ -7,7 +7,7 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "communes",
+    "spatialGranularity": "quartiers",
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
@@ -17,8 +17,8 @@
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2021,
-        "temporalScopeEnd": 2021
+        "temporalScopeStart": "2017",
+        "temporalScopeEnd": "2021"
     },
     "theme": {
         "themeCode": null,
@@ -36,8 +36,8 @@
             "dataType": "Spatial"
         },
         {
-            "dataName": "LIBCOM",
-            "dataDescription": "communes",
+            "dataName": "EPCI",
+            "dataDescription": "epci",
             "dataType": "Spatial"
         },
         {
@@ -48,6 +48,11 @@
         {
             "dataName": "PLG_QP",
             "dataDescription": "quartiers",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "EPCI_2021",
+            "dataDescription": "epci",
             "dataType": "Spatial"
         },
         {

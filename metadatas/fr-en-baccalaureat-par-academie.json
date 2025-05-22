@@ -7,35 +7,22 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "communes",
+    "spatialGranularity": null,
     "spatialScope": {
-        "spatialScopeLevel": "communes",
-        "spatialScope": [
-            "AIX-MARSEILLE",
-            "AMIENS",
-            "BORDEAUX",
-            "CLERMONT-FERRAND",
-            "CORSE",
-            "DIJON",
-            "GRENOBLE"
-        ]
+        "spatialScopeLevel": null,
+        "spatialScope": null
     },
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2021,
-        "temporalScopeEnd": 2021
+        "temporalScopeStart": "2021",
+        "temporalScopeEnd": "2024"
     },
     "theme": {
         "themeCode": null,
         "themeDescription": null
     },
     "data_content": [
-        {
-            "dataName": "Académie",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
         {
             "dataName": "Session",
             "dataDescription": "annee",

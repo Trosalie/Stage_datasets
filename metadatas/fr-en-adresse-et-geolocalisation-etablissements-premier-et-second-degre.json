@@ -11,23 +11,48 @@
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
+            "Ile-de-France",
+            "Corse",
+            "La Réunion",
+            "Mayotte",
+            "Auvergne-Rhône-Alpes",
+            "Provence-Alpes-Côte d'Azur",
+            "Nouvelle-Aquitaine",
+            "Bretagne",
+            "Occitanie",
+            "Pays de la Loire",
             "Normandie",
-            "Créteil",
-            "Bordeaux",
-            "Toulouse"
+            "Grand Est",
+            "Hauts-de-France",
+            "Centre-Val de Loire",
+            "Bourgogne-Franche-Comté",
+            "Guadeloupe",
+            "Guyane",
+            "TOM et Collectivités territoriales",
+            "Martinique"
         ]
     },
     "temporalGranularity": "date",
     "temporalScope": {
         "temporalScopeLevel": "date",
-        "temporalScopeStart": "1966-12-19",
-        "temporalScopeEnd": "1969-02-17"
+        "temporalScopeStart": "1901-01-01",
+        "temporalScopeEnd": "2099-01-01"
     },
     "theme": {
         "themeCode": null,
         "themeDescription": null
     },
     "data_content": [
+        {
+            "dataName": "localite_acheminement_uai",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "libelle_commune",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
         {
             "dataName": "libelle_departement",
             "dataDescription": "departements",
@@ -40,7 +65,7 @@
         },
         {
             "dataName": "libelle_academie",
-            "dataDescription": "regions",
+            "dataDescription": "communes",
             "dataType": "Spatial"
         },
         {

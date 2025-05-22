@@ -1,0 +1,37 @@
+{
+    "title": "landes-aggregated-gtfs_sheet1",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "xlsx",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": null,
+    "spatialScope": {
+        "spatialScopeLevel": null,
+        "spatialScope": null
+    },
+    "temporalGranularity": "date",
+    "temporalScope": {
+        "temporalScopeLevel": "date",
+        "temporalScopeStart": "20251231",
+        "temporalScopeEnd": "20251231"
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "start_date",
+            "dataDescription": "date",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "end_date",
+            "dataDescription": "date",
+            "dataType": "Temporal"
+        }
+    ]
+}

@@ -12,21 +12,15 @@
         "spatialScopeLevel": null,
         "spatialScope": null
     },
-    "temporalGranularity": "annee",
+    "temporalGranularity": null,
     "temporalScope": {
-        "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2017,
-        "temporalScopeEnd": 2017
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
     },
     "theme": {
         "themeCode": null,
         "themeDescription": null
     },
-    "data_content": [
-        {
-            "dataName": "annee",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
-        }
-    ]
+    "data_content": []
 }

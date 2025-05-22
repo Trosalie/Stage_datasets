@@ -13,7 +13,23 @@
         "spatialScope": [
             "Pays de la Loire",
             "Occitanie",
-            "Collectivités d'outre-mer"
+            "Collectivités d'outre-mer",
+            "Centre-Val de Loire",
+            "Île-de-France",
+            "Auvergne-Rhône-Alpes",
+            "Grand Est",
+            "Normandie",
+            "Nouvelle-Aquitaine",
+            "Bretagne",
+            "Bourgogne-Franche-Comté",
+            "Hauts-de-France",
+            "Provence-Alpes-Côte d'Azur",
+            "Mayotte",
+            "Corse",
+            "Guyane",
+            "Guadeloupe",
+            "La Réunion",
+            "National"
         ]
     },
     "temporalGranularity": "trimestre",

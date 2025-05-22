@@ -184,6 +184,7 @@
             "43.5962, 1.434254",
             "43.595444, 1.427043",
             "43.603172, 1.453119",
+            "nan",
             "43.620395, 1.434697",
             "43.633144, 1.43236",
             "43.646288, 1.433115",
@@ -258,11 +259,11 @@
             "43.583012, 1.429999"
         ]
     },
-    "temporalGranularity": "annee",
+    "temporalGranularity": null,
     "temporalScope": {
-        "temporalScopeLevel": "annee",
-        "temporalScopeStart": "2018",
-        "temporalScopeEnd": "2020"
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
     },
     "theme": {
         "themeCode": null,
@@ -273,11 +274,6 @@
             "dataName": "geopoint",
             "dataDescription": "geopoints",
             "dataType": "Spatial"
-        },
-        {
-            "dataName": "Année FIN travaux",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
         }
     ]
 }

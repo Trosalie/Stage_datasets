@@ -1,0 +1,26 @@
+{
+    "title": "base-ic-diplomes-formation-2020_sheet4",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "xlsx",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": null,
+    "spatialScope": {
+        "spatialScopeLevel": null,
+        "spatialScope": null
+    },
+    "temporalGranularity": null,
+    "temporalScope": {
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": []
+}

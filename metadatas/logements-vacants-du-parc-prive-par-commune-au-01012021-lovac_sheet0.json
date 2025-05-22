@@ -1,0 +1,65 @@
+{
+    "title": "logements-vacants-du-parc-prive-par-commune-au-01012021-lovac_sheet0",
+    "description": null,
+    "dataFormat": null,
+    "fileType": "xlsx",
+    "updateFrequency": null,
+    "sourceName": null,
+    "sourceType": null,
+    "sourceAddress": null,
+    "spatialGranularity": "communes",
+    "spatialScope": {
+        "spatialScopeLevel": "regions",
+        "spatialScope": [
+            "Auvergne-Rhône-Alpes",
+            "Hauts-de-France",
+            "Provence-Alpes-Côte d'Azur",
+            "Grand-Est",
+            "Occitanie",
+            "Normandie",
+            "Nouvelle-Aquitaine",
+            "Centre-Val de Loire",
+            "Bourgogne-Franche-Comté",
+            "Bretagne",
+            "Corse",
+            "Pays de la Loire",
+            "Île-de-France",
+            "Guadeloupe",
+            "Martinique",
+            "Guyane",
+            "La Réunion"
+        ]
+    },
+    "temporalGranularity": null,
+    "temporalScope": {
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
+    },
+    "theme": {
+        "themeCode": null,
+        "themeDescription": null
+    },
+    "data_content": [
+        {
+            "dataName": "NOM_COM",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "CODE_EPCI",
+            "dataDescription": "epci",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "NOM_DEPT",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "NOM_REGION",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        }
+    ]
+}

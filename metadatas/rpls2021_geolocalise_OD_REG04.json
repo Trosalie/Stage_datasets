@@ -9,32 +9,45 @@
     "sourceAddress": null,
     "spatialGranularity": "communes",
     "spatialScope": {
-        "spatialScopeLevel": "regions",
+        "spatialScopeLevel": "communes",
         "spatialScope": [
-            "La Réunion"
+            "Saint-Leu",
+            "Saint-Paul",
+            "Bras-Panon",
+            "Sainte-Rose",
+            "Saint-Pierre",
+            "Saint-Denis",
+            "Saint-Louis",
+            "Saint-Philippe",
+            "Saint-Joseph",
+            "Entre-Deux",
+            "Sainte-Suzanne",
+            "Sainte-Marie",
+            "Saint-AndrÃ©",
+            "Saint-BenoÃ®t",
+            "Les Trois-Bassins",
+            "Les Avirons",
+            "Le Tampon",
+            "La Possession",
+            "Le Port",
+            "L'Ãtang-SalÃ©",
+            "La Plaine-des-Palmistes",
+            "Petite-Ãle",
+            "Cilaos",
+            "Salazie"
         ]
     },
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2021,
-        "temporalScopeEnd": 2019
+        "temporalScopeStart": "2017",
+        "temporalScopeEnd": "2021"
     },
     "theme": {
         "themeCode": null,
         "themeDescription": null
     },
     "data_content": [
-        {
-            "dataName": "LIBREG",
-            "dataDescription": "regions",
-            "dataType": "Spatial"
-        },
-        {
-            "dataName": "LIBDEP",
-            "dataDescription": "regions",
-            "dataType": "Spatial"
-        },
         {
             "dataName": "LIBCOM",
             "dataDescription": "communes",

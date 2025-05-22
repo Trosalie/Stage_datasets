@@ -12,13 +12,24 @@
         "spatialScopeLevel": "communes",
         "spatialScope": [
             "TOULOUSE",
+            "TOURNEFEU",
             "PLAISANCE",
             "COLOMIERS",
             "SEILH",
+            "CORNEBARR",
             "LAUNAGUET",
             "PIBRAC",
+            "SAINT JEA",
+            "VILLENEUV",
             "BLAGNAC",
-            "CUGNAUX"
+            "CUGNAUX",
+            "SAINT ORE",
+            "AUCAMVILL",
+            "SAINT ALB",
+            "L'UNION",
+            "BALMA",
+            "AUSSONNE",
+            "CASTELGIN"
         ]
     },
     "temporalGranularity": null,

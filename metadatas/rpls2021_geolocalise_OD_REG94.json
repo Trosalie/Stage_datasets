@@ -11,14 +11,14 @@
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
-            "Haute-Corse"
+            "Corse"
         ]
     },
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2021,
-        "temporalScopeEnd": 2019
+        "temporalScopeStart": "2017",
+        "temporalScopeEnd": "2021"
     },
     "theme": {
         "themeCode": null,
@@ -32,12 +32,22 @@
         },
         {
             "dataName": "LIBDEP",
-            "dataDescription": "regions",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "EPCI",
+            "dataDescription": "epci",
             "dataType": "Spatial"
         },
         {
             "dataName": "LIBCOM",
             "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "EPCI_2021",
+            "dataDescription": "epci",
             "dataType": "Spatial"
         },
         {

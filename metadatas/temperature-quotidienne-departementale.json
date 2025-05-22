@@ -112,8 +112,8 @@
     "temporalGranularity": "date",
     "temporalScope": {
         "temporalScopeLevel": "date",
-        "temporalScopeStart": "2019-10-22",
-        "temporalScopeEnd": "2019-11-16"
+        "temporalScopeStart": "2018-01-01",
+        "temporalScopeEnd": "2023-12-31"
     },
     "theme": {
         "themeCode": null,

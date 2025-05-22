@@ -9,16 +9,23 @@
     "sourceAddress": null,
     "spatialGranularity": "communes",
     "spatialScope": {
-        "spatialScopeLevel": "regions",
+        "spatialScopeLevel": "departements",
         "spatialScope": [
-            "Île-de-France"
+            "Val-de-Marne",
+            "Essonne",
+            "Seine-et-Marne",
+            "Hauts-de-Seine",
+            "Seine-Saint-Denis",
+            "Paris",
+            "Val-d'Oise",
+            "Yvelines"
         ]
     },
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2021,
-        "temporalScopeEnd": 2021
+        "temporalScopeStart": "1889",
+        "temporalScopeEnd": "6905"
     },
     "theme": {
         "themeCode": null,
@@ -26,13 +33,13 @@
     },
     "data_content": [
         {
-            "dataName": "LIBREG",
-            "dataDescription": "regions",
+            "dataName": "LIBDEP",
+            "dataDescription": "departements",
             "dataType": "Spatial"
         },
         {
-            "dataName": "LIBDEP",
-            "dataDescription": "departements",
+            "dataName": "EPCI",
+            "dataDescription": "epci",
             "dataType": "Spatial"
         },
         {
@@ -52,16 +59,6 @@
         },
         {
             "dataName": "PATRIMOINE",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
-        },
-        {
-            "dataName": "SRU_EXPIR",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
-        },
-        {
-            "dataName": "MILLESIME",
             "dataDescription": "annee",
             "dataType": "Temporal"
         }

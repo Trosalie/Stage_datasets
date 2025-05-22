@@ -17,8 +17,8 @@
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2021,
-        "temporalScopeEnd": 2021
+        "temporalScopeStart": "2017",
+        "temporalScopeEnd": "2021"
     },
     "theme": {
         "themeCode": null,
@@ -31,8 +31,18 @@
             "dataType": "Spatial"
         },
         {
+            "dataName": "EPCI",
+            "dataDescription": "epci",
+            "dataType": "Spatial"
+        },
+        {
             "dataName": "LIBCOM",
             "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "EPCI_2021",
+            "dataDescription": "epci",
             "dataType": "Spatial"
         },
         {
@@ -47,11 +57,6 @@
         },
         {
             "dataName": "PATRIMOINE",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
-        },
-        {
-            "dataName": "SRU_EXPIR",
             "dataDescription": "annee",
             "dataType": "Temporal"
         },

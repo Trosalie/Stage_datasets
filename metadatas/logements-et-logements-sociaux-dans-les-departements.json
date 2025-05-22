@@ -11,6 +11,7 @@
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
+            "AUVERGNE-RHONE-ALPES",
             "HAUTS-DE-FRANCE",
             "NOUVELLE-AQUITAINE",
             "GRAND EST",
@@ -21,17 +22,20 @@
             "BOURGOGNE-FRANCHE-COMTE",
             "CORSE",
             "NORMANDIE",
+            "LA REUNION",
             "MARTINIQUE",
+            "PROVENCE ALPES COTE D'AZUR",
             "PAYS DE LA LOIRE",
             "GUADELOUPE",
-            "GUYANE"
+            "GUYANE",
+            "nan"
         ]
     },
-    "temporalGranularity": "annee",
+    "temporalGranularity": null,
     "temporalScope": {
-        "temporalScopeLevel": "annee",
-        "temporalScopeStart": 2018,
-        "temporalScopeEnd": 2022
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
     },
     "theme": {
         "themeCode": null,
@@ -52,11 +56,6 @@
             "dataName": "geo_point_2d",
             "dataDescription": "geopoints",
             "dataType": "Spatial"
-        },
-        {
-            "dataName": "annee_publication",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
         }
     ]
 }
