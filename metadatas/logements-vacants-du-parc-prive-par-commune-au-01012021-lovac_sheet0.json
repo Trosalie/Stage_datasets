@@ -47,6 +47,11 @@
             "dataType": "Spatial"
         },
         {
+            "dataName": "CODE_EPCI",
+            "dataDescription": "epci",
+            "dataType": "Spatial"
+        },
+        {
             "dataName": "NOM_DEPT",
             "dataDescription": "departements",
             "dataType": "Spatial"

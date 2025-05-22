@@ -56,22 +56,22 @@
         {
             "dataName": "CONSTRUCT",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         },
         {
             "dataName": "LOCAT",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         },
         {
             "dataName": "PATRIMOINE",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         },
         {
             "dataName": "MILLESIME",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         }
     ]
 }

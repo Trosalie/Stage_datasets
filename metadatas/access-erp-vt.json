@@ -259,11 +259,11 @@
             "43.583012, 1.429999"
         ]
     },
-    "temporalGranularity": "annee",
+    "temporalGranularity": null,
     "temporalScope": {
-        "temporalScopeLevel": "annee",
-        "temporalScopeStart": "2017",
-        "temporalScopeEnd": "nan"
+        "temporalScopeLevel": null,
+        "temporalScopeStart": null,
+        "temporalScopeEnd": null
     },
     "theme": {
         "themeCode": null,
@@ -274,11 +274,6 @@
             "dataName": "geopoint",
             "dataDescription": "geopoints",
             "dataType": "Spatial"
-        },
-        {
-            "dataName": "Année FIN travaux",
-            "dataDescription": "annee",
-            "dataType": "Temporel"
         }
     ]
 }

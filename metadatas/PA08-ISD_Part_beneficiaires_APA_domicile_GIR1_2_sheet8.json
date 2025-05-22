@@ -106,10 +106,21 @@
             "Seine-Saint-Denis",
             "Val-de-Marne",
             "Val-d'Oise",
+            "France métropolitaine, hors Ile-de-France",
+            "France métropolitaine",
             "Guadeloupe",
             "Martinique",
             "Guyane",
-            "La Réunion"
+            "La Réunion",
+            "France métropolitaine et DOM (hors Mayotte)",
+            "Q1",
+            "Médiane",
+            "Q3",
+            "Q3-Q1",
+            "Min",
+            "Max",
+            "étendue",
+            "nan"
         ]
     },
     "temporalGranularity": null,

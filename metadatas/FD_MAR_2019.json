@@ -26,17 +26,17 @@
         {
             "dataName": "AMAR",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         },
         {
             "dataName": "ANAIS1",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         },
         {
             "dataName": "ANAIS2",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         }
     ]
 }

@@ -329,7 +329,7 @@
         {
             "dataName": "DATE_MAJ",
             "dataDescription": "date",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         }
     ]
 }

@@ -7,41 +7,10 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "communes",
+    "spatialGranularity": null,
     "spatialScope": {
-        "spatialScopeLevel": "communes",
-        "spatialScope": [
-            "AIX-MARSEILLE",
-            "AMIENS",
-            "BESANCON",
-            "BORDEAUX",
-            "CLERMONT-FERRAND",
-            "CORSE",
-            "CRETEIL",
-            "DIJON",
-            "GRENOBLE",
-            "GUADELOUPE",
-            "GUYANE",
-            "LA REUNION",
-            "LILLE",
-            "LIMOGES",
-            "LYON",
-            "MARTINIQUE",
-            "MAYOTTE",
-            "MONTPELLIER",
-            "NANCY-METZ",
-            "NANTES",
-            "NICE",
-            "NORMANDIE",
-            "ORLEANS-TOURS",
-            "PARIS",
-            "POITIERS",
-            "REIMS",
-            "RENNES",
-            "STRASBOURG",
-            "TOULOUSE",
-            "VERSAILLES"
-        ]
+        "spatialScopeLevel": null,
+        "spatialScope": null
     },
     "temporalGranularity": "annee",
     "temporalScope": {
@@ -55,14 +24,9 @@
     },
     "data_content": [
         {
-            "dataName": "Académie",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
-        },
-        {
             "dataName": "Session",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         }
     ]
 }

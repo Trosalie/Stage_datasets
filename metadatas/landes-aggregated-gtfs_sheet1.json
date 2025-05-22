@@ -26,12 +26,12 @@
         {
             "dataName": "start_date",
             "dataDescription": "date",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         },
         {
             "dataName": "end_date",
             "dataDescription": "date",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         }
     ]
 }

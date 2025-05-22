@@ -56,7 +56,7 @@
         {
             "dataName": "Diffusion des données",
             "dataDescription": "trimestre",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         }
     ]
 }

@@ -7,26 +7,26 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "departements",
+    "spatialGranularity": "epci",
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
             "Pays de la Loire",
+            "Grand-Est",
+            "Provence-Alpes-Côte d'Azur",
             "Centre-Val de Loire",
             "Bourgogne-Franche-Comté",
-            "Provence-Alpes-Côte d'Azur",
-            "Grand-Est",
             "Occitanie",
             "Normandie",
-            "Corse",
             "Auvergne-Rhône-Alpes",
+            "Corse",
             "Île-de-France",
             "Hauts-de-France",
             "Guadeloupe",
             "Nouvelle-Aquitaine",
             "Bretagne",
-            "Martinique",
             "Guyane",
+            "Martinique",
             "La Réunion"
         ]
     },
@@ -41,6 +41,11 @@
         "themeDescription": null
     },
     "data_content": [
+        {
+            "dataName": "CODE_EPCI",
+            "dataDescription": "epci",
+            "dataType": "Spatial"
+        },
         {
             "dataName": "NOM_DEPT",
             "dataDescription": "departements",

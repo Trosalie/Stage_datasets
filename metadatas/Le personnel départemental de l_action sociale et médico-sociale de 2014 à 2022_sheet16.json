@@ -31,6 +31,8 @@
             "Cher",
             "Correze",
             "Corse",
+            "Corse-du-Sud",
+            "Haute-Corse",
             "Cote-d'Or",
             "Côtes d'Armor",
             "Creuse",
@@ -112,14 +114,15 @@
             "Martinique",
             "Guyane",
             "Réunion",
-            "Mayotte"
+            "Mayotte",
+            "nan"
         ]
     },
-    "temporalGranularity": null,
+    "temporalGranularity": "annee",
     "temporalScope": {
-        "temporalScopeLevel": null,
-        "temporalScopeStart": null,
-        "temporalScopeEnd": null
+        "temporalScopeLevel": "annee",
+        "temporalScopeStart": "2014",
+        "temporalScopeEnd": "2022"
     },
     "theme": {
         "themeCode": null,
@@ -130,6 +133,11 @@
             "dataName": "Département",
             "dataDescription": "departements",
             "dataType": "Spatial"
+        },
+        {
+            "dataName": "entêtes",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
         }
     ]
 }

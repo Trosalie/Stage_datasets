@@ -72,12 +72,12 @@
         {
             "dataName": "Rentrée",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         },
         {
             "dataName": "Année civile concernée",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         }
     ]
 }

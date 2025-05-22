@@ -33,7 +33,7 @@ def excel_EL(file_path, sheet_index=0):
     # Set this row as the header and retrieve the table below it
     first_row = row_counts.idxmax()
     # Read data from the title line
-    df = pd.read_excel(file_path, header=first_row, engine='openpyxl', sheet_name=sheet_index)
+    df = pd.read_excel(file_path, header=first_row, engine='openpyxl', sheet_name=sheet_index).dropna(how='all')
     return df
 
 def excel_EL_sheet(file_path, sheet_index):

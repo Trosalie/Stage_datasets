@@ -11,7 +11,6 @@
     "spatialScope": {
         "spatialScopeLevel": "communes",
         "spatialScope": [
-            "LIBGEO",
             "L'Abergement-Clémenciat",
             "L'Abergement-de-Varey",
             "Ambérieu-en-Bugey",
@@ -32704,7 +32703,7 @@
     },
     "data_content": [
         {
-            "dataName": "AGEQ65",
+            "dataName": "LIBGEO",
             "dataDescription": "communes",
             "dataType": "Spatial"
         }

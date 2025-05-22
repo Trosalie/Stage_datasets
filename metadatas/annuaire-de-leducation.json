@@ -53,12 +53,12 @@
         {
             "dataName": "date_ouverture",
             "dataDescription": "date",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         },
         {
             "dataName": "date_maj_ligne",
             "dataDescription": "date",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         }
     ]
 }

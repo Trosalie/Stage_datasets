@@ -26,12 +26,12 @@
         {
             "dataName": "COD_MOD",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         },
         {
             "dataName": "LIB_MOD",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         }
     ]
 }

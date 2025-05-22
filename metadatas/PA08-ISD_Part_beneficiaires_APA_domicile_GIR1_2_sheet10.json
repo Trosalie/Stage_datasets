@@ -112,7 +112,15 @@
             "Guyane",
             "La Réunion",
             "DOM",
-            "Répondants France entière"
+            "Répondants France entière",
+            "Q1",
+            "Médiane",
+            "Q3",
+            "Q3-Q1",
+            "Min",
+            "Max",
+            "étendue",
+            "nan"
         ]
     },
     "temporalGranularity": null,

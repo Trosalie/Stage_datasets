@@ -26,12 +26,12 @@
         {
             "dataName": "ADEC",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         },
         {
             "dataName": "ANAIS",
             "dataDescription": "annee",
-            "dataType": "Temporel"
+            "dataType": "Temporal"
         }
     ]
 }

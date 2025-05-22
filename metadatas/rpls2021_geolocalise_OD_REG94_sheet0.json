@@ -7,20 +7,78 @@
     "sourceName": null,
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": null,
+    "spatialGranularity": "communes",
     "spatialScope": {
-        "spatialScopeLevel": null,
-        "spatialScope": null
+        "spatialScopeLevel": "regions",
+        "spatialScope": [
+            "Corse"
+        ]
     },
-    "temporalGranularity": null,
+    "temporalGranularity": "date",
     "temporalScope": {
-        "temporalScopeLevel": null,
-        "temporalScopeStart": null,
-        "temporalScopeEnd": null
+        "temporalScopeLevel": "annee",
+        "temporalScopeStart": "2017",
+        "temporalScopeEnd": "2021"
     },
     "theme": {
         "themeCode": null,
         "themeDescription": null
     },
-    "data_content": []
+    "data_content": [
+        {
+            "dataName": "LIBREG",
+            "dataDescription": "regions",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "LIBDEP",
+            "dataDescription": "departements",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "EPCI",
+            "dataDescription": "epci",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "LIBCOM",
+            "dataDescription": "communes",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "EPCI_2021",
+            "dataDescription": "epci",
+            "dataType": "Spatial"
+        },
+        {
+            "dataName": "CONSTRUCT",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "LOCAT",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "PATRIMOINE",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "DATCONV",
+            "dataDescription": "date",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "DPEDATE",
+            "dataDescription": "date",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "MILLESIME",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
+        }
+    ]
 }

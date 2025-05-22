@@ -114,14 +114,15 @@
             "Martinique",
             "Guyane",
             "La Réunion",
+            "nan",
             "Lib_Dep"
         ]
     },
-    "temporalGranularity": null,
+    "temporalGranularity": "annee",
     "temporalScope": {
-        "temporalScopeLevel": null,
-        "temporalScopeStart": null,
-        "temporalScopeEnd": null
+        "temporalScopeLevel": "annee",
+        "temporalScopeStart": "2002",
+        "temporalScopeEnd": "2022"
     },
     "theme": {
         "themeCode": null,
@@ -132,6 +133,11 @@
             "dataName": "Département",
             "dataDescription": "departements",
             "dataType": "Spatial"
+        },
+        {
+            "dataName": "entêtes",
+            "dataDescription": "annee",
+            "dataType": "Temporal"
         }
     ]
 }
