@@ -14,7 +14,7 @@
             "Nouvelle-Aquitaine"
         ]
     },
-    "temporalGranularity": "annee",
+    "temporalGranularity": "date",
     "temporalScope": {
         "temporalScopeLevel": "annee",
         "temporalScopeStart": "2017",
@@ -68,6 +68,16 @@
         {
             "dataName": "PATRIMOINE",
             "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "DATCONV",
+            "dataDescription": "date",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "DPEDATE",
+            "dataDescription": "date",
             "dataType": "Temporal"
         },
         {

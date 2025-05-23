@@ -21,11 +21,11 @@
             "Yvelines"
         ]
     },
-    "temporalGranularity": "annee",
+    "temporalGranularity": "date",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": "1889",
-        "temporalScopeEnd": "6905"
+        "temporalScopeStart": "1900",
+        "temporalScopeEnd": "2021"
     },
     "theme": {
         "themeCode": null,
@@ -60,6 +60,16 @@
         {
             "dataName": "PATRIMOINE",
             "dataDescription": "annee",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "DATCONV",
+            "dataDescription": "date",
+            "dataType": "Temporal"
+        },
+        {
+            "dataName": "DPEDATE",
+            "dataDescription": "date",
             "dataType": "Temporal"
         }
     ]

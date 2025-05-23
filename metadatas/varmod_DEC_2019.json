@@ -15,8 +15,8 @@
     "temporalGranularity": "mois",
     "temporalScope": {
         "temporalScopeLevel": "mois",
-        "temporalScopeStart": "10e jour du mois",
-        "temporalScopeEnd": "Ô-de-Selle"
+        "temporalScopeStart": "janvier",
+        "temporalScopeEnd": "novembre"
     },
     "theme": {
         "themeCode": null,
