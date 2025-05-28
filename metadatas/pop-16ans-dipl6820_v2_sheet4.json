@@ -126,8 +126,10 @@
     "data_content": [
         {
             "dataName": "LIBELLE22",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
+            "dataDescription": "Libellé de département",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBELLE22",
+            "spatialLevel": "departements"
         }
     ]
 }

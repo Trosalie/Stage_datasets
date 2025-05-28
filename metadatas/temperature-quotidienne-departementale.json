@@ -122,13 +122,17 @@
     "data_content": [
         {
             "dataName": "departement",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_DEPARTEMENT",
+            "spatialLevel": "departements"
         },
         {
             "dataName": "date_obs",
-            "dataDescription": "date",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_DATE_OBS",
+            "temporalLevel": "date"
         }
     ]
 }

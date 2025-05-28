@@ -45,18 +45,24 @@
     "data_content": [
         {
             "dataName": "Région",
-            "dataDescription": "regions",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_RÉGION",
+            "spatialLevel": "regions"
         },
         {
             "dataName": "Académie",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_ACADÉMIE",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "Diffusion des données",
-            "dataDescription": "trimestre",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_DIFFUSION_DES_DONNÉES",
+            "temporalLevel": "trimestre"
         }
     ]
 }

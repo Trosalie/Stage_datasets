@@ -35376,8 +35376,10 @@
     "data_content": [
         {
             "dataName": "LIBELLE",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": "Libellé de commune",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBELLE",
+            "spatialLevel": "communes"
         }
     ]
 }

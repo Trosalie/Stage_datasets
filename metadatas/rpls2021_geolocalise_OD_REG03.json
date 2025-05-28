@@ -27,43 +27,59 @@
     "data_content": [
         {
             "dataName": "LIBREG",
-            "dataDescription": "regions",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBREG",
+            "spatialLevel": "regions"
         },
         {
             "dataName": "LIBDEP",
-            "dataDescription": "regions",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBDEP",
+            "spatialLevel": "regions"
         },
         {
             "dataName": "LIBCOM",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBCOM",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "PLG_QP",
-            "dataDescription": "quartiers",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_PLG_QP",
+            "spatialLevel": "quartiers"
         },
         {
             "dataName": "CONSTRUCT",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_CONSTRUCT",
+            "temporalLevel": "annee"
         },
         {
             "dataName": "LOCAT",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_LOCAT",
+            "temporalLevel": "annee"
         },
         {
             "dataName": "PATRIMOINE",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_PATRIMOINE",
+            "temporalLevel": "annee"
         },
         {
             "dataName": "MILLESIME",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_MILLESIME",
+            "temporalLevel": "annee"
         }
     ]
 }

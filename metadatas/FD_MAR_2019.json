@@ -25,18 +25,24 @@
     "data_content": [
         {
             "dataName": "AMAR",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_AMAR",
+            "temporalLevel": "annee"
         },
         {
             "dataName": "ANAIS1",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_ANAIS1",
+            "temporalLevel": "annee"
         },
         {
             "dataName": "ANAIS2",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_ANAIS2",
+            "temporalLevel": "annee"
         }
     ]
 }

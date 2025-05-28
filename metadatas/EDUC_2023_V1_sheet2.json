@@ -794,8 +794,10 @@
     "data_content": [
         {
             "dataName": "LIBGEO",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": "Libellé géographique",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBGEO",
+            "spatialLevel": "communes"
         }
     ]
 }

@@ -313,23 +313,31 @@
     "data_content": [
         {
             "dataName": "ACADEMIE",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_ACADEMIE",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "COMMUNE",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_COMMUNE",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "GEO",
-            "dataDescription": "geopoints",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_GEO",
+            "spatialLevel": "geopoints"
         },
         {
             "dataName": "DATE_MAJ",
-            "dataDescription": "date",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_DATE_MAJ",
+            "temporalLevel": "date"
         }
     ]
 }

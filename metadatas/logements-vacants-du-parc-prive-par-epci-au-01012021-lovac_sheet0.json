@@ -43,18 +43,24 @@
     "data_content": [
         {
             "dataName": "CODE_EPCI",
-            "dataDescription": "epci",
-            "dataType": "Spatial"
+            "dataDescription": "Code EPCI",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_CODE_EPCI",
+            "spatialLevel": "epci"
         },
         {
             "dataName": "NOM_DEPT",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
+            "dataDescription": "Nom du département de la commune siège de l'EPCI",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_NOM_DEPT",
+            "spatialLevel": "departements"
         },
         {
             "dataName": "NOM_REGION",
-            "dataDescription": "regions",
-            "dataType": "Spatial"
+            "dataDescription": "Nom de la région de la commune siège de l'EPCI",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_NOM_REGION",
+            "spatialLevel": "regions"
         }
     ]
 }

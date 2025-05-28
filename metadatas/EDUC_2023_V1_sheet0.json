@@ -1371,8 +1371,10 @@
     "data_content": [
         {
             "dataName": "CODGEO",
-            "dataDescription": "quartiers",
-            "dataType": "Spatial"
+            "dataDescription": "Code géographique",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_CODGEO",
+            "spatialLevel": "quartiers"
         }
     ]
 }

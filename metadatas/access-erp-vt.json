@@ -272,8 +272,10 @@
     "data_content": [
         {
             "dataName": "geopoint",
-            "dataDescription": "geopoints",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_GEOPOINT",
+            "spatialLevel": "geopoints"
         }
     ]
 }

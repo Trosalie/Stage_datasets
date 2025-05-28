@@ -45,38 +45,52 @@
     "data_content": [
         {
             "dataName": "localite_acheminement_uai",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LOCALITE_ACHEMINEMENT_UAI",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "libelle_commune",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBELLE_COMMUNE",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "libelle_departement",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBELLE_DEPARTEMENT",
+            "spatialLevel": "departements"
         },
         {
             "dataName": "libelle_region",
-            "dataDescription": "regions",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBELLE_REGION",
+            "spatialLevel": "regions"
         },
         {
             "dataName": "libelle_academie",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBELLE_ACADEMIE",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "position",
-            "dataDescription": "geopoints",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_POSITION",
+            "spatialLevel": "geopoints"
         },
         {
             "dataName": "date_ouverture",
-            "dataDescription": "date",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_DATE_OUVERTURE",
+            "temporalLevel": "date"
         }
     ]
 }

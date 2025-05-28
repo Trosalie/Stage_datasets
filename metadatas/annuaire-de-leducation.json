@@ -27,38 +27,52 @@
     "data_content": [
         {
             "dataName": "Nom_commune",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_NOM_COMMUNE",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "position",
-            "dataDescription": "geopoints",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_POSITION",
+            "spatialLevel": "geopoints"
         },
         {
             "dataName": "Libelle_departement",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBELLE_DEPARTEMENT",
+            "spatialLevel": "departements"
         },
         {
             "dataName": "Libelle_academie",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBELLE_ACADEMIE",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "Libelle_region",
-            "dataDescription": "regions",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBELLE_REGION",
+            "spatialLevel": "regions"
         },
         {
             "dataName": "date_ouverture",
-            "dataDescription": "date",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_DATE_OUVERTURE",
+            "temporalLevel": "date"
         },
         {
             "dataName": "date_maj_ligne",
-            "dataDescription": "date",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_DATE_MAJ_LIGNE",
+            "temporalLevel": "date"
         }
     ]
 }

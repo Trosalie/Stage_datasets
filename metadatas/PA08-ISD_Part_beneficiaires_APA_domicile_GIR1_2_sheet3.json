@@ -137,8 +137,10 @@
     "data_content": [
         {
             "dataName": "Ain",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_AIN",
+            "spatialLevel": "departements"
         }
     ]
 }
