@@ -4,7 +4,7 @@
     "dataFormat": null,
     "fileType": "csv",
     "updateFrequency": null,
-    "sourceName": null,
+    "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
     "spatialGranularity": "geopoints",
@@ -44,18 +44,24 @@
     "data_content": [
         {
             "dataName": "nom_departement",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_NOM_DEPARTEMENT",
+            "spatialLevel": "departements"
         },
         {
             "dataName": "nom_region",
-            "dataDescription": "regions",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_NOM_REGION",
+            "spatialLevel": "regions"
         },
         {
             "dataName": "geo_point_2d",
-            "dataDescription": "geopoints",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_GEO_POINT_2D",
+            "spatialLevel": "geopoints"
         }
     ]
 }

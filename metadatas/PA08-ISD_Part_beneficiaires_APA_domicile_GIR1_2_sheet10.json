@@ -1,10 +1,10 @@
 {
-    "title": "PA08-ISD_Part_beneficiaires_APA_domicile_GIR1_2_sheet10",
-    "description": null,
+    "title": "Part des bénéficiaires de l'allocation personnalisée d'autonomie (APA) à domicile classés en GIR 1 ou 2, payés au titre du mois de décembre 2011",
+    "description": NaN,
     "dataFormat": null,
     "fileType": "xlsx",
     "updateFrequency": null,
-    "sourceName": null,
+    "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
     "spatialGranularity": "departements",
@@ -119,8 +119,7 @@
             "Q3-Q1",
             "Min",
             "Max",
-            "étendue",
-            "nan"
+            "étendue"
         ]
     },
     "temporalGranularity": null,
@@ -136,8 +135,10 @@
     "data_content": [
         {
             "dataName": "Ain",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_AIN",
+            "spatialLevel": "departements"
         }
     ]
 }

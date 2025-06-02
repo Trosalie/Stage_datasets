@@ -1,11 +1,11 @@
 {
-    "title": "pop-16ans-dipl6820_v2_sheet9",
-    "description": null,
+    "title": "Recensement de la population de 2020",
+    "description": "TABLEAU DÉPARTEMENTAL - POPULATION PAR SEXE, ÂGE ET DIPLÔME - AU LIEU DE RÉSIDENCE",
     "dataFormat": null,
     "fileType": "xlsx",
     "updateFrequency": null,
-    "sourceName": null,
-    "sourceType": null,
+    "sourceName": "INSEE",
+    "sourceType": " Base historique des recensements de la population",
     "sourceAddress": null,
     "spatialGranularity": "departements",
     "spatialScope": {
@@ -126,8 +126,10 @@
     "data_content": [
         {
             "dataName": "LIBELLE22",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
+            "dataDescription": "Libellé de département",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBELLE22",
+            "spatialLevel": "departements"
         }
     ]
 }

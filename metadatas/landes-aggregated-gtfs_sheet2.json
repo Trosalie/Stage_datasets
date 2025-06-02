@@ -4,7 +4,7 @@
     "dataFormat": null,
     "fileType": "xlsx",
     "updateFrequency": null,
-    "sourceName": null,
+    "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
     "spatialGranularity": null,
@@ -25,8 +25,10 @@
     "data_content": [
         {
             "dataName": "date",
-            "dataDescription": "date",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_DATE",
+            "temporalLevel": "date"
         }
     ]
 }

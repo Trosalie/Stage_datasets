@@ -4,7 +4,7 @@
     "dataFormat": null,
     "fileType": "xlsx",
     "updateFrequency": null,
-    "sourceName": null,
+    "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
     "spatialGranularity": "communes",
@@ -3352,13 +3352,17 @@
     "data_content": [
         {
             "dataName": "LIBGEO",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": "Libellé - résidence",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBGEO",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "L_DCLT",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": "Libellé - lieu de travail",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_L_DCLT",
+            "spatialLevel": "communes"
         }
     ]
 }

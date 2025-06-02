@@ -4,7 +4,7 @@
     "dataFormat": null,
     "fileType": "csv",
     "updateFrequency": null,
-    "sourceName": null,
+    "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
     "spatialGranularity": "geopoints",
@@ -45,13 +45,17 @@
     "data_content": [
         {
             "dataName": "Geo Point",
-            "dataDescription": "geopoints",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_GEO_POINT",
+            "spatialLevel": "geopoints"
         },
         {
             "dataName": "commune",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_COMMUNE",
+            "spatialLevel": "communes"
         }
     ]
 }

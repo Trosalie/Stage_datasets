@@ -1,10 +1,10 @@
 {
-    "title": "base-excel-flux-mobilite-domicile-lieu-etude-2020_sheet2",
-    "description": null,
+    "title": "Flux de mobilité - déplacements domicile-lieu études",
+    "description": "Variables",
     "dataFormat": null,
     "fileType": "xlsx",
     "updateFrequency": null,
-    "sourceName": null,
+    "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
     "spatialGranularity": null,

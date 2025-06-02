@@ -1,11 +1,11 @@
 {
-    "title": "pop-16ans-dipl6820_v2_sheet10",
-    "description": null,
+    "title": "Recensement de la population de 1968",
+    "description": "TABLEAU COMMUNAL - POPULATION PAR SEXE, ÂGE ET DIPLÔME - AU LIEU DE RÉSIDENCE",
     "dataFormat": null,
     "fileType": "xlsx",
     "updateFrequency": null,
-    "sourceName": null,
-    "sourceType": null,
+    "sourceName": "INSEE",
+    "sourceType": " Base historique des recensements de la population",
     "sourceAddress": null,
     "spatialGranularity": "communes",
     "spatialScope": {
@@ -35376,8 +35376,10 @@
     "data_content": [
         {
             "dataName": "LIBELLE",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": "Libellé de commune",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBELLE",
+            "spatialLevel": "communes"
         }
     ]
 }

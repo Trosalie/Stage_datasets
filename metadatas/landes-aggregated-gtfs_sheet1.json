@@ -4,7 +4,7 @@
     "dataFormat": null,
     "fileType": "xlsx",
     "updateFrequency": null,
-    "sourceName": null,
+    "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
     "spatialGranularity": null,
@@ -25,13 +25,17 @@
     "data_content": [
         {
             "dataName": "start_date",
-            "dataDescription": "date",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_START_DATE",
+            "temporalLevel": "date"
         },
         {
             "dataName": "end_date",
-            "dataDescription": "date",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_END_DATE",
+            "temporalLevel": "date"
         }
     ]
 }

@@ -4,7 +4,7 @@
     "dataFormat": null,
     "fileType": "csv",
     "updateFrequency": null,
-    "sourceName": null,
+    "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
     "spatialGranularity": "geopoints",
@@ -27,18 +27,24 @@
     "data_content": [
         {
             "dataName": "commune",
-            "dataDescription": "communes",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_COMMUNE",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "point_geo",
-            "dataDescription": "geopoints",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_POINT_GEO",
+            "spatialLevel": "geopoints"
         },
         {
             "dataName": "departement",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_DEPARTEMENT",
+            "spatialLevel": "departements"
         }
     ]
 }

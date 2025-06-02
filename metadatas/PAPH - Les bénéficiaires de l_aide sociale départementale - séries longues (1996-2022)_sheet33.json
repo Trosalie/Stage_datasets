@@ -4,7 +4,7 @@
     "dataFormat": null,
     "fileType": "xlsx",
     "updateFrequency": null,
-    "sourceName": null,
+    "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
     "spatialGranularity": "departements",
@@ -114,7 +114,6 @@
             "Martinique",
             "Guyane",
             "La Réunion",
-            "nan",
             "espace"
         ]
     },
@@ -131,13 +130,17 @@
     "data_content": [
         {
             "dataName": "Département",
-            "dataDescription": "departements",
-            "dataType": "Spatial"
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_DÉPARTEMENT",
+            "spatialLevel": "departements"
         },
         {
             "dataName": "entêtes",
-            "dataDescription": "annee",
-            "dataType": "Temporal"
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_ENTÊTES",
+            "temporalLevel": "annee"
         }
     ]
 }
