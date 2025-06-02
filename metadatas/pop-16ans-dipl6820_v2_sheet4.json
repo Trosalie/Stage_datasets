@@ -1,11 +1,11 @@
 {
-    "title": "pop-16ans-dipl6820_v2_sheet4",
-    "description": null,
+    "title": "Recensement de la population de 1975",
+    "description": "TABLEAU DÉPARTEMENTAL - POPULATION PAR SEXE, ÂGE ET DIPLÔME - AU LIEU DE RÉSIDENCE",
     "dataFormat": null,
     "fileType": "xlsx",
     "updateFrequency": null,
-    "sourceName": null,
-    "sourceType": null,
+    "sourceName": "INSEE",
+    "sourceType": " Base historique des recensements de la population",
     "sourceAddress": null,
     "spatialGranularity": "departements",
     "spatialScope": {

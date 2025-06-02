@@ -4,7 +4,7 @@
     "dataFormat": null,
     "fileType": "xlsx",
     "updateFrequency": null,
-    "sourceName": null,
+    "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
     "spatialGranularity": "departements",
@@ -121,8 +121,7 @@
             "D9/D1",
             "Min",
             "Max",
-            "étendue",
-            "nan"
+            "étendue"
         ]
     },
     "temporalGranularity": null,
