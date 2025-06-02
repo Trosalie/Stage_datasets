@@ -11,52 +11,53 @@
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
-            "Ile-de-France",
-            "Corse",
-            "La Réunion",
-            "Mayotte",
-            "Auvergne-Rhône-Alpes",
-            "Provence-Alpes-Côte d'Azur",
-            "Nouvelle-Aquitaine",
-            "Bretagne",
-            "Occitanie",
-            "Pays de la Loire",
             "Normandie",
-            "Grand Est",
-            "Hauts-de-France",
-            "Centre-Val de Loire",
-            "Bourgogne-Franche-Comté",
+            "Créteil",
+            "Bordeaux",
+            "Toulouse",
+            "Montpellier",
+            "Strasbourg",
+            "Grenoble",
+            "Besançon",
+            "Orléans-Tours",
+            "Lyon",
+            "Clermont-Ferrand",
+            "Nantes",
+            "Versailles",
+            "Lille",
+            "Polynésie Française",
+            "Poitiers",
+            "Rennes",
+            "Amiens",
+            "Aix-Marseille",
+            "Nice",
+            "Reims",
+            "Limoges",
+            "Dijon",
+            "Nancy-Metz",
+            "Paris",
+            "Corse",
             "Guadeloupe",
+            "Martinique",
             "Guyane",
-            "TOM et Collectivités territoriales",
-            "Martinique"
+            "La Réunion",
+            "Saint Pierre et Miquelon",
+            "Mayotte",
+            "Nouvelle Calédonie",
+            "Wallis et Futuna"
         ]
     },
     "temporalGranularity": "date",
     "temporalScope": {
         "temporalScopeLevel": "date",
         "temporalScopeStart": "1901-01-01",
-        "temporalScopeEnd": "2099-01-01"
+        "temporalScopeEnd": "2024-09-01"
     },
     "theme": {
         "themeCode": null,
         "themeDescription": null
     },
     "data_content": [
-        {
-            "dataName": "localite_acheminement_uai",
-            "dataDescription": null,
-            "dataType": "Spatial",
-            "parameterCode": "SPAT_LOCALITE_ACHEMINEMENT_UAI",
-            "spatialLevel": "communes"
-        },
-        {
-            "dataName": "libelle_commune",
-            "dataDescription": null,
-            "dataType": "Spatial",
-            "parameterCode": "SPAT_LIBELLE_COMMUNE",
-            "spatialLevel": "communes"
-        },
         {
             "dataName": "libelle_departement",
             "dataDescription": null,
@@ -76,7 +77,7 @@
             "dataDescription": null,
             "dataType": "Spatial",
             "parameterCode": "SPAT_LIBELLE_ACADEMIE",
-            "spatialLevel": "communes"
+            "spatialLevel": "regions"
         },
         {
             "dataName": "position",
