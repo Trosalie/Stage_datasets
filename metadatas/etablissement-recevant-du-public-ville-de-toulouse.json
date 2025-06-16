@@ -9,27 +9,29 @@
     "sourceAddress": null,
     "spatialGranularity": "geopoints",
     "spatialScope": {
-        "spatialScopeLevel": "communes",
+        "spatialScopeLevel": "quartiers",
         "spatialScope": [
-            "TOULOUSE",
-            "TOURNEFEU",
-            "PLAISANCE",
-            "COLOMIERS",
-            "SEILH",
-            "CORNEBARR",
-            "LAUNAGUET",
-            "PIBRAC",
-            "SAINT JEA",
-            "VILLENEUV",
-            "BLAGNAC",
-            "CUGNAUX",
-            "SAINT ORE",
-            "AUCAMVILL",
-            "SAINT ALB",
-            "L'UNION",
-            "BALMA",
-            "AUSSONNE",
-            "CASTELGIN"
+            "1.1",
+            "1.3",
+            "1.2",
+            "2.1",
+            "5.3",
+            "4.3",
+            "3.1",
+            "4.1",
+            "5.1",
+            "3.3",
+            "3.2",
+            "5.2",
+            "4.2",
+            "6.3",
+            "2.4",
+            "6.4",
+            "2.3",
+            "6.2",
+            "6.1",
+            "2.2",
+            "0.0"
         ]
     },
     "temporalGranularity": null,
@@ -44,11 +46,11 @@
     },
     "data_content": [
         {
-            "dataName": "Geo Point",
+            "dataName": "code_postal",
             "dataDescription": null,
             "dataType": "Spatial",
-            "parameterCode": "SPAT_GEO_POINT",
-            "spatialLevel": "geopoints"
+            "parameterCode": "SPAT_CODE_POSTAL",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "commune",
@@ -56,6 +58,70 @@
             "dataType": "Spatial",
             "parameterCode": "SPAT_COMMUNE",
             "spatialLevel": "communes"
+        },
+        {
+            "dataName": "quartier",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_QUARTIER",
+            "spatialLevel": "quartiers"
+        },
+        {
+            "dataName": "Geo Point",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_GEO_POINT",
+            "spatialLevel": "geopoints"
+        },
+        {
+            "dataName": "type_equipement",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_TYPE_EQUIPEMENT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "complement_rue",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_COMPLEMENT_RUE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "secteur",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SECTEUR",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "prefecture",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_PREFECTURE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "accessible",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_ACCESSIBLE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

@@ -141,6 +141,46 @@
             "dataType": "Temporal",
             "parameterCode": "TEMP_ENTÊTES",
             "temporalLevel": "annee"
+        },
+        {
+            "dataName": "2017",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_2017",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "2018",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_2018",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "2019",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_2019",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "2020",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_2020",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

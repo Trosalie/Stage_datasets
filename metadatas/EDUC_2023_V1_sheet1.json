@@ -22,5 +22,516 @@
         "themeCode": null,
         "themeDescription": null
     },
-    "data_content": []
+    "data_content": [
+        {
+            "dataName": "CODGEO",
+            "dataDescription": "Code géographique",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CODGEO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "LIBGEO",
+            "dataDescription": "Libellé géographique",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_LIBGEO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "TX_NSNE_16A25",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_TX_NSNE_16A25",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_COLSEG",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_COLSEG",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_COLSEG_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_COLSEG_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_COLSEG_REP",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_COLSEG_REP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_COLSEG_REP_P",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_COLSEG_REP_P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_COLSEG_PRI",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_COLSEG_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_SEGPA",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_SEGPA",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_COLL",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_COLL",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E6",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E6",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E6_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E6_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E3",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E3",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E3_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E3_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E6",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_E6",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E6_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_E6_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E3",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_E3",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E3_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_E3_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "TFAV_COLL",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_TFAV_COLL",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "FAV_COLL",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_FAV_COLL",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "MOY_COLL",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_MOY_COLL",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DEFA_COLL",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DEFA_COLL",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_LYC_GT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_LYC_GT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_LYC_GT_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_LYC_GT_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_LYC_GT_PRI",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_LYC_GT_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E2_GT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E2_GT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E2_GT_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E2_GT_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E0_GT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E0_GT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E0_GT_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E0_GT_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E2_GT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_E2_GT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E2_GT_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_E2_GT_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E0_GT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_E0_GT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E0_GT_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_E0_GT_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "TFAV_LYC_GT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_TFAV_LYC_GT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "FAV_LYC_GT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_FAV_LYC_GT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "MOY_LYC_GT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_MOY_LYC_GT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DEFA_LYC_GT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DEFA_LYC_GT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_LYC_PRO",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_LYC_PRO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_LYC_PRO_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_LYC_PRO_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E2_PRO",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E2_PRO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E2_PRO_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E2_PRO_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E0_PRO",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E0_PRO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E0_PRO_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E0_PRO_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E2_PRO",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_E2_PRO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E2_PRO_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_E2_PRO_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E0_PRO",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_E0_PRO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E0_PRO_F",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_E0_PRO_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "TFAV_LYC_PRO",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_TFAV_LYC_PRO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "FAV_LYC_PRO",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_FAV_LYC_PRO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "MOY_LYC_PRO",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_MOY_LYC_PRO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DEFA_LYC_PRO",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DEFA_LYC_PRO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        }
+    ]
 }

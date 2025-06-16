@@ -30945,6 +30945,46 @@
             "dataType": "Spatial",
             "parameterCode": "SPAT_LIBGEO",
             "spatialLevel": "communes"
+        },
+        {
+            "dataName": "CODGEO",
+            "dataDescription": "Code géographique - résidence",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_CODGEO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "C20_ACTOCC15P_ILT1",
+            "dataDescription": "Nb actifs travaillant dans commune  (ou arrondissement municipal) de résidence",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_C20_ACTOCC15P_ILT1",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "C20_ACTOCC15P_ILTAUT",
+            "dataDescription": "Nb actifs travaillant dans autre commune",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_C20_ACTOCC15P_ILTAUT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "C20_ACTOCC15P",
+            "dataDescription": "Nombre d'actifs de 15 ans ou plus ayant un emploi",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_C20_ACTOCC15P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

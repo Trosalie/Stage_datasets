@@ -22,5 +22,16 @@
         "themeCode": null,
         "themeDescription": null
     },
-    "data_content": []
+    "data_content": [
+        {
+            "dataName": "Variables ",
+            "dataDescription": "Indicateur",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_VARIABLES_",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        }
+    ]
 }

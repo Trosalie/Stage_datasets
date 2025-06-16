@@ -22,5 +22,116 @@
         "themeCode": null,
         "themeDescription": null
     },
-    "data_content": []
+    "data_content": [
+        {
+            "dataName": "VAR_ID",
+            "dataDescription": "VAR_LIB",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_VAR_ID",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "cvdiff_moins25",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CVDIFF_MOINS25",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "cvdiff_25_49",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CVDIFF_25_49",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "cvdiff_50_74",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CVDIFF_50_74",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "cvdiff_75_99",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CVDIFF_75_99",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "cvdiff_100_149",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CVDIFF_100_149",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "cvdiff_150_199",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CVDIFF_150_199",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "cvdiff_200_299",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CVDIFF_200_299",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "cvdiff_300_499",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CVDIFF_300_499",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "cvdiff_500_1499",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CVDIFF_500_1499",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "cvdiff_1500p",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CVDIFF_1500P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        }
+    ]
 }

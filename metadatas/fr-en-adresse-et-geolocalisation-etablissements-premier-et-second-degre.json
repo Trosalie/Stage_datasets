@@ -11,53 +11,101 @@
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
-            "Normandie",
-            "Créteil",
-            "Bordeaux",
-            "Toulouse",
-            "Montpellier",
-            "Strasbourg",
-            "Grenoble",
-            "Besançon",
-            "Orléans-Tours",
-            "Lyon",
-            "Clermont-Ferrand",
-            "Nantes",
-            "Versailles",
-            "Lille",
-            "Polynésie Française",
-            "Poitiers",
-            "Rennes",
-            "Amiens",
-            "Aix-Marseille",
-            "Nice",
-            "Reims",
-            "Limoges",
-            "Dijon",
-            "Nancy-Metz",
-            "Paris",
+            "Ile-de-France",
             "Corse",
-            "Guadeloupe",
-            "Martinique",
-            "Guyane",
             "La Réunion",
-            "Saint Pierre et Miquelon",
             "Mayotte",
-            "Nouvelle Calédonie",
-            "Wallis et Futuna"
+            "Auvergne-Rhône-Alpes",
+            "Provence-Alpes-Côte d'Azur",
+            "Nouvelle-Aquitaine",
+            "Bretagne",
+            "Occitanie",
+            "Pays de la Loire",
+            "Normandie",
+            "Grand Est",
+            "Hauts-de-France",
+            "Centre-Val de Loire",
+            "Bourgogne-Franche-Comté",
+            "Guadeloupe",
+            "Guyane",
+            "TOM et Collectivités territoriales",
+            "Martinique"
         ]
     },
     "temporalGranularity": "date",
     "temporalScope": {
         "temporalScopeLevel": "date",
         "temporalScopeStart": "1901-01-01",
-        "temporalScopeEnd": "2024-09-01"
+        "temporalScopeEnd": "2099-01-01"
     },
     "theme": {
         "themeCode": null,
         "themeDescription": null
     },
     "data_content": [
+        {
+            "dataName": "adresse_uai",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_ADRESSE_UAI",
+            "spatialLevel": "geopoints"
+        },
+        {
+            "dataName": "boite_postale_uai",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_BOITE_POSTALE_UAI",
+            "spatialLevel": "communes"
+        },
+        {
+            "dataName": "code_postal_uai",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_CODE_POSTAL_UAI",
+            "spatialLevel": "communes"
+        },
+        {
+            "dataName": "libelle_commune",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBELLE_COMMUNE",
+            "spatialLevel": "communes"
+        },
+        {
+            "dataName": "latitude",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LATITUDE",
+            "spatialLevel": "geopoints"
+        },
+        {
+            "dataName": "longitude",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LONGITUDE",
+            "spatialLevel": "geopoints"
+        },
+        {
+            "dataName": "code_departement",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_CODE_DEPARTEMENT",
+            "spatialLevel": "departements"
+        },
+        {
+            "dataName": "code_region",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_CODE_REGION",
+            "spatialLevel": "regions"
+        },
+        {
+            "dataName": "code_commune",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_CODE_COMMUNE",
+            "spatialLevel": "communes"
+        },
         {
             "dataName": "libelle_departement",
             "dataDescription": null,
@@ -73,11 +121,25 @@
             "spatialLevel": "regions"
         },
         {
+            "dataName": "localite_acheminement_uai",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LOCALITE_ACHEMINEMENT_UAI",
+            "spatialLevel": "communes"
+        },
+        {
+            "dataName": "localisation",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LOCALISATION",
+            "spatialLevel": "communes"
+        },
+        {
             "dataName": "libelle_academie",
             "dataDescription": null,
             "dataType": "Spatial",
             "parameterCode": "SPAT_LIBELLE_ACADEMIE",
-            "spatialLevel": "regions"
+            "spatialLevel": "communes"
         },
         {
             "dataName": "position",
@@ -92,6 +154,146 @@
             "dataType": "Temporal",
             "parameterCode": "TEMP_DATE_OUVERTURE",
             "temporalLevel": "date"
+        },
+        {
+            "dataName": "denomination_principale",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DENOMINATION_PRINCIPALE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "secteur_public_prive_libe",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SECTEUR_PUBLIC_PRIVE_LIBE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "lieu_dit_uai",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_LIEU_DIT_UAI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EPSG",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EPSG",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "appariement",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_APPARIEMENT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "nature_uai",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NATURE_UAI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "nature_uai_libe",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NATURE_UAI_LIBE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "etat_etablissement",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_ETAT_ETABLISSEMENT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "etat_etablissement_libe",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_ETAT_ETABLISSEMENT_LIBE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "code_academie",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CODE_ACADEMIE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "secteur_prive_code_type_contrat",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SECTEUR_PRIVE_CODE_TYPE_CONTRAT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "secteur_prive_libelle_type_contrat",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SECTEUR_PRIVE_LIBELLE_TYPE_CONTRAT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "code_ministere",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CODE_MINISTERE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "libelle_ministere",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_LIBELLE_MINISTERE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

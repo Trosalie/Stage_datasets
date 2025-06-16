@@ -36,6 +36,86 @@
             "dataType": "Temporal",
             "parameterCode": "TEMP_END_DATE",
             "temporalLevel": "date"
+        },
+        {
+            "dataName": "service_id",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SERVICE_ID",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "monday",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_MONDAY",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "tuesday",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_TUESDAY",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "wednesday",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_WEDNESDAY",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "thursday",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_THURSDAY",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "friday",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_FRIDAY",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "saturday",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SATURDAY",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "sunday",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SUNDAY",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

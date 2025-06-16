@@ -31,9 +31,9 @@
             "nan"
         ]
     },
-    "temporalGranularity": null,
+    "temporalGranularity": "mois",
     "temporalScope": {
-        "temporalScopeLevel": null,
+        "temporalScopeLevel": "annee",
         "temporalScopeStart": null,
         "temporalScopeEnd": null
     },
@@ -43,11 +43,25 @@
     },
     "data_content": [
         {
+            "dataName": "code_departement",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_CODE_DEPARTEMENT",
+            "spatialLevel": "departements"
+        },
+        {
             "dataName": "nom_departement",
             "dataDescription": null,
             "dataType": "Spatial",
             "parameterCode": "SPAT_NOM_DEPARTEMENT",
             "spatialLevel": "departements"
+        },
+        {
+            "dataName": "code_region",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_CODE_REGION",
+            "spatialLevel": "regions"
         },
         {
             "dataName": "nom_region",
@@ -62,6 +76,107 @@
             "dataType": "Spatial",
             "parameterCode": "SPAT_GEO_POINT_2D",
             "spatialLevel": "geopoints"
+        },
+        {
+            "dataName": "annee_publication",
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_ANNEE_PUBLICATION",
+            "temporalLevel": "annee"
+        },
+        {
+            "dataName": "parc_social_loyer_moyen_en_eur_m2_mois",
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_PARC_SOCIAL_LOYER_MOYEN_EN_EUR_M2_MOIS",
+            "temporalLevel": "mois"
+        },
+        {
+            "dataName": "parc_social_age_moyen_du_parc_en_annees",
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_PARC_SOCIAL_AGE_MOYEN_DU_PARC_EN_ANNEES",
+            "temporalLevel": "annee"
+        },
+        {
+            "dataName": "population_de_moins_de_20_ans",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_POPULATION_DE_MOINS_DE_20_ANS",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "variation_de_la_population_sur_10_ans_en",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_VARIATION_DE_LA_POPULATION_SUR_10_ANS_EN",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dont_contribution_du_solde_naturel_en",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_DONT_CONTRIBUTION_DU_SOLDE_NATUREL_EN",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dont_contribution_du_solde_migratoire_en",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_DONT_CONTRIBUTION_DU_SOLDE_MIGRATOIRE_EN",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "population_de_60_ans_et_plus",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_POPULATION_DE_60_ANS_ET_PLUS",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "taux_de_chomage_au_t4_en",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_TAUX_DE_CHOMAGE_AU_T4_EN",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "taux_de_logements_vacants_en",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_TAUX_DE_LOGEMENTS_VACANTS_EN",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "taux_de_logements_individuels_en",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_TAUX_DE_LOGEMENTS_INDIVIDUELS_EN",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

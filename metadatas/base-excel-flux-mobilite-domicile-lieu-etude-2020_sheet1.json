@@ -2120,6 +2120,36 @@
             "dataType": "Spatial",
             "parameterCode": "SPAT_L_DCETU",
             "spatialLevel": "communes"
+        },
+        {
+            "dataName": "DCETU",
+            "dataDescription": "Code géographique de la commune (ou de l'arrondissement municipal) du lieu d'études",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DCETU",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CODGEO",
+            "dataDescription": "Code géographique de la commune (ou de l'arrondissement municipal) de résidence",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_CODGEO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NBFLUX_C20_SCOL02P",
+            "dataDescription": "Flux de population scolarisée de 2 ans ou plus",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_NBFLUX_C20_SCOL02P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

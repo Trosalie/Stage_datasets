@@ -141,6 +141,26 @@
             "dataType": "Temporal",
             "parameterCode": "TEMP_ENTÊTES",
             "temporalLevel": "annee"
+        },
+        {
+            "dataName": "Code région",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CODE_RÉGION",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "2021",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_2021",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

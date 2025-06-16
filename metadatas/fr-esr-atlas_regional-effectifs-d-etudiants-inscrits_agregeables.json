@@ -36,8 +36,8 @@
     "temporalGranularity": "annee",
     "temporalScope": {
         "temporalScopeLevel": "annee",
-        "temporalScopeStart": "2002",
-        "temporalScopeEnd": "2024"
+        "temporalScopeStart": "2001",
+        "temporalScopeEnd": "2023"
     },
     "theme": {
         "themeCode": null,
@@ -45,10 +45,24 @@
     },
     "data_content": [
         {
+            "dataName": "Code commune",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_CODE_COMMUNE",
+            "spatialLevel": "communes"
+        },
+        {
             "dataName": "Commune",
             "dataDescription": null,
             "dataType": "Spatial",
             "parameterCode": "SPAT_COMMUNE",
+            "spatialLevel": "communes"
+        },
+        {
+            "dataName": "Unité urbaine ou commune rurale",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_UNITÉ_URBAINE_OU_COMMUNE_RURALE",
             "spatialLevel": "communes"
         },
         {
@@ -73,11 +87,18 @@
             "spatialLevel": "departements"
         },
         {
-            "dataName": "Unité urbaine ou commune rurale",
+            "dataName": "Année universitaire",
             "dataDescription": null,
-            "dataType": "Spatial",
-            "parameterCode": "SPAT_UNITÉ_URBAINE_OU_COMMUNE_RURALE",
-            "spatialLevel": "communes"
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_ANNÉE_UNIVERSITAIRE",
+            "temporalLevel": "annee"
+        },
+        {
+            "dataName": "Année civile concernée",
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_ANNÉE_CIVILE_CONCERNÉE",
+            "temporalLevel": "annee"
         },
         {
             "dataName": "Rentrée",
@@ -87,11 +108,164 @@
             "temporalLevel": "annee"
         },
         {
-            "dataName": "Année civile concernée",
+            "dataName": "regroupement",
             "dataDescription": null,
-            "dataType": "Temporal",
-            "parameterCode": "TEMP_ANNÉE_CIVILE_CONCERNÉE",
-            "temporalLevel": "annee"
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_REGROUPEMENT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Regroupements de formations ou d’établissements",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_REGROUPEMENTS_DE_FORMATIONS_OU_D’ÉTABLISSEMENTS",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "secteur",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SECTEUR",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Secteur de l’établissement d’inscription",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SECTEUR_DE_L’ÉTABLISSEMENT_D’INSCRIPTION",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "sexe",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SEXE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Sexe de l’étudiant",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SEXE_DE_L’ÉTUDIANT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre total d’étudiants inscrits hors doubles inscriptions université/CPGE (voir documentation)",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOMBRE_TOTAL_D’ÉTUDIANTS_INSCRITS_HORS_DOUBLES_INSCRIPTIONS_UNIVERSITÉ/CPGE_(VOIR_DOCUMENTATION)",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "A des effectifs en formations de DUT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_A_DES_EFFECTIFS_EN_FORMATIONS_DE_DUT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d’étudiants inscrits en DUT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOMBRE_D’ÉTUDIANTS_INSCRITS_EN_DUT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "A des effectifs en formations d'ingénieurs",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_A_DES_EFFECTIFS_EN_FORMATIONS_D'INGÉNIEURS",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "A des effectifs en master MEEF dans les ESPE et INSPE",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_A_DES_EFFECTIFS_EN_MASTER_MEEF_DANS_LES_ESPE_ET_INSPE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d’étudiants inscrits dans les master MEEF dans les ESPE et INSPE",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOMBRE_D’ÉTUDIANTS_INSCRITS_DANS_LES_MASTER_MEEF_DANS_LES_ESPE_ET_INSPE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "A des effectifs d’étudiants inscrits en STS et assimilés sous statut d’apprenti",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_A_DES_EFFECTIFS_D’ÉTUDIANTS_INSCRITS_EN_STS_ET_ASSIMILÉS_SOUS_STATUT_D’APPRENTI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d’étudiants inscrits en STS et assimilés sous statut d’apprenti",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOMBRE_D’ÉTUDIANTS_INSCRITS_EN_STS_ET_ASSIMILÉS_SOUS_STATUT_D’APPRENTI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Identifiant de la région",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_IDENTIFIANT_DE_LA_RÉGION",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Identifiant de l'académie",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_IDENTIFIANT_DE_L'ACADÉMIE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

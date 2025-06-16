@@ -22,5 +22,106 @@
         "themeCode": null,
         "themeDescription": null
     },
-    "data_content": []
+    "data_content": [
+        {
+            "dataName": "NOM_TERRITOIRE",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOM_TERRITOIRE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_log_pp_2020",
+            "dataDescription": "Nombre de logements du parc privé en 2020",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NB_LOG_PP_2020",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_logvac_2A_010119",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NB_LOGVAC_2A_010119",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Prop_logvac_pp_2A_010119",
+            "dataDescription": "Taux de logements du parc privé vacants depuis deux ans ou plus au 01/01/2019",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_PROP_LOGVAC_PP_2A_010119",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_log_pp_2021",
+            "dataDescription": "Nombre de logements du parc privé en 2021",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NB_LOG_PP_2021",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_logvac_2A_010120",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NB_LOGVAC_2A_010120",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Prop_logvac_pp_2A_010120",
+            "dataDescription": "Taux de logements du parc privé vacants depuis deux ans ou plus au 01/01/2020",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_PROP_LOGVAC_PP_2A_010120",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_log_pp_2022",
+            "dataDescription": "Nombre de logements du parc privé en 2022",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NB_LOG_PP_2022",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_logvac_2A_010121",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NB_LOGVAC_2A_010121",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Prop_logvac_pp_2A_010121",
+            "dataDescription": "Taux de logements du parc privé vacants depuis deux ans ou plus au 01/01/2021",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_PROP_LOGVAC_PP_2A_010121",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        }
+    ]
 }

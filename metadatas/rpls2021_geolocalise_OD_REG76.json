@@ -7,7 +7,7 @@
     "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "communes",
+    "spatialGranularity": "iris",
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
@@ -26,18 +26,60 @@
     },
     "data_content": [
         {
-            "dataName": "LIBREG",
-            "dataDescription": null,
-            "dataType": "Spatial",
-            "parameterCode": "SPAT_LIBREG",
-            "spatialLevel": "regions"
-        },
-        {
             "dataName": "EPCI",
             "dataDescription": null,
             "dataType": "Spatial",
             "parameterCode": "SPAT_EPCI",
             "spatialLevel": "epci"
+        },
+        {
+            "dataName": "LIBEPCI",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBEPCI",
+            "spatialLevel": "epci"
+        },
+        {
+            "dataName": "CODEPOSTAL",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_CODEPOSTAL",
+            "spatialLevel": "communes"
+        },
+        {
+            "dataName": "PLG_CODE_COMMUNE2021",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_PLG_CODE_COMMUNE2021",
+            "spatialLevel": "communes"
+        },
+        {
+            "dataName": "PLG_IRIS2021",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_PLG_IRIS2021",
+            "spatialLevel": "iris"
+        },
+        {
+            "dataName": "QUALITE_IRIS",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_QUALITE_IRIS",
+            "spatialLevel": "iris"
+        },
+        {
+            "dataName": "EPCI_2021",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_EPCI_2021",
+            "spatialLevel": "epci"
+        },
+        {
+            "dataName": "LIBREG",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBREG",
+            "spatialLevel": "regions"
         },
         {
             "dataName": "LIBCOM",
@@ -47,11 +89,18 @@
             "spatialLevel": "communes"
         },
         {
-            "dataName": "EPCI_2021",
+            "dataName": "PLG_QP",
             "dataDescription": null,
             "dataType": "Spatial",
-            "parameterCode": "SPAT_EPCI_2021",
-            "spatialLevel": "epci"
+            "parameterCode": "SPAT_PLG_QP",
+            "spatialLevel": "quartiers"
+        },
+        {
+            "dataName": "DPEDATE",
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_DPEDATE",
+            "temporalLevel": "date"
         },
         {
             "dataName": "CONSTRUCT",
@@ -82,18 +131,461 @@
             "temporalLevel": "date"
         },
         {
-            "dataName": "DPEDATE",
-            "dataDescription": null,
-            "dataType": "Temporal",
-            "parameterCode": "TEMP_DPEDATE",
-            "temporalLevel": "date"
-        },
-        {
             "dataName": "MILLESIME",
             "dataDescription": null,
             "dataType": "Temporal",
             "parameterCode": "TEMP_MILLESIME",
             "temporalLevel": "annee"
+        },
+        {
+            "dataName": "REG",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_REG",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DEP",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DEP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "LIBDEP",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_LIBDEP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DROIT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DROIT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DEPCOM",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DEPCOM",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NOMVOIE",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOMVOIE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "ETAGE",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_ETAGE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COMPLIDENT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_COMPLIDENT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "IMMEU",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_IMMEU",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COMPLGEO",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_COMPLGEO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QPV",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_QPV",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "TYPECONST",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_TYPECONST",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NBPIECE",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NBPIECE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "ORIGINE",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_ORIGINE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "FINAN",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_FINAN",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "FINANAUTRE",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_FINANAUTRE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CONV",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CONV",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NUMCONV",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NUMCONV",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DPEENERGIE",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPEENERGIE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DPESERRE",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPESERRE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "SRU_EXPIR",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SRU_EXPIR",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CODSEGPATRIM",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CODSEGPATRIM",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "LIBSEGPATRIM",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_LIBSEGPATRIM",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "PMR",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_PMR",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "PLG_VOIE",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_PLG_VOIE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EPSG",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EPSG",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "X",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_X",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Y",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_Y",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "PLG_ZUS",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_PLG_ZUS",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "PLG_ZFU",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_PLG_ZFU",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "PLG_QVA",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_PLG_QVA",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_VOIE",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_QUALITE_VOIE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_NUMERO",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_QUALITE_NUMERO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_XY",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_QUALITE_XY",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_QP",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_QUALITE_QP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_ZUS",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_QUALITE_ZUS",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_ZFU",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_QUALITE_ZFU",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_QVA",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_QUALITE_QVA",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COMAQP",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_COMAQP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COMAZUS",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_COMAZUS",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COMRIL",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_COMRIL",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "UU2020",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_UU2020",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "AAV2020",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_AAV2020",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "ZE2020",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_ZE2020",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "SURFHAB",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_SURFHAB",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

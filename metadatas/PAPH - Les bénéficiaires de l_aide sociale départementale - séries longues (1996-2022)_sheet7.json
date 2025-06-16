@@ -141,6 +141,56 @@
             "dataType": "Temporal",
             "parameterCode": "TEMP_ENTÊTES",
             "temporalLevel": "annee"
+        },
+        {
+            "dataName": "Code région",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CODE_RÉGION",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "2014",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_2014",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "2015",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_2015",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "2016",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_2016",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "2018",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_2018",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

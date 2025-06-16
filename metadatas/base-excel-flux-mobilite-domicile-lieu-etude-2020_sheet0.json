@@ -32104,6 +32104,46 @@
             "dataType": "Spatial",
             "parameterCode": "SPAT_LIBGEO",
             "spatialLevel": "communes"
+        },
+        {
+            "dataName": "CODGEO",
+            "dataDescription": "Code géographique de la commune (ou de l'arrondissement municipal) de résidence",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_CODGEO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "C20_SCOL02P_ILETUD1",
+            "dataDescription": "Population de 2 ans ou plus scolarisée dans la commune (ou l'arrondissement municipal) de résidence",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_C20_SCOL02P_ILETUD1",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "C20_SCOL02P_ILETUDAUT",
+            "dataDescription": "Population de 2 ans ou plus scolarisée hors de la commune (ou de l'arrondissement municipal) de résidence",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_C20_SCOL02P_ILETUDAUT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "C20_SCOL02P",
+            "dataDescription": "Total : population scolarisée de 2 ans ou plus",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_C20_SCOL02P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

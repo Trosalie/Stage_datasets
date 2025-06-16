@@ -7,7 +7,7 @@
     "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": "communes",
+    "spatialGranularity": "iris",
     "spatialScope": {
         "spatialScopeLevel": "communes",
         "spatialScope": [
@@ -32751,11 +32751,476 @@
     },
     "data_content": [
         {
+            "dataName": "IRIS",
+            "dataDescription": "IRIS",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_IRIS",
+            "spatialLevel": "iris"
+        },
+        {
+            "dataName": "TRIRIS",
+            "dataDescription": "TRIRIS",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_TRIRIS",
+            "spatialLevel": "iris"
+        },
+        {
+            "dataName": "LIBIRIS",
+            "dataDescription": "Libellé de l'IRIS",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBIRIS",
+            "spatialLevel": "iris"
+        },
+        {
+            "dataName": "TYP_IRIS",
+            "dataDescription": "Type d'IRIS",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_TYP_IRIS",
+            "spatialLevel": "iris"
+        },
+        {
+            "dataName": "LAB_IRIS",
+            "dataDescription": "Label de l'IRIS",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LAB_IRIS",
+            "spatialLevel": "iris"
+        },
+        {
             "dataName": "LIBCOM",
             "dataDescription": "Libellé commune ou ARM",
             "dataType": "Spatial",
             "parameterCode": "SPAT_LIBCOM",
             "spatialLevel": "communes"
+        },
+        {
+            "dataName": "REG",
+            "dataDescription": "Région",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_REG",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DEP",
+            "dataDescription": "Département",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DEP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "UU2020",
+            "dataDescription": "Unité urbaine",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_UU2020",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COM",
+            "dataDescription": "Commune ou ARM",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_COM",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "GRD_QUART",
+            "dataDescription": "Grand quartier",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_GRD_QUART",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_POP0205",
+            "dataDescription": "Pop 2-5 ans en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_POP0205",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_POP0610",
+            "dataDescription": "Pop 6-10 ans en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_POP0610",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_POP1114",
+            "dataDescription": "Pop 11-14 ans en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_POP1114",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_POP1517",
+            "dataDescription": "Pop 15-17 ans en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_POP1517",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_POP1824",
+            "dataDescription": "Pop 18-24 ans en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_POP1824",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_POP2529",
+            "dataDescription": "Pop 25-29 ans en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_POP2529",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_POP30P",
+            "dataDescription": "Pop 30 ans ou plus en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_POP30P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_SCOL0205",
+            "dataDescription": "Pop scolarisée 2-5 ans en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_SCOL0205",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_SCOL0610",
+            "dataDescription": "Pop scolarisée 6-10 ans en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_SCOL0610",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_SCOL1114",
+            "dataDescription": "Pop scolarisée 11-14 ans en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_SCOL1114",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_SCOL1517",
+            "dataDescription": "Pop scolarisée 15-17 ans en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_SCOL1517",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_SCOL1824",
+            "dataDescription": "Pop scolarisée 18-24 ans en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_SCOL1824",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_SCOL2529",
+            "dataDescription": "Pop scolarisée 25-29 ans en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_SCOL2529",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_SCOL30P",
+            "dataDescription": "Pop scolarisée 30 ans ou plus en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_SCOL30P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_NSCOL15P",
+            "dataDescription": "Pop 15 ans ou plus non scolarisée en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_NSCOL15P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_NSCOL15P_DIPLMIN",
+            "dataDescription": "Pop 15 ans ou plus non scol. Sans diplôme ou CEP en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_NSCOL15P_DIPLMIN",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_NSCOL15P_BEPC",
+            "dataDescription": "Pop 15 ans ou plus non scol. BEPC, brevet des collèges, DNB en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_NSCOL15P_BEPC",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_NSCOL15P_CAPBEP",
+            "dataDescription": "Pop 15 ans ou plus non scol. CAP-BEP ou équiv. en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_NSCOL15P_CAPBEP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_NSCOL15P_BAC",
+            "dataDescription": "Pop 15 ans ou plus non scol. Bac, brevet pro. ou équiv. en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_NSCOL15P_BAC",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_NSCOL15P_SUP2",
+            "dataDescription": "Pop 15 ans ou plus non scol. Enseignement sup de niveau bac + 2 en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_NSCOL15P_SUP2",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_NSCOL15P_SUP34",
+            "dataDescription": "Pop 15 ans ou plus non scol. Enseignement sup de niveau bac + 3 ou 4 en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_NSCOL15P_SUP34",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_NSCOL15P_SUP5",
+            "dataDescription": "Pop 15 ans ou plus non scol. Enseignement sup de niveau bac + 5 ou plus en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_NSCOL15P_SUP5",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_HNSCOL15P",
+            "dataDescription": "Hommes 15 ans ou plus non scolarisée en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_HNSCOL15P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_HNSCOL15P_DIPLMIN",
+            "dataDescription": "Hommes 15 ans ou plus non scol. Sans diplôme ou CEP en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_HNSCOL15P_DIPLMIN",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_HNSCOL15P_BEPC",
+            "dataDescription": "Hommes 15 ans ou plus non scol. BEPC, brevet des collèges, DNB en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_HNSCOL15P_BEPC",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_HNSCOL15P_CAPBEP",
+            "dataDescription": "Hommes 15 ans ou plus non scol. CAP-BEP ou équiv. en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_HNSCOL15P_CAPBEP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_HNSCOL15P_BAC",
+            "dataDescription": "Hommes 15 ans ou plus non scol. Bac, brevet pro. ou équiv. en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_HNSCOL15P_BAC",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_HNSCOL15P_SUP2",
+            "dataDescription": "Hommes 15 ans ou plus non scol. Enseignement sup de niveau bac + 2 en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_HNSCOL15P_SUP2",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_HNSCOL15P_SUP34",
+            "dataDescription": "Hommes 15 ans ou plus non scol. Enseignement sup de niveau bac + 3 ou 4 en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_HNSCOL15P_SUP34",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_HNSCOL15P_SUP5",
+            "dataDescription": "Hommes 15 ans ou plus non scol. Enseignement sup de niveau bac + 5 ou plus en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_HNSCOL15P_SUP5",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_FNSCOL15P",
+            "dataDescription": "Femmes 15 ans ou plus non scolarisée en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_FNSCOL15P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_FNSCOL15P_DIPLMIN",
+            "dataDescription": "Femmes 15 ans ou plus non scol. Sans diplôme ou CEP en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_FNSCOL15P_DIPLMIN",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_FNSCOL15P_BEPC",
+            "dataDescription": "Femmes 15 ans ou plus non scol. BEPC, brevet des collèges, DNB en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_FNSCOL15P_BEPC",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_FNSCOL15P_CAPBEP",
+            "dataDescription": "Femmes 15 ans ou plus non scol. CAP-BEP ou équiv. en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_FNSCOL15P_CAPBEP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_FNSCOL15P_BAC",
+            "dataDescription": "Femmes 15 ans ou plus non scol. Bac, brevet pro. ou équiv. en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_FNSCOL15P_BAC",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_FNSCOL15P_SUP2",
+            "dataDescription": "Femmes 15 ans ou plus non scol. Enseignement sup de niveau bac + 2 en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_FNSCOL15P_SUP2",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_FNSCOL15P_SUP34",
+            "dataDescription": "Femmes 15 ans ou plus non scol. Enseignement sup de niveau bac + 3 ou 4 en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_FNSCOL15P_SUP34",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "P20_FNSCOL15P_SUP5",
+            "dataDescription": "Femmes 15 ans ou plus non scol. Enseignement sup de niveau bac + 5 ou plus en 2020 (princ)",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_P20_FNSCOL15P_SUP5",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

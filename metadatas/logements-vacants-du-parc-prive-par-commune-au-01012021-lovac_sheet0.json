@@ -42,18 +42,32 @@
     },
     "data_content": [
         {
-            "dataName": "NOM_COM",
-            "dataDescription": "Nom de la commune",
-            "dataType": "Spatial",
-            "parameterCode": "SPAT_NOM_COM",
-            "spatialLevel": "communes"
-        },
-        {
             "dataName": "CODE_EPCI",
             "dataDescription": "Code EPCI",
             "dataType": "Spatial",
             "parameterCode": "SPAT_CODE_EPCI",
             "spatialLevel": "epci"
+        },
+        {
+            "dataName": "NOM_EPCI",
+            "dataDescription": "Nom de l'EPCI",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_NOM_EPCI",
+            "spatialLevel": "epci"
+        },
+        {
+            "dataName": "NOM_REGION",
+            "dataDescription": "Nom de la région",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_NOM_REGION",
+            "spatialLevel": "regions"
+        },
+        {
+            "dataName": "NOM_COM",
+            "dataDescription": "Nom de la commune",
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_NOM_COM",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "NOM_DEPT",
@@ -63,11 +77,114 @@
             "spatialLevel": "departements"
         },
         {
-            "dataName": "NOM_REGION",
-            "dataDescription": "Nom de la région",
-            "dataType": "Spatial",
-            "parameterCode": "SPAT_NOM_REGION",
-            "spatialLevel": "regions"
+            "dataName": "CODE_DEPT",
+            "dataDescription": "Code du département",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CODE_DEPT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "INSEE_COM",
+            "dataDescription": "Code commune INSEE",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_INSEE_COM",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Prop_logvac_pp_010119",
+            "dataDescription": "Taux de logements vacants du parc privé au 01/01/2019",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_PROP_LOGVAC_PP_010119",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Prop_logvac_pp_C_010119",
+            "dataDescription": "Taux de logements du parc privé vacants depuis moins de deux ans au 01/01/2019",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_PROP_LOGVAC_PP_C_010119",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Prop_logvac_pp_2A_010119",
+            "dataDescription": "Taux de logements du parc privé vacants depuis deux ans ou plus au 01/01/2019",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_PROP_LOGVAC_PP_2A_010119",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Prop_logvac_pp_010120",
+            "dataDescription": "Taux de logements vacants du parc privé au 01/01/2020",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_PROP_LOGVAC_PP_010120",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Prop_logvac_pp_C_010120",
+            "dataDescription": "Taux de logements du parc privé vacants depuis moins de deux ans au 01/01/2020",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_PROP_LOGVAC_PP_C_010120",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Prop_logvac_pp_2A_010120",
+            "dataDescription": "Taux de logements du parc privé vacants depuis deux ans ou plus au 01/01/2020",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_PROP_LOGVAC_PP_2A_010120",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Prop_logvac_pp_010121",
+            "dataDescription": "Taux de logements vacants du parc privé au 01/01/2021",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_PROP_LOGVAC_PP_010121",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Prop_logvac_pp_C_010121",
+            "dataDescription": "Taux de logements du parc privé vacants depuis moins de deux ans au 01/01/2021",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_PROP_LOGVAC_PP_C_010121",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Prop_logvac_pp_2A_010121",
+            "dataDescription": "Taux de logements du parc privé vacants depuis deux ans ou plus au 01/01/2021",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_PROP_LOGVAC_PP_2A_010121",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

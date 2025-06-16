@@ -22,5 +22,16 @@
         "themeCode": null,
         "themeDescription": null
     },
-    "data_content": []
+    "data_content": [
+        {
+            "dataName": "VAR_ID",
+            "dataDescription": "VAR_LIB",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_VAR_ID",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        }
+    ]
 }

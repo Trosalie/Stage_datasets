@@ -141,6 +141,16 @@
             "dataType": "Temporal",
             "parameterCode": "TEMP_ENTÊTES",
             "temporalLevel": "annee"
+        },
+        {
+            "dataName": "Code région",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CODE_RÉGION",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

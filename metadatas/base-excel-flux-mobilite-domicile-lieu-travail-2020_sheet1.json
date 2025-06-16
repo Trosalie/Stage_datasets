@@ -3363,6 +3363,36 @@
             "dataType": "Spatial",
             "parameterCode": "SPAT_L_DCLT",
             "spatialLevel": "communes"
+        },
+        {
+            "dataName": "DCLT",
+            "dataDescription": "Code géographique - lieu de travail",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DCLT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CODGEO",
+            "dataDescription": "Code géographique - résidence",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_CODGEO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NBFLUX_C20_ACTOCC15P",
+            "dataDescription": "Flux d'actifs de 15 ans ou plus ayant un emploi",
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_NBFLUX_C20_ACTOCC15P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

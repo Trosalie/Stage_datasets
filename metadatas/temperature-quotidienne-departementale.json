@@ -121,6 +121,13 @@
     },
     "data_content": [
         {
+            "dataName": "code_insee_departement",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_CODE_INSEE_DEPARTEMENT",
+            "spatialLevel": "departements"
+        },
+        {
             "dataName": "departement",
             "dataDescription": null,
             "dataType": "Spatial",
@@ -133,6 +140,36 @@
             "dataType": "Temporal",
             "parameterCode": "TEMP_DATE_OBS",
             "temporalLevel": "date"
+        },
+        {
+            "dataName": "tmin",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_TMIN",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "tmax",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_TMAX",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "tmoy",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_TMOY",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }
