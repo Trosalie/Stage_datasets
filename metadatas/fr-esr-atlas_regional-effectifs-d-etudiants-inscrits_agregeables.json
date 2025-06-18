@@ -59,11 +59,11 @@
             "spatialLevel": "communes"
         },
         {
-            "dataName": "Unité urbaine ou commune rurale",
+            "dataName": "Identifiant de la région",
             "dataDescription": null,
             "dataType": "Spatial",
-            "parameterCode": "SPAT_UNITÉ_URBAINE_OU_COMMUNE_RURALE",
-            "spatialLevel": "communes"
+            "parameterCode": "SPAT_IDENTIFIANT_DE_LA_RÉGION",
+            "spatialLevel": "regions"
         },
         {
             "dataName": "Région",
@@ -73,11 +73,11 @@
             "spatialLevel": "regions"
         },
         {
-            "dataName": "Académie",
+            "dataName": "Identifiant du département",
             "dataDescription": null,
             "dataType": "Spatial",
-            "parameterCode": "SPAT_ACADÉMIE",
-            "spatialLevel": "communes"
+            "parameterCode": "SPAT_IDENTIFIANT_DU_DÉPARTEMENT",
+            "spatialLevel": "departements"
         },
         {
             "dataName": "Département",
@@ -85,6 +85,20 @@
             "dataType": "Spatial",
             "parameterCode": "SPAT_DÉPARTEMENT",
             "spatialLevel": "departements"
+        },
+        {
+            "dataName": "Unité urbaine ou commune rurale",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_UNITÉ_URBAINE_OU_COMMUNE_RURALE",
+            "spatialLevel": "communes"
+        },
+        {
+            "dataName": "Académie",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_ACADÉMIE",
+            "spatialLevel": "communes"
         },
         {
             "dataName": "Année universitaire",
@@ -242,16 +256,6 @@
             "dataDescription": null,
             "dataType": "Qualitative",
             "indicatorCode": "QUAL_NOMBRE_D’ÉTUDIANTS_INSCRITS_EN_STS_ET_ASSIMILÉS_SOUS_STATUT_D’APPRENTI",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "Identifiant de la région",
-            "dataDescription": null,
-            "dataType": "Qualitative",
-            "indicatorCode": "QUAL_IDENTIFIANT_DE_LA_RÉGION",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

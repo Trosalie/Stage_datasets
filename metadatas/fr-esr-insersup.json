@@ -11,25 +11,25 @@
     "spatialScope": {
         "spatialScopeLevel": "regions",
         "spatialScope": [
-            "Pays de la Loire",
-            "Occitanie",
-            "Collectivités d'outre-mer",
-            "Centre-Val de Loire",
-            "Île-de-France",
-            "Auvergne-Rhône-Alpes",
-            "Grand Est",
-            "Normandie",
-            "Nouvelle-Aquitaine",
-            "Bretagne",
-            "Bourgogne-Franche-Comté",
-            "Hauts-de-France",
-            "Provence-Alpes-Côte d'Azur",
-            "Mayotte",
-            "Corse",
-            "Guyane",
-            "Guadeloupe",
-            "La Réunion",
-            "National"
+            "R52",
+            "R76",
+            "R00",
+            "R24",
+            "R11",
+            "R84",
+            "R44",
+            "R28",
+            "R75",
+            "R53",
+            "R27",
+            "R32",
+            "R93",
+            "R06",
+            "R94",
+            "R03",
+            "R01",
+            "R04",
+            "FR"
         ]
     },
     "temporalGranularity": "date",
@@ -48,6 +48,13 @@
             "dataDescription": null,
             "dataType": "Spatial",
             "parameterCode": "SPAT_RÉGION",
+            "spatialLevel": "regions"
+        },
+        {
+            "dataName": "Code de la région",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_CODE_DE_LA_RÉGION",
             "spatialLevel": "regions"
         },
         {
@@ -213,16 +220,6 @@
             "dataDescription": null,
             "dataType": "Qualitative",
             "indicatorCode": "QUAL_EXCEPTION",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "Code de la région",
-            "dataDescription": null,
-            "dataType": "Qualitative",
-            "indicatorCode": "QUAL_CODE_DE_LA_RÉGION",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null
