@@ -69,6 +69,16 @@
             "temporalLevel": "annee"
         },
         {
+            "dataName": "num_ligne",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NUM_LIGNE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "Code académie",
             "dataDescription": null,
             "dataType": "Qualitative",
@@ -183,16 +193,6 @@
             "dataDescription": null,
             "dataType": "Qualitative",
             "indicatorCode": "QUAL_NOMBRE_DE_REFUSÉS_TOTAUX",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "num_ligne",
-            "dataDescription": null,
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_NUM_LIGNE",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

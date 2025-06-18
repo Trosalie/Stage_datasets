@@ -32825,8 +32825,8 @@
         {
             "dataName": "COM",
             "dataDescription": "Commune ou ARM",
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_COM",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_COM",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

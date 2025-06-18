@@ -30949,8 +30949,8 @@
         {
             "dataName": "CODGEO",
             "dataDescription": "Code géographique - résidence",
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_CODGEO",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CODGEO",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

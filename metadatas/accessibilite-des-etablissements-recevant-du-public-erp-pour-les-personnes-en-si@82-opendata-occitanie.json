@@ -115,6 +115,16 @@
             }
         },
         {
+            "dataName": "site_internet",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SITE_INTERNET",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "transport_station_presence",
             "dataDescription": null,
             "dataType": "Qualitative",

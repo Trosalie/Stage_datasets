@@ -146,6 +146,16 @@
             }
         },
         {
+            "dataName": "CODE_INSEE",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CODE_INSEE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "MINISTERE_TUTELLE",
             "dataDescription": null,
             "dataType": "Qualitative",

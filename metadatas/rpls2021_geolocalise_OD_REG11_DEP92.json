@@ -221,6 +221,16 @@
             }
         },
         {
+            "dataName": "NUMAPPT",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NUMAPPT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "ESC",
             "dataDescription": null,
             "dataType": "Qualitative",
@@ -605,16 +615,6 @@
             "dataDescription": null,
             "dataType": "Qualitative",
             "indicatorCode": "QUAL_ZE2020",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "NUMAPPT",
-            "dataDescription": null,
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_NUMAPPT",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

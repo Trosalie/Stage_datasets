@@ -32710,6 +32710,16 @@
             "spatialLevel": "communes"
         },
         {
+            "dataName": "CODGEO",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CODGEO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "AGEQ65015_ILTR1_SEXE1",
             "dataDescription": null,
             "dataType": "Qualitative",
@@ -33144,16 +33154,6 @@
             "dataDescription": null,
             "dataType": "Qualitative",
             "indicatorCode": "QUAL_AGEQ65065_ILTR5_SEXE2",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "CODGEO",
-            "dataDescription": null,
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_CODGEO",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

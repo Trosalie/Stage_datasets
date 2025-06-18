@@ -44,6 +44,16 @@
             }
         },
         {
+            "dataName": "COD_MOD",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_COD_MOD",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "TYPE_VAR",
             "dataDescription": null,
             "dataType": "Qualitative",
@@ -58,16 +68,6 @@
             "dataDescription": null,
             "dataType": "Qualitative",
             "indicatorCode": "QUAL_LONG_VAR",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "COD_MOD",
-            "dataDescription": null,
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_COD_MOD",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

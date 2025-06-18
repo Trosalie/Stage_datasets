@@ -34,6 +34,16 @@
             }
         },
         {
+            "dataName": "shape_pt_sequence",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SHAPE_PT_SEQUENCE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "shape_pt_lat",
             "dataDescription": null,
             "dataType": "Quantitative",
@@ -48,16 +58,6 @@
             "dataDescription": null,
             "dataType": "Quantitative",
             "indicatorCode": "QUAN_SHAPE_PT_LON",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "shape_pt_sequence",
-            "dataDescription": null,
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_SHAPE_PT_SEQUENCE",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

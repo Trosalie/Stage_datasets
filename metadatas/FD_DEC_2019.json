@@ -48,6 +48,16 @@
             }
         },
         {
+            "dataName": "JDEC",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_JDEC",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "DEPDEC",
             "dataDescription": null,
             "dataType": "Qualitative",
@@ -82,6 +92,16 @@
             "dataDescription": null,
             "dataType": "Qualitative",
             "indicatorCode": "QUAL_MNAIS",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "JNAIS",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_JNAIS",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null
@@ -142,26 +162,6 @@
             "dataDescription": null,
             "dataType": "Qualitative",
             "indicatorCode": "QUAL_ETAMAT",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "JDEC",
-            "dataDescription": null,
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_JDEC",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "JNAIS",
-            "dataDescription": null,
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_JNAIS",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

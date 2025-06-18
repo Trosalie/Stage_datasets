@@ -35402,6 +35402,16 @@
             }
         },
         {
+            "dataName": "CR",
+            "dataDescription": "Commune en géographie courante",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CR",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "STABLE",
             "dataDescription": "Indicateur de stabilité de la commune",
             "dataType": "Qualitative",
@@ -35616,16 +35626,6 @@
             "dataDescription": "Diplôme supérieur au baccalauréat Femmes 25 ans ou plus RP1968",
             "dataType": "Qualitative",
             "indicatorCode": "QUAL_DPX_REC7S2AGE2_REC2RPOP1968",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "CR",
-            "dataDescription": "Commune en géographie courante",
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_CR",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

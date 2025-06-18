@@ -35402,6 +35402,16 @@
             }
         },
         {
+            "dataName": "CR",
+            "dataDescription": "Commune en géographie courante",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CR",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "STABLE",
             "dataDescription": "Indicateur de stabilité de la commune",
             "dataType": "Qualitative",
@@ -35436,16 +35446,6 @@
             "dataDescription": "Diplôme de niveau CEP Femmes 16 à 24 ans RP2020",
             "dataType": "Qualitative",
             "indicatorCode": "QUAL_DPX_REC1S2AGE2_REC1RPOP2020",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "CR",
-            "dataDescription": "Commune en géographie courante",
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_CR",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

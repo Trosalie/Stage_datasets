@@ -228,6 +228,16 @@
             }
         },
         {
+            "dataName": "Web",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_WEB",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "Restauration",
             "dataDescription": null,
             "dataType": "Qualitative",
@@ -398,6 +408,16 @@
             }
         },
         {
+            "dataName": "Fiche_onisep",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_FICHE_ONISEP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "Type_contrat_prive",
             "dataDescription": null,
             "dataType": "Qualitative",
@@ -532,6 +552,16 @@
             "dataDescription": null,
             "dataType": "Qualitative",
             "indicatorCode": "QUAL_ETABLISSEMENT_MERE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "type_rattachement_etablissement_mere",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_TYPE_RATTACHEMENT_ETABLISSEMENT_MERE",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

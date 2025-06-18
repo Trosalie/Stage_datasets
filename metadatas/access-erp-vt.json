@@ -162,6 +162,16 @@
             }
         },
         {
+            "dataName": "Propriétaire de l'ERP",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_PROPRIÉTAIRE_DE_L'ERP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "Exploitant de l'ERP",
             "dataDescription": null,
             "dataType": "Qualitative",
@@ -252,6 +262,16 @@
             }
         },
         {
+            "dataName": "Observations KAA",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_OBSERVATIONS_KAA",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "Picto KAA REMIS",
             "dataDescription": null,
             "dataType": "Qualitative",
@@ -286,6 +306,16 @@
             "dataDescription": null,
             "dataType": "Qualitative",
             "indicatorCode": "QUAL_VALIDÉ",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Annexes au RPA",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_ANNEXES_AU_RPA",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

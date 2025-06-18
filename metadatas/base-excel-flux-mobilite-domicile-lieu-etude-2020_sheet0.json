@@ -32108,8 +32108,8 @@
         {
             "dataName": "CODGEO",
             "dataDescription": "Code géographique de la commune (ou de l'arrondissement municipal) de résidence",
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_CODGEO",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CODGEO",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

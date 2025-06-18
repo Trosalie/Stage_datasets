@@ -109,6 +109,36 @@
             }
         },
         {
+            "dataName": "taux_de_chomage_au_t4_en",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_TAUX_DE_CHOMAGE_AU_T4_EN",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "nombre_de_residences_principales",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOMBRE_DE_RESIDENCES_PRINCIPALES",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "taux_de_logements_vacants_en",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_TAUX_DE_LOGEMENTS_VACANTS_EN",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "variation_de_la_population_sur_10_ans_en",
             "dataDescription": null,
             "dataType": "Quantitative",
@@ -143,26 +173,6 @@
             "dataDescription": null,
             "dataType": "Quantitative",
             "indicatorCode": "QUAN_POPULATION_DE_60_ANS_ET_PLUS",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "taux_de_chomage_au_t4_en",
-            "dataDescription": null,
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_TAUX_DE_CHOMAGE_AU_T4_EN",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "taux_de_logements_vacants_en",
-            "dataDescription": null,
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_TAUX_DE_LOGEMENTS_VACANTS_EN",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null

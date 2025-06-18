@@ -344,6 +344,16 @@
             }
         },
         {
+            "dataName": "ESC",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_ESC",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
             "dataName": "ETAGE",
             "dataDescription": null,
             "dataType": "Qualitative",
@@ -708,16 +718,6 @@
             "dataDescription": null,
             "dataType": "Qualitative",
             "indicatorCode": "QUAL_ZE2020",
-            "related_parameter": {
-                "themeCode": null,
-                "themeDescription": null
-            }
-        },
-        {
-            "dataName": "ESC",
-            "dataDescription": null,
-            "dataType": "Quantitative",
-            "indicatorCode": "QUAN_ESC",
             "related_parameter": {
                 "themeCode": null,
                 "themeDescription": null
