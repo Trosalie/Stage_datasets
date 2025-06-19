@@ -7,10 +7,41 @@
     "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": null,
+    "spatialGranularity": "communes",
     "spatialScope": {
-        "spatialScopeLevel": null,
-        "spatialScope": null
+        "spatialScopeLevel": "communes",
+        "spatialScope": [
+            "AIX-MARSEILLE",
+            "AMIENS",
+            "BESANCON",
+            "BORDEAUX",
+            "CLERMONT-FERRAND",
+            "CORSE",
+            "CRETEIL",
+            "DIJON",
+            "GRENOBLE",
+            "GUADELOUPE",
+            "GUYANE",
+            "LA REUNION",
+            "LILLE",
+            "LIMOGES",
+            "LYON",
+            "MARTINIQUE",
+            "MAYOTTE",
+            "MONTPELLIER",
+            "NANCY-METZ",
+            "NANTES",
+            "NICE",
+            "NORMANDIE",
+            "ORLEANS-TOURS",
+            "PARIS",
+            "POITIERS",
+            "REIMS",
+            "RENNES",
+            "STRASBOURG",
+            "TOULOUSE",
+            "VERSAILLES"
+        ]
     },
     "temporalGranularity": "annee",
     "temporalScope": {
@@ -24,11 +55,148 @@
     },
     "data_content": [
         {
+            "dataName": "Académie",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_ACADÉMIE",
+            "spatialLevel": "communes"
+        },
+        {
             "dataName": "Session",
             "dataDescription": null,
             "dataType": "Temporal",
             "parameterCode": "TEMP_SESSION",
             "temporalLevel": "annee"
+        },
+        {
+            "dataName": "num_ligne",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NUM_LIGNE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Code académie",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CODE_ACADÉMIE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Sexe",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SEXE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Statut du candidat",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_STATUT_DU_CANDIDAT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Voie",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_VOIE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Série",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SÉRIE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre de refusés au 1er groupe",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOMBRE_DE_REFUSÉS_AU_1ER_GROUPE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d'ajournés, passant les épreuves du 2nd groupe",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOMBRE_D'AJOURNÉS,_PASSANT_LES_ÉPREUVES_DU_2ND_GROUPE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d'admis à l'issue du 2nd groupe",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOMBRE_D'ADMIS_À_L'ISSUE_DU_2ND_GROUPE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre de refusés à l'issue du 2nd groupe",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOMBRE_DE_REFUSÉS_À_L'ISSUE_DU_2ND_GROUPE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d'admis avec mention TB avec les félicitations du jury",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOMBRE_D'ADMIS_AVEC_MENTION_TB_AVEC_LES_FÉLICITATIONS_DU_JURY",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d'admis avec mention TB sans les félicitations du jury",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOMBRE_D'ADMIS_AVEC_MENTION_TB_SANS_LES_FÉLICITATIONS_DU_JURY",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre de refusés totaux",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOMBRE_DE_REFUSÉS_TOTAUX",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

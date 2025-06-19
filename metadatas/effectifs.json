@@ -7,14 +7,35 @@
     "sourceName": "INCONNU",
     "sourceType": null,
     "sourceAddress": null,
-    "spatialGranularity": null,
+    "spatialGranularity": "communes",
     "spatialScope": {
-        "spatialScopeLevel": null,
-        "spatialScope": null
+        "spatialScopeLevel": "regions",
+        "spatialScope": [
+            "75",
+            "76",
+            "84",
+            "93",
+            "94",
+            "1",
+            "2",
+            "3",
+            "6",
+            "11",
+            "24",
+            "27",
+            "28",
+            "32",
+            "44",
+            "52",
+            "53",
+            "99",
+            "4",
+            "0"
+        ]
     },
-    "temporalGranularity": null,
+    "temporalGranularity": "annee",
     "temporalScope": {
-        "temporalScopeLevel": null,
+        "temporalScopeLevel": "annee",
         "temporalScopeStart": null,
         "temporalScopeEnd": null
     },
@@ -22,5 +43,107 @@
         "themeCode": null,
         "themeDescription": null
     },
-    "data_content": []
+    "data_content": [
+        {
+            "dataName": "region",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_REGION",
+            "spatialLevel": "regions"
+        },
+        {
+            "dataName": "libelle_sexe",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_LIBELLE_SEXE",
+            "spatialLevel": "communes"
+        },
+        {
+            "dataName": "annee",
+            "dataDescription": null,
+            "dataType": "Temporal",
+            "parameterCode": "TEMP_ANNEE",
+            "temporalLevel": "annee"
+        },
+        {
+            "dataName": "patho_niv1",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_PATHO_NIV1",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "top",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_TOP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "cla_age_5",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CLA_AGE_5",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "sexe",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SEXE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "niveau_prioritaire",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NIVEAU_PRIORITAIRE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "libelle_classe_age",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_LIBELLE_CLASSE_AGE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "tri",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_TRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "prev",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_PREV",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        }
+    ]
 }

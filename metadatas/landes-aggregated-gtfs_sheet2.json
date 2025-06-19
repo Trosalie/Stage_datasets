@@ -29,6 +29,26 @@
             "dataType": "Temporal",
             "parameterCode": "TEMP_DATE",
             "temporalLevel": "date"
+        },
+        {
+            "dataName": "service_id",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SERVICE_ID",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "exception_type",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EXCEPTION_TYPE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

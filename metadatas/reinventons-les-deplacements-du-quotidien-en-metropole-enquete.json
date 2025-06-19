@@ -142,6 +142,96 @@
             "dataType": "Temporal",
             "parameterCode": "TEMP_REPONDU_LE",
             "temporalLevel": "date"
+        },
+        {
+            "dataName": "statut_de_l_utilisateur",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_STATUT_DE_L_UTILISATEUR",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "1_pour_vos_deplacements_du_quotidien_comment_vous_deplacez_vous_le_plus_frequemment_votre_mode_princ",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_1_POUR_VOS_DEPLACEMENTS_DU_QUOTIDIEN_COMMENT_VOUS_DEPLACEZ_VOUS_LE_PLUS_FREQUEMMENT_VOTRE_MODE_PRINC",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "3_pour_vos_deplacements_du_quotidien_vous_arrive_t_il_egalement_mais_moins_souvent_d_utiliser_un_aut",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_3_POUR_VOS_DEPLACEMENTS_DU_QUOTIDIEN_VOUS_ARRIVE_T_IL_EGALEMENT_MAIS_MOINS_SOUVENT_D_UTILISER_UN_AUT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "4_avez_vous_deja_envisage_d_utiliser_differemment_la_voiture_ou_de_vous_deplacez_autrement_meme_occa",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_4_AVEZ_VOUS_DEJA_ENVISAGE_D_UTILISER_DIFFEREMMENT_LA_VOITURE_OU_DE_VOUS_DEPLACEZ_AUTREMENT_MEME_OCCA",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "10_selon_vous_un_accompagnement_specifique_pour_inciter_au_changement_des_habitudes_de_mobilite",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_10_SELON_VOUS_UN_ACCOMPAGNEMENT_SPECIFIQUE_POUR_INCITER_AU_CHANGEMENT_DES_HABITUDES_DE_MOBILITE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "11_selon_vous_quels_sont_les_lieux_ou_les_structures_les_plus_a_meme_de_proposer_un_accompagnement_p",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_11_SELON_VOUS_QUELS_SONT_LES_LIEUX_OU_LES_STRUCTURES_LES_PLUS_A_MEME_DE_PROPOSER_UN_ACCOMPAGNEMENT_P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "12_selon_vous_y_a_t_il_des_moments_des_etapes_de_la_vie_plus_propices_pour_etre_accompagne_etre_cons",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_12_SELON_VOUS_Y_A_T_IL_DES_MOMENTS_DES_ETAPES_DE_LA_VIE_PLUS_PROPICES_POUR_ETRE_ACCOMPAGNE_ETRE_CONS",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "17_profil_je_suis",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_17_PROFIL_JE_SUIS",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "19_je_travaille_ou_j_etudie_dans_la_metropole_europeenne_de_lille",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_19_JE_TRAVAILLE_OU_J_ETUDIE_DANS_LA_METROPOLE_EUROPEENNE_DE_LILLE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

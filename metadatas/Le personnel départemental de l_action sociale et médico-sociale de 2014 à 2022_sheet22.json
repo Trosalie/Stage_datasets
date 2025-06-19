@@ -129,6 +129,13 @@
     },
     "data_content": [
         {
+            "dataName": "Numéro de département",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_NUMÉRO_DE_DÉPARTEMENT",
+            "spatialLevel": "departements"
+        },
+        {
             "dataName": "Département",
             "dataDescription": null,
             "dataType": "Spatial",
@@ -141,6 +148,36 @@
             "dataType": "Temporal",
             "parameterCode": "TEMP_ENTÊTES",
             "temporalLevel": "annee"
+        },
+        {
+            "dataName": "2017",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_2017",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "2018",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_2018",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "2019",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_2019",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

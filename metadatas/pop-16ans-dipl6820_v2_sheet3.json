@@ -130,6 +130,16 @@
             "dataType": "Spatial",
             "parameterCode": "SPAT_LIBELLE22",
             "spatialLevel": "departements"
+        },
+        {
+            "dataName": "RR22",
+            "dataDescription": "Région",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RR22",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

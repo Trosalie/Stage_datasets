@@ -62,6 +62,13 @@
     },
     "data_content": [
         {
+            "dataName": "commune",
+            "dataDescription": null,
+            "dataType": "Spatial",
+            "parameterCode": "SPAT_COMMUNE",
+            "spatialLevel": "communes"
+        },
+        {
             "dataName": "geo_point",
             "dataDescription": null,
             "dataType": "Spatial",
@@ -69,11 +76,64 @@
             "spatialLevel": "geopoints"
         },
         {
-            "dataName": "commune",
+            "dataName": "pole",
             "dataDescription": null,
-            "dataType": "Spatial",
-            "parameterCode": "SPAT_COMMUNE",
-            "spatialLevel": "communes"
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_POLE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "niv_handicap_general",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NIV_HANDICAP_GENERAL",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "niv_handicap_moteur",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NIV_HANDICAP_MOTEUR",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "niv_handicap_visuel",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NIV_HANDICAP_VISUEL",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "lateralite",
+            "dataDescription": null,
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_LATERALITE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "longueur_m",
+            "dataDescription": null,
+            "dataType": "Quantitative",
+            "indicatorCode": "QUAN_LONGUEUR_M",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

@@ -22,5 +22,26 @@
         "themeCode": null,
         "themeDescription": null
     },
-    "data_content": []
+    "data_content": [
+        {
+            "dataName": "SOURCE",
+            "dataDescription": "APPROCHE",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_SOURCE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "APPROCHE",
+            "dataDescription": "",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_APPROCHE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        }
+    ]
 }

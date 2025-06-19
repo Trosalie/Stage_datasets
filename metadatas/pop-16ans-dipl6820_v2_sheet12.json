@@ -35380,6 +35380,266 @@
             "dataType": "Spatial",
             "parameterCode": "SPAT_LIBELLE",
             "spatialLevel": "communes"
+        },
+        {
+            "dataName": "RR",
+            "dataDescription": "Région  en géographie courante",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RR",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DR",
+            "dataDescription": "Département en géographie courante",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DR",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CR",
+            "dataDescription": "Commune en géographie courante",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CR",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "STABLE",
+            "dataDescription": "Indicateur de stabilité de la commune",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_STABLE",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DR22",
+            "dataDescription": "Département en géographie 2022",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DR22",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec0s1age2_rec1rpop1982",
+            "dataDescription": "Aucun diplôme Hommes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC0S1AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec0s2age2_rec1rpop1982",
+            "dataDescription": "Aucun diplôme Femmes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC0S2AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec1s1age2_rec1rpop1982",
+            "dataDescription": "Diplôme de niveau CEP Hommes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC1S1AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec1s2age2_rec1rpop1982",
+            "dataDescription": "Diplôme de niveau CEP Femmes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC1S2AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec2s1age2_rec1rpop1982",
+            "dataDescription": "Diplôme de niveau BEPC Hommes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC2S1AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec2s1age2_rec2rpop1982",
+            "dataDescription": "Diplôme de niveau BEPC Hommes 25 ans ou plus RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC2S1AGE2_REC2RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec2s2age2_rec1rpop1982",
+            "dataDescription": "Diplôme de niveau BEPC Femmes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC2S2AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec2s2age2_rec2rpop1982",
+            "dataDescription": "Diplôme de niveau BEPC Femmes 25 ans ou plus RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC2S2AGE2_REC2RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec3s1age2_rec1rpop1982",
+            "dataDescription": "Diplôme de niveau CAP-BEP Hommes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC3S1AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec3s2age2_rec1rpop1982",
+            "dataDescription": "Diplôme de niveau CAP-BEP Femmes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC3S2AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec4s1age2_rec1rpop1982",
+            "dataDescription": "Diplôme de niveau bac général ou technique Hommes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC4S1AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec4s2age2_rec1rpop1982",
+            "dataDescription": "Diplôme de niveau bac général ou technique Femmes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC4S2AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec4s2age2_rec2rpop1982",
+            "dataDescription": "Diplôme de niveau bac général ou technique Femmes 25 ans ou plus RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC4S2AGE2_REC2RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec5s1age2_rec1rpop1982",
+            "dataDescription": "Diplôme universitaire de 1er cycle Hommes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC5S1AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec5s1age2_rec2rpop1982",
+            "dataDescription": "Diplôme universitaire de 1er cycle Hommes 25 ans ou plus RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC5S1AGE2_REC2RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec5s2age2_rec1rpop1982",
+            "dataDescription": "Diplôme universitaire de 1er cycle Femmes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC5S2AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec5s2age2_rec2rpop1982",
+            "dataDescription": "Diplôme universitaire de 1er cycle Femmes 25 ans ou plus RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC5S2AGE2_REC2RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec6s1age2_rec1rpop1982",
+            "dataDescription": "Diplôme universitaire de 2ème ou 3ème cycle Hommes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC6S1AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec6s1age2_rec2rpop1982",
+            "dataDescription": "Diplôme universitaire de 2ème ou 3ème cycle Hommes 25 ans ou plus RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC6S1AGE2_REC2RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec6s2age2_rec1rpop1982",
+            "dataDescription": "Diplôme universitaire de 2ème ou 3ème cycle Femmes 16 à 24 ans RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC6S2AGE2_REC1RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec6s2age2_rec2rpop1982",
+            "dataDescription": "Diplôme universitaire de 2ème ou 3ème cycle Femmes 25 ans ou plus RP1982",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_DPX_REC6S2AGE2_REC2RPOP1982",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

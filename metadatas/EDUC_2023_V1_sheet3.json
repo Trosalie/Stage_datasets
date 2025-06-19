@@ -417,6 +417,576 @@
             "dataType": "Spatial",
             "parameterCode": "SPAT_CODGEO",
             "spatialLevel": "epci"
+        },
+        {
+            "dataName": "EC_MAT",
+            "dataDescription": "Écoles maternelles",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EC_MAT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EC_MAT_REP",
+            "dataDescription": "Écoles maternelles en REP",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EC_MAT_REP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EC_MAT_REP_P",
+            "dataDescription": "Écoles maternelles en REP plus",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EC_MAT_REP_P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EC_MAT_PRI",
+            "dataDescription": "Écoles maternelles privées",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EC_MAT_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EC_ELEM",
+            "dataDescription": "Écoles élémentaires",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EC_ELEM",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EC_ELEM_REP",
+            "dataDescription": "Écoles élémentaires en REP",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EC_ELEM_REP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EC_ELEM_REP_P",
+            "dataDescription": "Écoles élémentaires en REP plus",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EC_ELEM_REP_P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EC_ELEM_PRI",
+            "dataDescription": "Écoles élémentaires privées",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EC_ELEM_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EC_PRI",
+            "dataDescription": "Écoles primaires",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EC_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EC_PRI_REP",
+            "dataDescription": "Écoles primaires en REP",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EC_PRI_REP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EC_PRI_REP_P",
+            "dataDescription": "Écoles primaires en REP plus",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EC_PRI_REP_P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EC_PRI_PRI",
+            "dataDescription": "Écoles primaires privées",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EC_PRI_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COLL",
+            "dataDescription": "Collèges",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_COLL",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COLL_REP",
+            "dataDescription": "Collèges en REP",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_COLL_REP",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COLL_REP_P",
+            "dataDescription": "Collèges en REP plus",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_COLL_REP_P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COLL_PRI",
+            "dataDescription": "Collèges privés",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_COLL_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PRI",
+            "dataDescription": "Nombre de réussites au brevet - établissements privés",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PRI_F",
+            "dataDescription": "Nombre de réussites des filles au brevet - établissements privés",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_PRI_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PRI_H",
+            "dataDescription": "Nombre de réussites des garçons au brevet - établissements privés",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_PRI_H",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PRI_P_H",
+            "dataDescription": "Nombre de réussites au brevet des garçons - établissements privés -  série professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_PRI_P_H",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PRI_P_F",
+            "dataDescription": "Nombre de réussites au brevet des filles - établissements privés -  série professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_PRI_P_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_P_PRI",
+            "dataDescription": "Nombre de réussites au brevet - établissements privés -  série professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_P_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PRI_P_H",
+            "dataDescription": "Nombre de garçons présentés au brevet - établissements privés -  série professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_DNB_PRI_P_H",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PRI_P_F",
+            "dataDescription": "Nombre de filles présentées au brevet - établissements privés -  série professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_DNB_PRI_P_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_P_PRI",
+            "dataDescription": "Nombre de présentés au brevet - établissements privés -  série professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_DNB_P_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PRI_G_H",
+            "dataDescription": "Nombre de réussites au brevet des garçons - établissements privés -  série générale",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_PRI_G_H",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PRI_G_F",
+            "dataDescription": "Nombre de réussites au brevet des filles - établissements privés -  série générale",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_PRI_G_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_G_PRI",
+            "dataDescription": "Nombre de réussites au brevet - établissements privés -  série générale",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_G_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PRI_G_H",
+            "dataDescription": "Nombre de garçons présentés au brevet - établissements privés -  série générale",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_DNB_PRI_G_H",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PRI_G_F",
+            "dataDescription": "Nombre de filles présentées au brevet - établissements privés -  série générale",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_DNB_PRI_G_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_G_PRI",
+            "dataDescription": "Nombre de présentés au brevet - établissements privés -  série générale",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_DNB_G_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PUB_P_H",
+            "dataDescription": "Nombre de réussites au brevet des garçons - établissements publics -  série professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_PUB_P_H",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PUB_P_F",
+            "dataDescription": "Nombre de réussites au brevet des filles - établissements publics -  série professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_PUB_P_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_P_PUB",
+            "dataDescription": "Nombre de réussites au brevet - établissements publics -  série professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_P_PUB",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PUB_P_H",
+            "dataDescription": "Nombre de garçons présentés au brevet - établissements publics -  série professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_DNB_PUB_P_H",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PUB_P_F",
+            "dataDescription": "Nombre de filles présentées au brevet - établissements publics -  série professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_DNB_PUB_P_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_P_PUB",
+            "dataDescription": "Nombre de présentés au brevet - établissements publics -  série professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_DNB_P_PUB",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PUB_G_H",
+            "dataDescription": "Nombre de réussites au brevet des garçons - établissements publics -  série générale",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_PUB_G_H",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PUB_G_F",
+            "dataDescription": "Nombre de réussites au brevet des filles - établissements publics -  série générale",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_REU_DNB_PUB_G_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "LYC",
+            "dataDescription": "Lycées",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_LYC",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "LYC_GT",
+            "dataDescription": "Lycées généraux ou technologiques",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_LYC_GT",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "LYC_GT_PRI",
+            "dataDescription": "Lycées généraux ou technologiques privés",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_LYC_GT_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "LYC_PRO",
+            "dataDescription": "Lycées professionnels",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_LYC_PRO",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "LYC_PRO_PRI",
+            "dataDescription": "Lycées professionnels privés",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_LYC_PRO_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CFA",
+            "dataDescription": "Centres de formation d'apprentis",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CFA",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CFA_PRI",
+            "dataDescription": "Centres de formation d'apprentis privés",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_CFA_PRI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "B2_CAP2",
+            "dataDescription": "Élèves en seconde année de CAP",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_B2_CAP2",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "B2_AUTR",
+            "dataDescription": "Élèves dans une autre formation (hors redoublements)",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_B2_AUTR",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "B2_RET",
+            "dataDescription": "Élèves ayant redoublé un an après la 3e",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_B2_RET",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NOTE_BASE_ETABLI",
+            "dataDescription": "Note de diffusion approche établissement",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOTE_BASE_ETABLI",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_COLSEG_REP_P",
+            "dataDescription": "Élèves scolarisés dans une formation au collège en REP+ y compris UPE2A, ULIS, SEGPA, 3e prépa métiers",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_EFF_COLSEG_REP_P",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E6_F",
+            "dataDescription": "Retards des filles en 6e hors UPE2A, ULIS, SEGPA",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E6_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E3_F",
+            "dataDescription": "Retards des filles en 3e hors UPE2A, ULIS, SEGPA, 3e prépa métiers",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E3_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E2_GT_F",
+            "dataDescription": "Retards des filles en 2de générale ou technologique",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E2_GT_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E2_PRO_F",
+            "dataDescription": "Retards des filles en 2de professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E2_PRO_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E0_PRO_F",
+            "dataDescription": "Retards des filles en terminale professionnelle",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_RET_E0_PRO_F",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NOTE_BASE_ELEVES",
+            "dataDescription": "Note de diffusion approche élève",
+            "dataType": "Qualitative",
+            "indicatorCode": "QUAL_NOTE_BASE_ELEVES",
+            "related_parameter": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }
