@@ -28,6 +28,11 @@ listeRegexTemporel = [[regexDate, 'date'], [regexAnnee, 'annee'], [regexTrim, 't
 # %%
 # Récupérer la liste des datasets
 def getFiles(origine='Opendata'):
+    """
+    Récupère la liste des fichiers CSV et XLSX dans le répertoire spécifié.
+    Retourne une liste triée de chemins de fichiers.
+    """
+    
     fichiers = []
 
     for dossier in os.walk(origine):
@@ -43,6 +48,10 @@ listeDatasets = getFiles()
 # Fonctions utiles
 
 def remplacerAccents(listeValeurs):
+    """
+    Remplace les accents dans une liste de valeurs par les lettres correspondantes sans accent.
+    """
+    
     accents_remplacement = [
         (r'[éèêë]', 'e'),
         (r'[àâä]', 'a'),
@@ -57,6 +66,11 @@ def remplacerAccents(listeValeurs):
     return listeValeurs
 
 def obtenirDataframeXLSX(df):
+    """
+    Lit un fichier XLSX et traite le DataFrame pour identifier la ligne où commence le dataset.
+    Retourne un DataFrame pandas formaté.
+    """
+
     # Vérifier si le DataFrame est vide ou ne contient pas de données valides
     if df.empty:
         raise ValueError("Le DataFrame est vide ou ne contient pas de données valides.")
@@ -123,6 +137,11 @@ def obtenirDataframeXLSX(df):
     return df
 
 def obtenirDataframeCSV(dataset):
+    """
+    Lit un fichier CSV et détermine le séparateur utilisé (virgule ou point-virgule).
+    Retourne un DataFrame pandas.
+    """
+
     # Lire la première ligne du fichier CSV pour déterminer le séparateur
     with open(dataset, 'r', encoding='utf-8') as f:
         ligne = f.readline()
@@ -143,7 +162,11 @@ def obtenirDataframeCSV(dataset):
     
     return df
 
-def chercherAttribtusDansEntetes(listeEntetes, listeAttributsRetenus=None):
+def chercherAttributsDansEntetes(listeEntetes, listeAttributsRetenus=None):
+    """
+    Cherche les attributs dans les entêtes de colonnes et retourne une liste d'attributs retenus.
+    """
+
     if listeAttributsRetenus is None:
         listeAttributsRetenus = []
 
@@ -152,7 +175,8 @@ def chercherAttribtusDansEntetes(listeEntetes, listeAttributsRetenus=None):
         "geopoint": ["geopoint", "lat-long", "latlon", "lattitude", "longitude", "adresse"],
         "iris": ["iris", "code iris", "iris code", "iris code insee"],
         "commune": ["code postal", "code postaux", "postal", "code postal insee", "insee code postal", "commune"],
-        "quartier": ["quartier prioritaire", "quartiers prioritaires", "code qp", "qp code", "quartier", "quartiers", "code quartier", "quartier code", "quartier code insee"],
+        "quartier": ["quartier prioritaire", "quartiers prioritaires", "code qp", "qp code", "quartier", "quartiers", 
+                     "code quartier", "quartier code", "quartier code insee"],
         "epci": ["epci", "epci code", "code epci", "epci code insee"],
         "departement": ["departement", "departements", "code departement", "departement code", "departement code insee"],
         "region": ["region", "regions", "code region", "region code", "region code insee"],
@@ -190,7 +214,12 @@ def chercherAttribtusDansEntetes(listeEntetes, listeAttributsRetenus=None):
     return listeAttributsRetenus
 
 def estGeopoint(cell):
-    cell = str(cell).strip()
+    """
+    Vérifie si une cellule contient un point géographique (latitude, longitude).
+    Retourne un tuple (booléen, granularité) où booléen indique si c'est un geopoint
+    et granularité est le type de donnée.
+    """
+
     match = re.match(r'^(-?\d+(?:\.\d+)?)[,; ]\s*(-?\d+(?:\.\d+)?)$', cell)
     
     if match:
@@ -203,6 +232,11 @@ def estGeopoint(cell):
     return [False, None]
 
 def estSpatial(cell):
+    """
+    Vérifie si une cellule contient une information spatiale.
+    Retourne un tuple (booléen, granularité) où booléen indique 
+    si c'est spatial et granularité est le type de donnée.
+    """
     cell = str(cell).lower()
     infoGeopoint = estGeopoint(cell)
     if infoGeopoint[0]:
@@ -215,28 +249,28 @@ def estSpatial(cell):
     return [False, None]
 
 def estTemporel(cell):
-    if not isinstance(cell, str):
-        cell = str(cell)
+    """
+    Vérifie si une cellule contient une information temporelle.
+    Retourne un tuple (booléen, granularité) où booléen indique 
+    si c'est temporel et granularité est le type de donnée.
+    """
+
     for regex, label in listeRegexTemporel:
         if re.match(regex, cell):
             return [True, label]
-    if cell.lower() in ['janvier', 'fevrier', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'decembre']:
+        
+    if cell in ['janvier', 'fevrier', 'mars', 'avril', 
+                'mai', 'juin', 'juillet', 'aout', 'septembre', 
+                'octobre', 'novembre', 'decembre']:
+        
         return [True, 'mois']
+    
     return [False, None]
 
-def recupererAttributsQualitatifs(headers, df, listeEntetesRetenues, listeAttributsRetenus):
+def recupererAttributsQualitatifs(headers, df, listeEntetesRetenues):
     """
     Identifie les colonnes contenant des attributs qualitatifs (catégoriels),
     incluant les index numériques et les jours du mois.
-    
-    Args:
-        headers: Liste des en-têtes de colonnes
-        df: DataFrame pandas à analyser
-        liste_attributs_spatiaux: Dictionnaire des attributs spatiaux identifiés
-        liste_attributs_temporels: Dictionnaire des attributs temporels identifiés
-        
-    Returns:
-        Une liste des attributs qualitatifs identifiés
     """
     n_rows = min(100, df.shape[0])
     liste_attributs_qualitatifs = []
@@ -310,20 +344,12 @@ def recupererAttributsQualitatifs(headers, df, listeEntetesRetenues, listeAttrib
                 
     return liste_attributs_qualitatifs
 
-def recupererAttributsQuantitatifs(headers, df, listeEntetesRetenues, listeAttributsRetenus):
+def recupererAttributsQuantitatifs(headers, df, listeEntetesRetenues):
     """
     Identifie les colonnes contenant des attributs quantitatifs (numériques continus).
     Distingue entre variables quantitatives et identifiants/index numériques.
-    
-    Args:
-        headers: Liste des en-têtes de colonnes
-        df: DataFrame pandas à analyser
-        listeEntetesRetenues: Liste des en-têtes retenues
-        listeAttributsRetenus: Liste des attributs retenus
-
-    Returns:
-        Une version complétée de listeAttributsRetenus et listeEntetesRetenues avec les attributs quantitatifs identifiés.
     """
+
     n_rows = min(100, len(df))  # Analyse un échantillon représentatif
     liste_attributs_quantitatifs = []
     
@@ -376,25 +402,194 @@ def recupererAttributsQuantitatifs(headers, df, listeEntetesRetenues, listeAttri
     
     return liste_attributs_quantitatifs
 
-def traiterDataframe(df):
-
+def extraireGranularites(listeAttributs):
     """
-    etapes a suivre :
-        - Chercher les granularités dans les entêtes de colonne
-        - Les enregistrer dans une liste [[nom_colonne, granularité, type]]
-        - Parcourir les valeurs et classer en conséquence dans la liste (Temporel, Spatial, Qualitatif, Quantitatif)
-        - Enregistrer avec la classe UML
+    Extrait les granularités spatiales et temporelles les plus fines à partir de la liste des attributs.
+    """
+    spatialGranularity = None
+    temporalGranularity = None
+
+    # Récupérer les granularités spatiales et temporelles
+    listeGranularitesSpatiales = [attr[1] for attr in listeAttributs if attr[2] == 'spatial']
+    listeGranularitesTemporelles = [attr[1] for attr in listeAttributs if attr[2] == 'temporel']
+
+    # Récupérer la granularité spatiale la plus fine
+    # Vérifier si la liste n'est pas vide
+    if listeGranularitesSpatiales:
+        granularitesSpatialesHierarchisees = sorted(listeGranularitesSpatiales, key=lambda x: listeChampsSpatiauxHierarchises.index(x) if x in listeChampsSpatiauxHierarchises else len(listeChampsSpatiauxHierarchises))
+        spatialGranularity = granularitesSpatialesHierarchisees[0] if granularitesSpatialesHierarchisees else None
+    else :
+        spatialGranularity = None
+
+    # Récupérer la granularité temporelle la plus fine
+    if listeGranularitesTemporelles:
+        granularitesTemporellesHierarchisees = sorted(listeGranularitesTemporelles, key=lambda x: listeChampsTemporelsHierarchises.index(x) if x in listeChampsTemporelsHierarchises else len(listeChampsTemporelsHierarchises))
+        temporalGranularity = granularitesTemporellesHierarchisees[0] if granularitesTemporellesHierarchisees else None
+    else :
+        temporalGranularity = None
+
+    return spatialGranularity, temporalGranularity 
+
+def extraireSpatialScope(df, listeAttributs):
+    """
+    Extrait la portée spatiale du DataFrame en fonction des attributs spatiaux.
+    """
+
+    # Récupérer la granularité la plus large
+    spatialScopeLevel = None
+    listeGranularitesSpatiales = [attr[1] for attr in listeAttributs if attr[2] == 'spatial']
+    if listeGranularitesSpatiales:
+        granularitesSpatialesHierarchisees = sorted(listeGranularitesSpatiales, key=lambda x: listeChampsSpatiauxHierarchises.index(x) if x in listeChampsSpatiauxHierarchises else len(listeChampsSpatiauxHierarchises))
+        spatialScopeLevel = granularitesSpatialesHierarchisees[-1] if granularitesSpatialesHierarchisees else None
+    else:
+        return uml.DS_Spatial_Scope(None, None)
+    
+    # Récupérer les valeurs uniques de l'attribut spatial
+    spatialScope = df[spatialScopeLevel].dropna().unique().tolist()
+
+    return uml.DS_Spatial_Scope(spatialScopeLevel, spatialScope)
+
+def extraireTemporalScope(df, listeAttributs):
+    """ 
+    Extrait la portée temporelle du DataFrame en fonction des attributs temporels.
+    """
+
+    # Récupérer la granularité la plus large
+    temporalScopeLevel = None
+    listeGranularitesTemporelles = [attr[1] for attr in listeAttributs if attr[2] == 'temporel']
+    if listeGranularitesTemporelles:
+        granularitesTemporellesHierarchisees = sorted(listeGranularitesTemporelles, key=lambda x: listeChampsTemporelsHierarchises.index(x) if x in listeChampsTemporelsHierarchises else len(listeChampsTemporelsHierarchises))
+        temporalScopeLevel = granularitesTemporellesHierarchisees[-1] if granularitesTemporellesHierarchisees else None
+    else:
+        return uml.DS_Temporal_Scope(None, None)
+    
+    # Récupérer la première et la dernière valeur de l'attribut temporel
+    if temporalScopeLevel:
+        temporalScope = df[temporalScopeLevel].dropna().unique().tolist()
+        # ranger les valeurs temporelles dans l'ordre chronologique
+        # convertir toutes les valeurs en chaines de caractères
+        temporalScope = sorted([str(x) for x in temporalScope if isinstance(x, (int, float, str))])
+                
+        temporalScopeStart = temporalScope[0]
+        temporalScopeEnd = temporalScope[-1]
+    else :
+        return uml.DS_Temporal_Scope(None, None, None)
+    
+    return uml.DS_Temporal_Scope(temporalScopeLevel, temporalScopeStart, temporalScopeEnd)
+
+def creerDataContent(listeAttributs, listeAttributsQualitatifs, listeAttributsQuantitatifs):
+    """
+    Crée le contenu des données pour la classe UML à partir des attributs identifiés.
+    """
+
+    # Initialiser la liste de contenu des données
+    data_content = []
+    listeAttributsSpatiaux = []
+    listeAttributsTemporels = []
+    listeQualitatifs = []
+    listeQuantitatifs = []
+
+    # Parcourir les attributs pour les classer une liste [[nom_colonne, granularité, type]]
+    for attr in listeAttributs:
+        match attr[2] :
+            case 'spatial':
+                dataName = attr[0]
+                dataDescription = None  # description non traitée par le script
+                dataType = attr[2]
+                parameterCode = f"SPAT_{attr[1].upper().replace(' ', '_')}"
+                spatialLevel = attr[1]
+
+                listeAttributsSpatiaux.append(uml.Spatial_Parameter(dataName, dataDescription, dataType, parameterCode, spatialLevel))
+            
+            case 'temporel':
+                dataName = attr[0]
+                dataDescription = None  # description non traitée par le script
+                dataType = attr[2]
+                parameterCode = f"TEMP_{attr[1].upper().replace(' ', '_')}"
+                temporalLevel = attr[1]
+
+                listeAttributsTemporels.append(uml.Temporal_Parameter(dataName, dataDescription, dataType, parameterCode, temporalLevel))
+
+    for attr in listeAttributsQualitatifs:
+        dataName = attr
+        dataDescription = dictionnaireReference[attr] if attr in dictionnaireReference.keys() else None
+        dataType = "Qualitative"
+        parameterCode = "QUAL_" + attr.replace(" ", "_").upper()
+        qualitativeParam = uml.Existing_Indicator(dataName, dataDescription, dataType, parameterCode, uml.Theme(None, None))
+        listeQualitatifs.append(qualitativeParam)
+
+    for attr in listeAttributsQuantitatifs:
+        dataName = attr
+        dataDescription = dictionnaireReference[attr] if attr in dictionnaireReference.keys() else None
+        dataType = "Quantitative"
+        parameterCode = "QUAN_" + attr.replace(" ", "_").upper()
+        quantitativeParam = uml.Existing_Indicator(dataName, dataDescription, dataType, parameterCode, uml.Theme(None, None))
+        listeQuantitatifs.append(quantitativeParam)
+
+    # Ajouter les attributs spatiaux, temporels, qualitatifs et quantitatifs à la liste de contenu des données
+    data_content.extend(listeAttributsSpatiaux)
+    data_content.extend(listeAttributsTemporels)
+    data_content.extend(listeQualitatifs)
+    data_content.extend(listeQuantitatifs)
+
+    return data_content
+
+def creerClasseUML(df, nomFichier, extension, listeAttributs, listeAttributsQualitatifs, listeAttributsQuantitatifs):
+    """
+    Crée une classe UML à partir des informations extraites du DataFrame.
+    """
+
+    # Création des variables pour la classe UML
+    title = nomFichier
+    description = None # description non traitée par le script
+    dataFormat = None # dataFormat non traitée par le script
+    fileType = extension
+    updateFrequency = None # updateFrequency non traitée par le script
+    sourceName = None # sourceName non traitée par le script
+    sourceType = None # sourceType non traitée par le script
+    sourceAddress = None # sourceAddress non traitée par le script
+    spatialGranilarity, temporalGranilarity = extraireGranularites(listeAttributs)
+    spatialScope = extraireSpatialScope(df, listeAttributs)
+    temporalScope = extraireTemporalScope(df, listeAttributs)
+    theme = uml.Theme(None, None) # theme non traitée par le script
+    data_content = creerDataContent(listeAttributs, listeAttributsQualitatifs, listeAttributsQuantitatifs)
+
+    # Création de la classe UML
+    dataframeUML = uml.Dataset(
+        title=title,
+        description=description,
+        dataFormat=dataFormat,
+        fileType=fileType,
+        updateFrequency=updateFrequency,
+        sourceName=sourceName,
+        sourceType=sourceType,
+        sourceAddress=sourceAddress,
+        spatialGranularity=spatialGranilarity,
+        temporalGranularity=temporalGranilarity,
+        spatialScope=spatialScope,
+        temporalScope=temporalScope,
+        theme=theme,
+        data_content=data_content
+    )
+
+    return dataframeUML
+
+def traiterDataframe(df, nomFichier, extension):
+    """
+    Traite un DataFrame pour identifier les attributs spatiaux, temporels, qualitatifs et quantitatifs,
+    et crée une classe UML à partir des informations extraites.
     """
 
     # Parcours des entêtes de colonnes
     listeEntetes = df.columns.tolist()
-    listeAttributsRetenus = chercherAttribtusDansEntetes(remplacerAccents(listeEntetes))
+    listeAttributsRetenus = chercherAttributsDansEntetes(remplacerAccents(listeEntetes))
     listeEntetesRetenues = []
 
     # Parcours des cellules du DataFrame
-    df_sample = df.sample(n=min(100, len(df)), random_state=42)  # Prendre un échantillon de 100 lignes ou moins si le DataFrame est plus petit
+    df_sample = df.sample(n=min(200, len(df)), random_state=42)  # Prendre un échantillon de 200 
+                                                                 # lignes ou moins si le DataFrame est plus petit
     
-    for index, row in df_sample.iterrows():
+    for _, row in df_sample.iterrows():
         for col in row.index:
             cell = row[col]
 
@@ -407,6 +602,7 @@ def traiterDataframe(df):
             infoSpatial = estSpatial(cell)
             if infoSpatial[0]:
                 # Enregistrer l'attribut dans la liste
+
                 listeEntetesRetenues.append(col)
                 listeAttributsRetenus.append({
                     "nom_attribut": col,
@@ -426,9 +622,17 @@ def traiterDataframe(df):
                     "type_donnee": "temporel"
                 })
                 continue
+            
+    # Récupérer les attributs qualitatifs et quantitatifs
+    listeAttributsQualitatifs = recupererAttributsQualitatifs(listeEntetes, df, listeEntetesRetenues)
+    listeAttributsQuantitatifs = recupererAttributsQuantitatifs(listeEntetes, df, listeEntetesRetenues)
     
-    # Verifier les colonnes de type qualitatives et quantitatives
-    
+    # Créer et enregistrer la classe UML en format JSON
+    dataframeUML = creerClasseUML(df, nomFichier, extension, listeAttributsRetenus, 
+                                  listeAttributsQualitatifs, listeAttributsQuantitatifs)
+    nomDfJson = f"metadatas/{nomFichier}_uml.json"
+    dataframeUML.save_to_json(nomDfJson)
+
     return
 
 # %%
@@ -454,6 +658,7 @@ for dataset in listeDatasets:
             case 'xlsx':
                 try :
                     for indexFeuille, nomFeuille in enumerate(pd.ExcelFile(dataset).sheet_names):
+                        # Ignorer les feuilles qui ne sont pas pertinentes
                         if any(x in nomFeuille.lower() for x in ['variable', 'documentation', 'description', 'presentation', 'présentation']):
                             continue
                         df = pd.read_excel(dataset, sheet_name=nomFeuille, engine='openpyxl', header=None)
@@ -471,7 +676,7 @@ for dataset in listeDatasets:
         # Analyser les DataFrames
         for df, nomDf in listeDataframe:
             try:
-                traiterDataframe(df)
+                traiterDataframe(df, nomDf, extension)
             except Exception as e:
                 print(f"Erreur lors du traitement du DataFrame {nomDf[:20]} : {e}")
                 continue
