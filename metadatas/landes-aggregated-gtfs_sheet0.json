@@ -42,6 +42,72 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "agency_name",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_AGENCY_NAME",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "agency_url",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_AGENCY_URL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "agency_lang",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_AGENCY_LANG",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "agency_phone",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_AGENCY_PHONE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "agency_fare_url",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_AGENCY_FARE_URL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "agency_email",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_AGENCY_EMAIL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

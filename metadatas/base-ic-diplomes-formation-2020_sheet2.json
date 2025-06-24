@@ -132,6 +132,17 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "VAR_LIB",
+            "dataDescription": "VAR_LIB_LONG",
+            "dataType": "Autre",
+            "ciCode": "CI_VAR_LIB",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

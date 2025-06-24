@@ -35620,6 +35620,61 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "dpx_rec0s1age2_rec2rpop1975",
+            "dataDescription": "Aucun diplôme Hommes 25 ans ou plus RP1975",
+            "dataType": "Autre",
+            "ciCode": "CI_DPX_REC0S1AGE2_REC2RPOP1975",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec0s2age2_rec2rpop1975",
+            "dataDescription": "Aucun diplôme Femmes 25 ans ou plus RP1975",
+            "dataType": "Autre",
+            "ciCode": "CI_DPX_REC0S2AGE2_REC2RPOP1975",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec1s1age2_rec2rpop1975",
+            "dataDescription": "Diplôme de niveau CEP Hommes 25 ans ou plus RP1975",
+            "dataType": "Autre",
+            "ciCode": "CI_DPX_REC1S1AGE2_REC2RPOP1975",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec1s2age2_rec2rpop1975",
+            "dataDescription": "Diplôme de niveau CEP Femmes 25 ans ou plus RP1975",
+            "dataType": "Autre",
+            "ciCode": "CI_DPX_REC1S2AGE2_REC2RPOP1975",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dpx_rec3s1age2_rec2rpop1975",
+            "dataDescription": "Diplôme de niveau CAP-BEP Hommes 25 ans ou plus RP1975",
+            "dataType": "Autre",
+            "ciCode": "CI_DPX_REC3S1AGE2_REC2RPOP1975",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

@@ -122,6 +122,50 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "Geo Shape",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_GEO_SHAPE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "equipement",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_EQUIPEMENT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "numero_rue",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NUMERO_RUE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "nom_rue",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOM_RUE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

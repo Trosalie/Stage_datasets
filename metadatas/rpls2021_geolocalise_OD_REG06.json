@@ -309,6 +309,468 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "NUMVOIE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NUMVOIE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "INDREP",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_INDREP",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "TYPVOIE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TYPVOIE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NUMAPPT",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NUMAPPT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NUMBOITE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NUMBOITE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "ESC",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ESC",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COULOIR",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_COULOIR",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COMPLIDENT",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_COMPLIDENT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "LIEUDIT",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_LIEUDIT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "SURFHAB",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_SURFHAB",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NUMCONV",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NUMCONV",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DATCONV",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_DATCONV",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NEWLOGT",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NEWLOGT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CUS",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_CUS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DPEENERGIE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_DPEENERGIE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DPESERRE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_DPESERRE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "SRU_EXPIR",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_SRU_EXPIR",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "SRU_ALINEA",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_SRU_ALINEA",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CODSEGPATRIM",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_CODSEGPATRIM",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "LIBSEGPATRIM",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_LIBSEGPATRIM",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "PLG_VOIE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PLG_VOIE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EPSG",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_EPSG",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "X",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_X",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Y",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_Y",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "PLG_QP",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PLG_QP",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "PLG_ZUS",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PLG_ZUS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "PLG_ZFU",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PLG_ZFU",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "PLG_QVA",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PLG_QVA",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_VOIE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_QUALITE_VOIE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_NUMERO",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_QUALITE_NUMERO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_XY",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_QUALITE_XY",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DISTANCE_PRECISION",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_DISTANCE_PRECISION",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_QP",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_QUALITE_QP",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_ZUS",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_QUALITE_ZUS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_ZFU",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_QUALITE_ZFU",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_QVA",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_QUALITE_QVA",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COMAQP",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_COMAQP",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COMAZUS",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_COMAZUS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COMRIL",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_COMRIL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "UU2020",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_UU2020",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "AAV2020",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_AAV2020",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "ZE2020",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ZE2020",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

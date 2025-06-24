@@ -142,6 +142,17 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "Rééducateurs",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_RÉÉDUCATEURS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

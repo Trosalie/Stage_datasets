@@ -420,6 +420,17 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "DR22",
+            "dataDescription": "Département",
+            "dataType": "Autre",
+            "ciCode": "CI_DR22",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

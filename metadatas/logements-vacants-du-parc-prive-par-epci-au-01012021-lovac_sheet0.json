@@ -165,6 +165,149 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "Nb_log_pp_2020",
+            "dataDescription": "Nombre de logements du parc privé",
+            "dataType": "Autre",
+            "ciCode": "CI_NB_LOG_PP_2020",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_logvac_pp_010119",
+            "dataDescription": "Nombre de logements vacants du parc privé",
+            "dataType": "Autre",
+            "ciCode": "CI_NB_LOGVAC_PP_010119",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_logvac_pp_C_010119",
+            "dataDescription": "Nombre de logements du parc privé vacants depuis moins de deux ans au 01/01/2019",
+            "dataType": "Autre",
+            "ciCode": "CI_NB_LOGVAC_PP_C_010119",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_logvac_2A_010119",
+            "dataDescription": "Nombre de logements du parc privé vacants depuis deux ans ou plus  au 01/01/2019",
+            "dataType": "Autre",
+            "ciCode": "CI_NB_LOGVAC_2A_010119",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_log_pp_2021",
+            "dataDescription": "Nombre de logements du parc privé en 2021",
+            "dataType": "Autre",
+            "ciCode": "CI_NB_LOG_PP_2021",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_logvac_pp_010120",
+            "dataDescription": "Nombre de logements vacants du parc privé au 01/01/2020",
+            "dataType": "Autre",
+            "ciCode": "CI_NB_LOGVAC_PP_010120",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_logvac_pp_C_010120",
+            "dataDescription": "Nombre de logements du parc privé vacants depuis moins de deux ans au 01/01/2020",
+            "dataType": "Autre",
+            "ciCode": "CI_NB_LOGVAC_PP_C_010120",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_logvac_2A_010120",
+            "dataDescription": "Nombre de logements du parc privé vacants depuis deux ans ou plus  au 01/01/2020",
+            "dataType": "Autre",
+            "ciCode": "CI_NB_LOGVAC_2A_010120",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_log_pp_2022",
+            "dataDescription": "Nombre de logements du parc privé en 2022",
+            "dataType": "Autre",
+            "ciCode": "CI_NB_LOG_PP_2022",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_logvac_pp_010121",
+            "dataDescription": "Nombre de logements vacants du parc privé au 01/01/2021",
+            "dataType": "Autre",
+            "ciCode": "CI_NB_LOGVAC_PP_010121",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_logvac_pp_C_010121",
+            "dataDescription": "Nombre de logements du parc privé vacants depuis moins de deux ans au 01/01/2021",
+            "dataType": "Autre",
+            "ciCode": "CI_NB_LOGVAC_PP_C_010121",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nb_logvac_2A_010121",
+            "dataDescription": "Nombre de logements du parc privé vacants depuis deux ans ou plus  au 01/01/2021",
+            "dataType": "Autre",
+            "ciCode": "CI_NB_LOGVAC_2A_010121",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CODE_DEPT",
+            "dataDescription": "Code du département de la commune siège de l'EPCI",
+            "dataType": "Autre",
+            "ciCode": "CI_CODE_DEPT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

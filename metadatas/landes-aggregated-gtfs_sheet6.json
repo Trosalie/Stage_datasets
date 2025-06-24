@@ -72,6 +72,105 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "stop_id",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_STOP_ID",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "stop_code",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_STOP_CODE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "stop_name",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_STOP_NAME",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "stop_desc",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_STOP_DESC",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "zone_id",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ZONE_ID",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "stop_url",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_STOP_URL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "stop_timezone",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_STOP_TIMEZONE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "level_id",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_LEVEL_ID",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "platform_code",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PLATFORM_CODE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

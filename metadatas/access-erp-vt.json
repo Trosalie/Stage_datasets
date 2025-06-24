@@ -330,6 +330,171 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "E.I.",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_E.I.",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EQUIPEMENT (Nom DIB)",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_EQUIPEMENT_(NOM_DIB)",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NOM DE L'ERP CONNU DU PUBLIC",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOM_DE_L'ERP_CONNU_DU_PUBLIC",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Numéro_Rue",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NUMÉRO_RUE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nom_rue",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOM_RUE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Téléphone Accueil public",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TÉLÉPHONE_ACCUEIL_PUBLIC",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "N° ADAP de l'ERP",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_N°_ADAP_DE_L'ERP",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CARTO Balises sonores",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_CARTO_BALISES_SONORES",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CARTO BIM",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_CARTO_BIM",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RPA dématérialisé ",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_RPA_DÉMATÉRIALISÉ_",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "KAA Total REMIS",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_KAA_TOTAL_REMIS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "KAA Total échangé",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_KAA_TOTAL_ÉCHANGÉ",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "KAA Total facturé",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_KAA_TOTAL_FACTURÉ",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "KAA protections jetables Total remis",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_KAA_PROTECTIONS_JETABLES_TOTAL_REMIS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Registre public d’accessibilité",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_REGISTRE_PUBLIC_D’ACCESSIBILITÉ",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

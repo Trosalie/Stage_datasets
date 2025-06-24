@@ -270,6 +270,50 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "Nombre total d’étudiants inscrits",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_TOTAL_D’ÉTUDIANTS_INSCRITS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d’étudiants inscrits dans les formations d’Ingénieur",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_D’ÉTUDIANTS_INSCRITS_DANS_LES_FORMATIONS_D’INGÉNIEUR",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d’étudiants inscrits hors doubles comptes des inscriptions CPGE à partir de 2015",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_D’ÉTUDIANTS_INSCRITS_HORS_DOUBLES_COMPTES_DES_INSCRIPTIONS_CPGE_À_PARTIR_DE_2015",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Identifiant de l'unité urbaine",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_IDENTIFIANT_DE_L'UNITÉ_URBAINE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

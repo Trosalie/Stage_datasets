@@ -166,6 +166,28 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "COMDOM",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_COMDOM",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "TUCOM",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TUCOM",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

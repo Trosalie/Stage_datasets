@@ -92,6 +92,39 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "route_id",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ROUTE_ID",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "route_desc",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ROUTE_DESC",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "route_url",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ROUTE_URL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

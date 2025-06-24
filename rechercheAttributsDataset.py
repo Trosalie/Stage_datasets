@@ -1,4 +1,3 @@
-# %%
 # Importer les bibliothèques nécessaires
 import os
 import re
@@ -8,7 +7,6 @@ import load_file as lf
 import uml_class as uml
 import json
 
-#%%
 # Préparation des variables
 # Dictionnaire de référence pour les attributs
 dictionnaireReference = json.load(open('dic_hierarchise.json', 'r', encoding='utf-8'))
@@ -25,7 +23,7 @@ regexHeure = r'(([10]\d)|(2[0-3]))[:h]([0-5]\d)([:h]([0-5]\d))?'
 regexTrim = r'(19\d{2}|20\d{2})_[a-zA-Z]{1}[1-3]'
 
 listeRegexTemporel = [[regexDate, 'date'], [regexAnnee, 'annee'], [regexTrim, 'trimestre']]
-# %%
+
 # Récupérer la liste des datasets
 def getFiles(origine='Opendata'):
     """
@@ -44,9 +42,7 @@ def getFiles(origine='Opendata'):
 
 listeDatasets = getFiles()
 
-# %%
 # Fonctions utiles
-
 def remplacerAccents(listeValeurs):
     """
     Remplace les accents dans une liste de valeurs par les lettres correspondantes sans accent.
@@ -635,7 +631,6 @@ def traiterDataframe(df, nomFichier, extension):
 
     return
 
-# %%
 # Boucle de lecture des datasets
 for dataset in listeDatasets:
     # Récupérer le nom du fichier et l'extension
@@ -684,4 +679,3 @@ for dataset in listeDatasets:
     except Exception as e:
         print(f"Erreur lors de la lecture du fichier {fichier} : {e}")
         continue
-# %%

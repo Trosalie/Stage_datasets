@@ -314,6 +314,127 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "Nombre de sortants",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_DE_SORTANTS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre de sortants en emploi salarié en France",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_DE_SORTANTS_EN_EMPLOI_SALARIÉ_EN_FRANCE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Taux d'emploi salarié en France",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TAUX_D'EMPLOI_SALARIÉ_EN_FRANCE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Taux de sortants en emploi non salarié",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TAUX_DE_SORTANTS_EN_EMPLOI_NON_SALARIÉ",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre de sortants en emploi stable",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_DE_SORTANTS_EN_EMPLOI_STABLE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Taux de sortants en emploi stable",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TAUX_DE_SORTANTS_EN_EMPLOI_STABLE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "1er quartile du salaire mensuel net en équivalent temps plein",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_1ER_QUARTILE_DU_SALAIRE_MENSUEL_NET_EN_ÉQUIVALENT_TEMPS_PLEIN",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Salaire mensuel net médian en équivalent temps plein",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_SALAIRE_MENSUEL_NET_MÉDIAN_EN_ÉQUIVALENT_TEMPS_PLEIN",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "3ème quartile du salaire mensuel net en équivalent temps plein",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_3ÈME_QUARTILE_DU_SALAIRE_MENSUEL_NET_EN_ÉQUIVALENT_TEMPS_PLEIN",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Taux d’emploi",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TAUX_D’EMPLOI",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Taux de sortants en emploi à l'étranger",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TAUX_DE_SORTANTS_EN_EMPLOI_À_L'ÉTRANGER",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

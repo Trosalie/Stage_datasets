@@ -663,6 +663,94 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "id",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ID",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "name",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NAME",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "numero",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NUMERO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "voie",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_VOIE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "activite",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ACTIVITE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "labels",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_LABELS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "labels_familles_handicap",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_LABELS_FAMILLES_HANDICAP",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "registre_url",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_REGISTRE_URL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

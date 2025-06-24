@@ -187,6 +187,171 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "nombre_d_habitants",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_D_HABITANTS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "densite_de_population_au_km2",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_DENSITE_DE_POPULATION_AU_KM2",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "taux_de_pauvrete_en",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TAUX_DE_PAUVRETE_EN",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "nombre_de_logements",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_DE_LOGEMENTS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "taux_de_logements_sociaux_en",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TAUX_DE_LOGEMENTS_SOCIAUX_EN",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "moyenne_annuelle_de_la_construction_neuve_sur_10_ans",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_MOYENNE_ANNUELLE_DE_LA_CONSTRUCTION_NEUVE_SUR_10_ANS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "construction",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_CONSTRUCTION",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "parc_social_nombre_de_logements",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PARC_SOCIAL_NOMBRE_DE_LOGEMENTS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "parc_social_logements_mis_en_location",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PARC_SOCIAL_LOGEMENTS_MIS_EN_LOCATION",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "parc_social_logements_demolis",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PARC_SOCIAL_LOGEMENTS_DEMOLIS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "parc_social_ventes_a_des_personnes_physiques",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PARC_SOCIAL_VENTES_A_DES_PERSONNES_PHYSIQUES",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "parc_social_taux_de_logements_vacants_en",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PARC_SOCIAL_TAUX_DE_LOGEMENTS_VACANTS_EN",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "parc_social_taux_de_logements_individuels_en",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PARC_SOCIAL_TAUX_DE_LOGEMENTS_INDIVIDUELS_EN",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "parc_social_taux_de_logements_energivores_e_f_g_en",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PARC_SOCIAL_TAUX_DE_LOGEMENTS_ENERGIVORES_E_F_G_EN",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "geom",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_GEOM",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

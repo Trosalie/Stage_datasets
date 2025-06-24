@@ -144,6 +144,61 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "patho_niv2",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PATHO_NIV2",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "patho_niv3",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PATHO_NIV3",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "dept",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_DEPT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "ntop",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NTOP",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "npop",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NPOP",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

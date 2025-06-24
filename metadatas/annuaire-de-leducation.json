@@ -636,6 +636,72 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "Identifiant_de_l_etablissement",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_IDENTIFIANT_DE_L_ETABLISSEMENT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nom_etablissement",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOM_ETABLISSEMENT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Telephone",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TELEPHONE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Mail",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_MAIL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "SIREN_SIRET",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_SIREN_SIRET",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre_d_eleves",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_D_ELEVES",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

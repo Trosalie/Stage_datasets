@@ -42,6 +42,17 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "Indicateur",
+            "dataDescription": "Source",
+            "dataType": "Autre",
+            "ciCode": "CI_INDICATEUR",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

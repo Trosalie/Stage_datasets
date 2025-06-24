@@ -134,6 +134,17 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "geo_shape",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_GEO_SHAPE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

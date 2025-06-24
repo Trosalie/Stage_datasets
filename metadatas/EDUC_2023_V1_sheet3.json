@@ -987,6 +987,732 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "LIBGEO",
+            "dataDescription": "Libellé géographique",
+            "dataType": "Autre",
+            "ciCode": "CI_LIBGEO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_ECO",
+            "dataDescription": "Écoliers",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_ECO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_PRE",
+            "dataDescription": "Écoliers en niveau préélémentaire",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_PRE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_ECO_3",
+            "dataDescription": "Écoliers de moins de 3 ans",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_ECO_3",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "BOURSE_COL",
+            "dataDescription": "Nombre de collégiens boursiers",
+            "dataType": "Autre",
+            "ciCode": "CI_BOURSE_COL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PUB",
+            "dataDescription": "Nombre de réussites au brevet - établissements publics",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_REU_DNB_PUB",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PUB",
+            "dataDescription": "Nombre de présentés au brevet - établissements publics",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_DNB_PUB",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PUB_F",
+            "dataDescription": "Nombre de réussites des filles au brevet - établissements publics",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_REU_DNB_PUB_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PUB_F",
+            "dataDescription": "Nombre de filles présentées au brevet - établissements publics",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_DNB_PUB_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_PUB_H",
+            "dataDescription": "Nombre de réussites des garçons au brevet - établissements publics",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_REU_DNB_PUB_H",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PUB_H",
+            "dataDescription": "Nombre de garçons présentés au brevet - établissements publics",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_DNB_PUB_H",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PRI",
+            "dataDescription": "Nombre de présentés au brevet - établissements privés",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_DNB_PRI",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PRI_F",
+            "dataDescription": "Nombre de filles présentées au brevet - établissements privés",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_DNB_PRI_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PRI_H",
+            "dataDescription": "Nombre de garçons présentés au brevet - établissements privés",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_DNB_PRI_H",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_REU_DNB_G_PUB",
+            "dataDescription": "Nombre de réussites au brevet - établissements publics -  série générale",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_REU_DNB_G_PUB",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PUB_G_H",
+            "dataDescription": "Nombre de garçons présentés au brevet - établissements publics -  série générale",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_DNB_PUB_G_H",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_PUB_G_F",
+            "dataDescription": "Nombre de filles présentées au brevet - établissements publics -  série générale",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_DNB_PUB_G_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_DNB_G_PUB",
+            "dataDescription": "Nombre de présentés au brevet - établissements publics -  série générale",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_DNB_G_PUB",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "BOURSE_LYC",
+            "dataDescription": "Nombre de lycéens boursiers",
+            "dataType": "Autre",
+            "ciCode": "CI_BOURSE_LYC",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "B2",
+            "dataDescription": "Élèves scolarisés deux ans après la 3e",
+            "dataType": "Autre",
+            "ciCode": "CI_B2",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "B2_1_GEN",
+            "dataDescription": "Élèves en première générale",
+            "dataType": "Autre",
+            "ciCode": "CI_B2_1_GEN",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "B2_1_TEC",
+            "dataDescription": "Élèves en première technologique",
+            "dataType": "Autre",
+            "ciCode": "CI_B2_1_TEC",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "B2_1_PRO",
+            "dataDescription": "Élèves en première professionnelle",
+            "dataType": "Autre",
+            "ciCode": "CI_B2_1_PRO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "TX_NSNE_16A25",
+            "dataDescription": "Part des 16-25 ans non scolarisés et sans emploi",
+            "dataType": "Autre",
+            "ciCode": "CI_TX_NSNE_16A25",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_COLSEG",
+            "dataDescription": "Élèves scolarisés dans une formation au collège y compris UPE2A, ULIS, SEGPA, 3e prépa métiers",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_COLSEG",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_COLSEG_F",
+            "dataDescription": "Filles scolarisées dans une formation au collège y compris UPE2A, ULIS, SEGPA, 3e prépa métiers",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_COLSEG_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_COLSEG_REP",
+            "dataDescription": "Élèves scolarisés dans une formation au collège en REP y compris UPE2A, ULIS, SEGPA, 3e prépa métiers",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_COLSEG_REP",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_COLSEG_PRI",
+            "dataDescription": "Élèves scolarisés dans une formation au collège dans un établissement privé y compris UPE2A, ULIS, SEGPA, 3e prépa métiers",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_COLSEG_PRI",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_SEGPA",
+            "dataDescription": "Élèves scolarisés dans une formation UPE2A, ULIS, SEGPA, 3e prépa métiers",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_SEGPA",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_COLL",
+            "dataDescription": "Élèves scolarisés dans une formation au collège hors UPE2A, ULIS, SEGPA, 3e prépa métiers",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_COLL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E6",
+            "dataDescription": "Retards en 6e hors UPE2A, ULIS, SEGPA",
+            "dataType": "Autre",
+            "ciCode": "CI_RET_E6",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E3",
+            "dataDescription": "Retards en 3e hors UPE2A, ULIS, SEGPA, 3e prépa métiers",
+            "dataType": "Autre",
+            "ciCode": "CI_RET_E3",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E6",
+            "dataDescription": "Élèves en 6e hors UPE2A, ULIS, SEGPA",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_E6",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E6_F",
+            "dataDescription": "Filles en 6e hors UPE2A, ULIS, SEGPA",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_E6_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E3",
+            "dataDescription": "Élèves en 3e hors UPE2A, ULIS, SEGPA, 3e prépa métiers",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_E3",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E3_F",
+            "dataDescription": "Filles en 3e hors UPE2A, ULIS, SEGPA, 3e prépa métiers",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_E3_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "TFAV_COLL",
+            "dataDescription": "Élèves au collège hors UPE2A, ULIS, SEGPA, 3e prépa métiers dont la PCS du représentant légal est très favorisée",
+            "dataType": "Autre",
+            "ciCode": "CI_TFAV_COLL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "FAV_COLL",
+            "dataDescription": "Élèves au collège hors UPE2A, ULIS, SEGPA, 3e prépa métiers dont la PCS du représentant légal est favorisée",
+            "dataType": "Autre",
+            "ciCode": "CI_FAV_COLL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "MOY_COLL",
+            "dataDescription": "Élèves au collège hors UPE2A, ULIS, SEGPA, 3e prépa métiers dont la PCS du représentant légal est moyenne",
+            "dataType": "Autre",
+            "ciCode": "CI_MOY_COLL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DEFA_COLL",
+            "dataDescription": "Élèves au collège hors UPE2A, ULIS, SEGPA, 3e prépa métiers dont la PCS du représentant légal est défavorisée",
+            "dataType": "Autre",
+            "ciCode": "CI_DEFA_COLL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_LYC_GT",
+            "dataDescription": "Élèves scolarisés dans une formation générale ou technologique des lycées",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_LYC_GT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_LYC_GT_F",
+            "dataDescription": "Filles scolarisées dans une formation générale ou technologique des lycées",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_LYC_GT_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_LYC_GT_PRI",
+            "dataDescription": "Élèves scolarisés dans une formation générale ou technologique des lycées dans un établissement privé",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_LYC_GT_PRI",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E2_GT",
+            "dataDescription": "Retards en 2de générale ou technologique",
+            "dataType": "Autre",
+            "ciCode": "CI_RET_E2_GT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E0_GT",
+            "dataDescription": "Retards en terminale générale ou technologique",
+            "dataType": "Autre",
+            "ciCode": "CI_RET_E0_GT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E0_GT_F",
+            "dataDescription": "Retards des filles en terminale générale ou technologique",
+            "dataType": "Autre",
+            "ciCode": "CI_RET_E0_GT_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E2_GT",
+            "dataDescription": "Élèves en 2de générale ou technologique",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_E2_GT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E2_GT_F",
+            "dataDescription": "Filles en 2de générale ou technologique",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_E2_GT_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E0_GT",
+            "dataDescription": "Élèves en terminale générale ou technologique",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_E0_GT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E0_GT_F",
+            "dataDescription": "Filles en terminale générale ou technologique",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_E0_GT_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "TFAV_LYC_GT",
+            "dataDescription": "Élèves au lycée général ou technologique dont la PCS du représentant légal est très favorisée",
+            "dataType": "Autre",
+            "ciCode": "CI_TFAV_LYC_GT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "FAV_LYC_GT",
+            "dataDescription": "Élèves au lycée général ou technologique dont la PCS du représentant légal est favorisée",
+            "dataType": "Autre",
+            "ciCode": "CI_FAV_LYC_GT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "MOY_LYC_GT",
+            "dataDescription": "Élèves au lycée général ou technologique dont la PCS du représentant légal est moyenne",
+            "dataType": "Autre",
+            "ciCode": "CI_MOY_LYC_GT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DEFA_LYC_GT",
+            "dataDescription": "Élèves au lycée général ou technologique dont la PCS du représentant légal est défavorisée",
+            "dataType": "Autre",
+            "ciCode": "CI_DEFA_LYC_GT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_LYC_PRO",
+            "dataDescription": "Élèves scolarisés dans une formation professionnelle des lycées",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_LYC_PRO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_LYC_PRO_F",
+            "dataDescription": "Filles scolarisées dans une formation professionnelle des lycées",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_LYC_PRO_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E2_PRO",
+            "dataDescription": "Retards en 2de professionnelle",
+            "dataType": "Autre",
+            "ciCode": "CI_RET_E2_PRO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "RET_E0_PRO",
+            "dataDescription": "Retards en terminale professionnelle",
+            "dataType": "Autre",
+            "ciCode": "CI_RET_E0_PRO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E2_PRO",
+            "dataDescription": "Élèves en 2de professionnelle",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_E2_PRO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E2_PRO_F",
+            "dataDescription": "Filles en 2de professionnelle",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_E2_PRO_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E0_PRO",
+            "dataDescription": "Élèves en terminale professionnelle",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_E0_PRO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "EFF_E0_PRO_F",
+            "dataDescription": "Filles en terminale professionnelle",
+            "dataType": "Autre",
+            "ciCode": "CI_EFF_E0_PRO_F",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "TFAV_LYC_PRO",
+            "dataDescription": "Élèves au lycée professionnel dont la PCS du représentant légal est très favorisée",
+            "dataType": "Autre",
+            "ciCode": "CI_TFAV_LYC_PRO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "FAV_LYC_PRO",
+            "dataDescription": "Élèves au lycée professionnel dont la PCS du représentant légal est favorisée",
+            "dataType": "Autre",
+            "ciCode": "CI_FAV_LYC_PRO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "MOY_LYC_PRO",
+            "dataDescription": "Élèves au lycée professionnel dont la PCS du représentant légal est moyenne",
+            "dataType": "Autre",
+            "ciCode": "CI_MOY_LYC_PRO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DEFA_LYC_PRO",
+            "dataDescription": "Élèves au lycée professionnel dont la PCS du représentant légal est défavorisée",
+            "dataType": "Autre",
+            "ciCode": "CI_DEFA_LYC_PRO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

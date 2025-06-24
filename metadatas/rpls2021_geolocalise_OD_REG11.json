@@ -609,6 +609,149 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "INDREP",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_INDREP",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NUMBOITE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NUMBOITE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "ESC",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ESC",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COULOIR",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_COULOIR",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COMPLIDENT",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_COMPLIDENT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "ENTREE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ENTREE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COMPLGEO",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_COMPLGEO",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "LIEUDIT",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_LIEUDIT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "SURFHAB",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_SURFHAB",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NEWLOGT",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NEWLOGT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CUS",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_CUS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DISTANCE_PRECISION",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_DISTANCE_PRECISION",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "QUALITE_ZFU",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_QUALITE_ZFU",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

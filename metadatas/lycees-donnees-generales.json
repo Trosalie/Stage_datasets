@@ -174,6 +174,83 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "CODE_UAI",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_CODE_UAI",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "PATRONYME",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PATRONYME",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NOM_ETABLISSEMENT",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOM_ETABLISSEMENT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "TELEPHONE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TELEPHONE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "FAX",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_FAX",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "SITE_WEB",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_SITE_WEB",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Mail",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_MAIL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

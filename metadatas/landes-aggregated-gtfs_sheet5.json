@@ -82,6 +82,39 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "arrival_time",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ARRIVAL_TIME",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "departure_time",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_DEPARTURE_TIME",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "stop_headsign",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_STOP_HEADSIGN",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

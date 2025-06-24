@@ -294,6 +294,61 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "numero_uai",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NUMERO_UAI",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "appellation_officielle",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_APPELLATION_OFFICIELLE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "patronyme_uai",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_PATRONYME_UAI",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "coordonnee_x",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_COORDONNEE_X",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "coordonnee_y",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_COORDONNEE_Y",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

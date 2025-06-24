@@ -32,6 +32,17 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "Annuelle",
+            "dataDescription": "DREES, enquête Aide sociale, menée auprès des conseils départementaux",
+            "dataType": "Autre",
+            "ciCode": "CI_ANNUELLE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

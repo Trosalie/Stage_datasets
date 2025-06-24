@@ -102,6 +102,50 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "formation",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_FORMATION",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "diplom",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_DIPLOM",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "etabli",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ETABLI",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "typ_dipl",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TYP_DIPL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

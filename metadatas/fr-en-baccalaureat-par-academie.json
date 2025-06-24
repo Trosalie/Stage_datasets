@@ -197,6 +197,94 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "Diplôme spécialité",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_DIPLÔME_SPÉCIALITÉ",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d'inscrits",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_D'INSCRITS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre de présents",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_DE_PRÉSENTS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d'admis au 1er groupe",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_D'ADMIS_AU_1ER_GROUPE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d'admis totaux",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_D'ADMIS_TOTAUX",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d'admis avec mention B",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_D'ADMIS_AVEC_MENTION_B",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d'admis avec mention AB",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_D'ADMIS_AVEC_MENTION_AB",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "Nombre d'admis sans mention",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NOMBRE_D'ADMIS_SANS_MENTION",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

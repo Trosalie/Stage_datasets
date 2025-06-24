@@ -757,6 +757,160 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "NUMVOIE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NUMVOIE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "INDREP",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_INDREP",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "TYPVOIE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TYPVOIE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NUMAPPT",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NUMAPPT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NUMBOITE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NUMBOITE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "ESC",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ESC",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "COULOIR",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_COULOIR",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "ENTREE",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ENTREE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "BAT",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_BAT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "LIEUDIT",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_LIEUDIT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "NEWLOGT",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_NEWLOGT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "CUS",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_CUS",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "SRU_ALINEA",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_SRU_ALINEA",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "DISTANCE_PRECISION",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_DISTANCE_PRECISION",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

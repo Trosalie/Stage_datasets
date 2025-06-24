@@ -92,6 +92,39 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "trip_id",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TRIP_ID",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "trip_short_name",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_TRIP_SHORT_NAME",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "block_id",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_BLOCK_ID",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

@@ -232,6 +232,138 @@
                 "themeCode": null,
                 "themeDescription": null
             }
+        },
+        {
+            "dataName": "id_de_reponse",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ID_DE_REPONSE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "hachage_ip",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_HACHAGE_IP",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "2_pour_quelle_s_raison_s_utilisez_vous_ce_mode_de_deplacement_principal",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_2_POUR_QUELLE_S_RAISON_S_UTILISEZ_VOUS_CE_MODE_DE_DEPLACEMENT_PRINCIPAL",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "5_j_aimerais_essayer_de_me_deplacer_plus_regulierement_via_ce_s_mode_s_de_transport",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_5_J_AIMERAIS_ESSAYER_DE_ME_DEPLACER_PLUS_REGULIEREMENT_VIA_CE_S_MODE_S_DE_TRANSPORT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "6_quelle_est_ou_pourrait_etre_votre_vos_principale_s_motivation_s_pour_moins_utiliser_seul_votre_voi",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_6_QUELLE_EST_OU_POURRAIT_ETRE_VOTRE_VOS_PRINCIPALE_S_MOTIVATION_S_POUR_MOINS_UTILISER_SEUL_VOTRE_VOI",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "7_qu_est_ce_qui_vous_a_amene_a_vous_deplacer_autrement_que_seul_en_voiture_ou_via_un_autre_mode_de_d",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_7_QU_EST_CE_QUI_VOUS_A_AMENE_A_VOUS_DEPLACER_AUTREMENT_QUE_SEUL_EN_VOITURE_OU_VIA_UN_AUTRE_MODE_DE_D",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "8_au_regard_de_votre_experience_quels_sontselon_vous_les_principaux_freins_a_une_plus_forte_utilisat",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_8_AU_REGARD_DE_VOTRE_EXPERIENCE_QUELS_SONTSELON_VOUS_LES_PRINCIPAUX_FREINS_A_UNE_PLUS_FORTE_UTILISAT",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "9_au_regard_de_votre_experience_quel_s_accompagnement_s_specifique_s_ou_mesure_s_particuliere_s_pour",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_9_AU_REGARD_DE_VOTRE_EXPERIENCE_QUEL_S_ACCOMPAGNEMENT_S_SPECIFIQUE_S_OU_MESURE_S_PARTICULIERE_S_POUR",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "13_parmi_les_propositions_ci_dessous_lesquelles_vous_paraitraient_les_plus_favorables_pour_modifier_",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_13_PARMI_LES_PROPOSITIONS_CI_DESSOUS_LESQUELLES_VOUS_PARAITRAIENT_LES_PLUS_FAVORABLES_POUR_MODIFIER_",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "14_parmi_les_propositions_ci_dessous_cochez_celles_qui_vous_inciteraient_a_vous_deplacer_davantage_e",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_14_PARMI_LES_PROPOSITIONS_CI_DESSOUS_COCHEZ_CELLES_QUI_VOUS_INCITERAIENT_A_VOUS_DEPLACER_DAVANTAGE_E",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "15_parmi_les_propositions_ci_dessous_cochez_celles_qui_vous_inciteraient_a_marcher_davantage",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_15_PARMI_LES_PROPOSITIONS_CI_DESSOUS_COCHEZ_CELLES_QUI_VOUS_INCITERAIENT_A_MARCHER_DAVANTAGE",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "16_parmi_les_propositions_ci_dessous_cochez_celles_qui_vous_inciteraient_a_vous_deplacer_davantage_a",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_16_PARMI_LES_PROPOSITIONS_CI_DESSOUS_COCHEZ_CELLES_QUI_VOUS_INCITERAIENT_A_VOUS_DEPLACER_DAVANTAGE_A",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }

@@ -139,6 +139,28 @@
             "dataType": "Spatial",
             "parameterCode": "SPAT_AIN",
             "spatialLevel": "departements"
+        },
+        {
+            "dataName": "01",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_01",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
+        },
+        {
+            "dataName": "ND",
+            "dataDescription": null,
+            "dataType": "Autre",
+            "ciCode": "CI_ND",
+            "related_parameter": null,
+            "theme": {
+                "themeCode": null,
+                "themeDescription": null
+            }
         }
     ]
 }
